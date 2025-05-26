@@ -65,6 +65,14 @@ function hook_str() {
             return result;
         };
     })
+
+    Java.perform(function () {
+        let VCSPCommonsConfig = Java.use("com.vip.vcsp.common.utils.VCSPCommonsConfig");
+        VCSPCommonsConfig["setAppKey"].implementation = function (str) {
+            console.log(`VCSPCommonsConfig.setAppKey is called: str=${str}`);
+            this["setAppKey"](str);
+        };
+    })
 }
 
 

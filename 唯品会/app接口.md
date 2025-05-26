@@ -710,6 +710,14 @@ System.currentTimeMillis 是毫秒时间戳
 
 请求体中现在需要逆向edata参数，剩下的都可以拿到
 
+### 算法还原
+
+edata算法见下面的逆向
+
+![1748239373777](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748239373777.png)
+
+
+
 
 
 ## 逆向edata参数
@@ -865,3 +873,246 @@ v7 -> 是调用了getBytes得到的，是a2调用的，传入v6为utf8，拿到�
 所以实际上是str
 
 hook一下
+
+![1748227089672](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748227089672.png)
+
+![1748227250039](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748227250039.png)
+
+我们把内容丢到base64编码网站中，对不上，说明是存在魔改的或者我们分析错了
+
+篡改一下值换个1试试
+
+![1748227615932](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748227615932.png)
+
+![1748227661580](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748227661580.png)
+
+这个很明显不对，长度也差得很多，估计是存在其他操作最后再base64
+
+理一下思路，base64是在so中实现的，我们不是很方便hook，我们回头看so，发现这个过程中进行了AES加密；我们可以hook一下Java层的AES加密
+
+![1748228501201](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748228501201.png)
+
+![1748229645919](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748229645919.png)
+
+这里我们直接使用hook通杀脚本 去hook所有加密方法，用抓包得到的edata来定位
+
+![1748233316035](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748233316035.png)
+
+找个网站验证一下
+
+![1748233381098](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748233381098.png)
+
+原生aes
+
+
+
+不过最终doFinal得到值后又经过了某个操作得到的是 `YzY4N2U4NzQ4YTYxOTI4Y/wSAnBpKagjuGpW2fs5ZSY=` 
+
+
+
+![1748233863440](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748233863440.png)
+
+这里拿到了v44，过程中只有v47和v48，看这个函数名我们定位v48
+
+![1748233912384](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748233912384.png)
+
+我们发现v48实际上是v39的后半部分（前面已经逆向过这个逻辑了
+
+我们现在去找前半部分
+
+![1748233968234](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748233968234.png)
+
+也就是v58
+
+![1748233982952](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748233982952.png)
+
+v58经过初始化后直接在128行导出为字符串，说明中间过程中必定存在赋值操作 114-128
+
+![1748234067384](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748234067384.png)
+
+这个过程中，唯一可疑的之后这个j_rand16Str()了，因为其他的都是java层的函数，我们都知道其用途，不会存在对v58赋值操作；
+
+那么说明这里反编译有点问题，实际上在jrand这个函数中进行了赋值
+
+这个逻辑代表着，生成一个16字节的字符串再与aes加密后的字符串拼接然后再进行base64
+
+我们hook一下j_base64_encode
+
+发现用名字找不到这个函数
+
+直接扫描看看有没有这个函数
+
+![1748235244860](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748235244860.png)
+
+发现没有
+
+我们看一下这个函数的汇编代码
+
+```
+; Attributes: thunk
+
+; int __fastcall j_base64_encode(char *s)
+j_base64_encode
+ADRL            R12, 0x22CCF4
+; 3:   return base64_encode(s, a2);
+LDR             PC, [R12,#(base64_encode_ptr - 0x22CCF4)]! ; base64_encode
+; End of function j_base64_encode
+```
+
+ai说这是一个跳板函数，跳到base64_encode，所以名字找不到
+
+那我们找base64_encode
+
+![1748235316950](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748235316950.png)
+
+那就hook--base64_encode吧
+
+![1748235410331](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748235410331.png)
+
+![1748235393625](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748235393625.png)
+
+确实是hook到了，不过怎么乱码了
+
+再试一次
+
+![1748235605220](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748235605220.png)
+
+这次还是乱码，不过前面的部分没有乱
+
+38c4e23a0b9f9b31
+
+![1748235661802](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748235661802.png)
+
+长度正确，我们多试几次，看看是不是随机的
+
+![1748235719473](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748235719473.png)
+
+![1748235741785](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748235741785.png)
+
+搜一下这个
+
+![1748235937763](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748235937763.png)
+
+发现前面的iv就是
+
+那就是算法还原了，这个base64
+
+### base64算法还原
+
+![1748236055763](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748236055763.png)
+
+这里发现是吻合的
+
+### 逆向明文参数
+
+这个明文我们发现是urlencode的
+
+找个网站解码一下
+
+![1748236201575](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748236201575.png)
+
+转一下json
+
+![1748236278243](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748236278243.png)
+
+找一下没有逆向过，还可疑的
+
+- vcspKey
+
+- vcspToken
+
+- dinfo
+
+  把dinfo的转清楚一些
+
+  ![1748236372135](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748236372135.png)
+
+我们多抓几次包
+
+![1748236562075](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748236562075.png)
+
+对比发现变化的主要是session_id、vcspToken
+
+而dinfo和vcspkey都是固定的
+
+接下来主要就是逆向vcspToken
+
+### 算法还原
+
+dinfo的末尾有一个mars_cid
+
+![1748238713801](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748238713801.png)
+
+vcspToken是发请求拿到的，后面逆向出来了
+
+![1748238732210](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748238732210.png)
+
+![1748238772220](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748238772220.png)
+
+
+
+![1748239078039](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748239078039.png)
+
+
+
+
+
+## 逆向vcspToken
+
+### 搜参数
+
+![1748237238202](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748237238202.png)
+
+![1748237259878](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748237259878.png)
+
+![1748237292281](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748237292281.png)
+
+
+
+![1748237312163](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748237312163.png)
+
+一直点进去，发现是个接口
+
+其实我们发现这个是个get函数，主要应该去定位context怎么来的
+
+![1748237448335](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748237448335.png)
+
+![1748237457198](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748237457198.png)
+
+![1748237469278](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748237469278.png)
+
+![1748237477648](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748237477648.png)
+
+![1748237492032](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748237492032.png)
+
+![1748237500537](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748237500537.png)
+
+![1748237511397](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748237511397.png)
+
+![1748237522026](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748237522026.png)
+
+看类名去拿不和network有关，估计是某个请求返回回来的，我们先随便点一个进去
+
+![1748237571894](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748237571894.png)
+
+![1748237579824](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748237579824.png)
+
+![1748237589952](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748237589952.png)
+
+这里发现去找context有很多，我们先抓包搜一下这个值
+
+![1748237704545](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748237704545.png)
+
+`NGQ5ZTUyNGFkNTM2YzAzZmYyMDM3ODdjZjBkZmNkMjl8fHwxNzUwODI5Njc3fHx8.36ab4ffdd6e847608521aad05c990645`
+
+![1748237774258](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748237774258.png)
+
+这个接口的参数只有vcspKey，请求头只有vcspsign，多试几次看下有没有变化，好像是固定的
+
+05a68135d2bfd322e3a22f95bbc25a24c777f387
+
+### 算法还原
+
+![1748238561426](F:\codes\reverse\reverseNotes\唯品会\app接口.assets\1748238561426.png)
+
+ok，没问题，我们继续还原edata
