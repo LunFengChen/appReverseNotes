@@ -120,19 +120,19 @@ jadx 反编译
 
 定位到 ` com.achievo.vipshop.commons.logic.productlist.service.SearchProductListApi` 类的 `getProductList` 函数中 
 
-<img src="././assets/1.jpg">
+<img src="./assets/1.jpg">
 
 代码很多，这个地方是设置参数
 
-<img src="././assets/2.jpg">
+<img src="./assets/2.jpg">
 
 这里发请求，点进去
 
-<img src="././assets/3.jpg">
+<img src="./assets/3.jpg">
 
 一直溯源，直到这里拿到treemap(参数)
 
-<img src="././assets/4.jpg">
+<img src="./assets/4.jpg">
 
 定位到这里，之后一顿定位没找到
 
@@ -140,17 +140,17 @@ jadx 反编译
 
 `api_sign=`
 
-<img src="././assets/5.jpg">
+<img src="./assets/5.jpg">
 
-<img src="././assets/6.jpg">
+<img src="./assets/6.jpg">
 
-<img src="././assets/7.jpg">
+<img src="./assets/7.jpg">
 
-<img src="././assets/8.jpg">
+<img src="./assets/8.jpg">
 
-<img src="././assets/9.jpg">
+<img src="./assets/9.jpg">
 
-<img src="././assets/10.jpg">
+<img src="./assets/10.jpg">
 
 这里用了反射，我们需要知道 `clazz` 的类型
 
@@ -159,19 +159,19 @@ jadx 反编译
 
 这里采用第二种
 
-<img src="././assets/11.jpg">
+<img src="./assets/11.jpg">
 
 点进去
 
-<img src="././assets/12.jpg">
+<img src="./assets/12.jpg">
 
 检索gs；观察发现不报错走 `gsNav` 
 
-<img src="././assets/13.jpg">
+<img src="./assets/13.jpg">
 
 发现是个native方法
 
-<img src="././assets/14.jpg">
+<img src="./assets/14.jpg">
 
 ### 定位到so
 
@@ -179,43 +179,43 @@ jadx 反编译
 
 打开压缩包找到这个so
 
-<img src="././assets/15.jpg">
+<img src="./assets/15.jpg">
 
 提取出来
 
 打开ida32
 
-<img src="././assets/16.jpg">
+<img src="./assets/16.jpg">
 
 这是个静态注册，搜 `java_`，找到gsNav
 
 反编译为c，导入jni.h
 
-<img src="././assets/17.jpg" width="70%">
+<img src="./assets/17.jpg" width="70%">
 
-<img src="././assets/18.jpg">
+<img src="./assets/18.jpg">
 
 然后把变量名改改，返回值是v9, 我们找 `j_Functions_gs`
 
-<img src="././assets/19.jpg">
+<img src="./assets/19.jpg">
 
 变量类型转env，改改变量名
 
-<img src="././assets/20.jpg">
+<img src="./assets/20.jpg">
 
 `ALT + T` 搜索 `return` 定位返回值
 
-<img src="././assets/21.jpg">
+<img src="./assets/21.jpg">
 
 `v59` 是`j_getByteHash` 函数得到的
 
-<img src="././assets/22.jpg">
+<img src="./assets/22.jpg">
 
 读一下代码，v58是字符串长度，v79是传入的字符串
 
-<img src="././assets/23.jpg">
+<img src="./assets/23.jpg">
 
-<img src="././assets/24.jpg">
+<img src="./assets/24.jpg">
 
 感觉像是纯净的sha1，没有额外干扰操作
 
@@ -223,17 +223,17 @@ hook验证一下
 
 - 找到so，然后延迟hook，检测so被加载的时候进行hook
 
-<img src="././assets/25.jpg">
+<img src="./assets/25.jpg">
 
 - 编写hook
 
-<img src="././assets/26.jpg">
+<img src="./assets/26.jpg">
 
 hook一条龙
 
-<img src="././assets/27.jpg">
+<img src="./assets/27.jpg">
 
-<img src="././assets/28.jpg">
+<img src="./assets/28.jpg">
 
 `com.achievo.vipshop`
 
@@ -243,43 +243,43 @@ frida -U -f com.achievo.vipshop -l xx.js
 
 忘了执行函数了
 
-<img src="././assets/29.jpg">
+<img src="./assets/29.jpg">
 
 再次hook，发现有很多结果，我们先随便找一个
 
-<img src="././assets/30.jpg">
+<img src="./assets/30.jpg">
 
 测试一下是不是sha1
 
-<img src="././assets/31.jpg">
+<img src="./assets/31.jpg">
 
 验证完毕，正常sha1
 
 接下来手机点一下搜索，然后抓包拿到正确的值
 
-<img src="././assets/32.jpg">
+<img src="./assets/32.jpg">
 
-<img src="././assets/33.jpg">
+<img src="./assets/33.jpg">
 
 
 
 接下来就是找v57是怎么来的
 
-<img src="././assets/34.jpg">
+<img src="./assets/34.jpg">
 
 发现v57是dest+v56
 
 - dest：发现是v11+v13
 
-<img src="././assets/35.jpg">
+<img src="./assets/35.jpg">
 
 - v56: v55的指针
 
-<img src="././assets/36.jpg">
+<img src="./assets/36.jpg">
 
 找一下v55: v30经过sha1生成的
 
-<img src="././assets/37.jpg">
+<img src="./assets/37.jpg">
 
 
 
@@ -287,23 +287,23 @@ frida -U -f com.achievo.vipshop -l xx.js
 
 我们用python对 `aee4c425dbb2288b80c71347cc37d04b739786978630059d47f5dbc9e3191621574efd11` 取后40位 `739786978630059d47f5dbc9e3191621574efd11`
 
-<img src="././assets/38.jpg">
+<img src="./assets/38.jpg">
 
 去hook脚本的打印内容中检索, 发现传入的字符串也就是v30是我们检索的内容
 
-<img src="././assets/39.jpg">
+<img src="./assets/39.jpg">
 
 我们再去看前半部分 `aee4c425dbb2288b80c71347cc37d04b` ，也就是dest=v11+v13
 
-<img src="././assets/40.jpg">
+<img src="./assets/40.jpg">
 
 v11是函数 `j_Utils_gsigds` 生成的
 
-<img src="././assets/41.jpg">
+<img src="./assets/41.jpg">
 
 v13是v12的指针
 
-<img src="././assets/42.jpg">
+<img src="./assets/42.jpg">
 
 v12是a4生成的
 
@@ -311,7 +311,7 @@ v12是a4生成的
 
 其实到这里，我们可以多尝试几次看一下前半部分是不是固定的
 
-<img src="././assets/43.jpg">
+<img src="./assets/43.jpg">
 
 发现换了关键词之后还是相同的，可以视作是盐，至此，逆向已经结束
 
@@ -323,19 +323,19 @@ v12是a4生成的
 
 #### v11
 
-<img src="././assets/44.jpg">
+<img src="./assets/44.jpg">
 
 返回值是result，感觉这个代码乱七八糟的，我们直接把代码丢给ai问下在干嘛
 
-<img src="././assets/45.jpg">
+<img src="./assets/45.jpg">
 
 看样子和传入参数有关，传入参数a2，也就是v9
 
-<img src="././assets/46.jpg">
+<img src="./assets/46.jpg">
 
 v9是传入参数a5经过 `j_get_strData` 生成的
 
-<img src="././assets/47.jpg">
+<img src="./assets/47.jpg">
 
 看这样子全都是 `byte_234808` 返回的，这是个全局变量，说明压根没用到传入的参数，那么这个值肯定是固定的
 
@@ -347,7 +347,7 @@ v12是j_Utils_jstringtochar传入a4生成的，
 
 把a1变量改成env类型然后方便查看
 
-<img src="././assets/48.jpg">
+<img src="./assets/48.jpg">
 
 v9 -> v12 -> v8
 
@@ -357,22 +357,22 @@ v7是a2对象调用getBytes方法生成的,传入类型为字符串也就是v5,�
 
 a4是j_Functions_gs的第4个参数
 
-<img src="././assets/49.jpg">
+<img src="./assets/49.jpg">
 
 所以就是最外层传入的a5，我们现在去hook一下java的调用的gsnav函数
 
 在这里应该是第3个参数
 
-<img src="././assets/50.jpg">
+<img src="./assets/50.jpg">
 
 - 可能这个str是固定的，我们按照调用顺序去找
 - 直接hook
 
 懒得回溯了，直接hook看一下参数吧，发现是null
 
-<img src="././assets/51.jpg">
+<img src="./assets/51.jpg">
 
-<img src="././assets/52.jpg">
+<img src="./assets/52.jpg">
 
 说明这个v12也是固定的
 
@@ -387,7 +387,7 @@ a4是j_Functions_gs的第4个参数
 
 
 
-<img src="././assets/53.jpg">
+<img src="./assets/53.jpg">
 
 
 
@@ -395,7 +395,7 @@ a4是j_Functions_gs的第4个参数
 
 稍微改一下就行
 
-<img src="././assets/54.jpg">
+<img src="./assets/54.jpg">
 
 
 
@@ -405,11 +405,11 @@ a4是j_Functions_gs的第4个参数
 
 ### 搜参数
 
-<img src="././assets/55.jpg">
+<img src="./assets/55.jpg">
 
 随便找一个put，我们直接找getMid()
 
-<img src="././assets/56.jpg">
+<img src="./assets/56.jpg">
 
 看这样子是对象的mid，我们找一下赋值位置，我们默认mid没有，看if里面的代码
 
@@ -417,7 +417,7 @@ a4是j_Functions_gs的第4个参数
 
 ### 还原算法
 
-<img src="././assets/57.jpg" width="50%" align="left">
+<img src="./assets/57.jpg" width="50%" align="left">
 
 
 
@@ -425,7 +425,7 @@ a4是j_Functions_gs的第4个参数
 
 ### 搜参数
 
-<img src="././assets/58.jpg">
+<img src="./assets/58.jpg">
 
 查找用例
 
@@ -435,23 +435,23 @@ a4是j_Functions_gs的第4个参数
 
 `"search/product/list/v1"`
 
-<img src="././assets/59.jpg">
+<img src="./assets/59.jpg">
 
 这一步没有加
 
 在下面的发请求过程中加了, 和逆向api_sign一样的搜url过程能定位到
 
-<img src="././assets/60.jpg">
+<img src="./assets/60.jpg">
 
-<img src="././assets/61.jpg">
+<img src="./assets/61.jpg">
 
-<img src="././assets/62.jpg">
+<img src="./assets/62.jpg">
 
-<img src="././assets/63.jpg">
+<img src="./assets/63.jpg">
 
 发现这里是反射，我们需要找到这个类，我们点进 `KeyInfo`
 
-<img src="././assets/64.jpg">
+<img src="./assets/64.jpg">
 
 ![1748178677890](./assets/1748178677890.png)
 
@@ -1116,3 +1116,4 @@ vcspToken是发请求拿到的，后面逆向出来了
 ![1748238561426](./assets/1748238561426.png)
 
 ok，没问题，我们继续还原edata
+
