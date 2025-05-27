@@ -1,12 +1,32 @@
 import base64
+import hashlib
 import uuid
 
 import requests
 from Crypto.Cipher import AES
+from Crypto.Cipher import PKCS1_v1_5
+from Crypto.PublicKey import RSA
 from Crypto.Util.Padding import pad
 
 
 class WeicoSpider(object):
+    app_info_dct = {
+        "weicoabroad": {
+            "from": "1299295010",
+            "pin": "CypCHG2kSlRkdvr2RG1QF8b2lCWXl7k7",
+            "c": "weicoabroad",
+            "i": "b7cd3c5",
+            "pwd_key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC46y69c1rmEk6btBLCPgxJkCxdDcAH9k7kBLffgG1KWqUErjdv+aMkEZmBaprEW846YEwBn60gyBih3KU518fL3F+sv2b6xEeOxgjWO+NPgSWmT3q1up95HmmLHlgVwqTKqRUHd8+Tr43D5h+J8T69etX0YNdT5ACvm+Ar0HdarwIDAQAB"
+        },
+        "weibofastios": {
+            "from": "2599295010",
+            "pin": "g4c8CKKdwh3LE1mRX7uxyx7AafXUkJsh",
+            "i": "1234567",
+            "c": "weibofastios",
+            "pwd_key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC46y69c1rmEk6btBLCPgxJkCxdDcAH9k7kBLffgG1KWqUErjdv+aMkEZmBaprEW846YEwBn60gyBih3KU518fL3F+sv2b6xEeOxgjWO+NPgSWmT3q1up95HmmLHlgVwqTKqRUHd8+Tr43D5h+J8T69etX0YNdT5ACvm+Ar0HdarwIDAQAB"
+        }
+    }
+
     def __init__(self):
         self.__aid = None
 
@@ -46,6 +66,23 @@ class WeicoSpider(object):
     @property
     def sessionid(self) -> str:
         return f"{uuid.uuid4()}"
+
+    def generateS(self, str_: str, from_: str, pin: str) -> str:
+        def sha512(data: str) -> str:
+            return hashlib.sha512(data.encode('utf-8')).hexdigest()
+
+        sha_result1 = sha512(pin + str_ + from_)  # 连接s2+s1+s3后哈希
+        sha_result2 = sha512(from_)  # 单独对s3哈希
+        buffer = []
+        i = 0
+        i2 = 0
+        while i <= 7:
+            i += 1
+            char_index = "0123456789abcdef".index(sha_result2[i2])
+            i2 += char_index
+            buffer.append(sha_result1[i2])
+
+        return ''.join(buffer)
 
     def send_sms_code(self, phone: str) -> requests.Response:
         headers = {
@@ -99,12 +136,104 @@ class WeicoSpider(object):
         )
         return resp
 
+    def login_by_cookie(self, cookie: str) -> requests.Response:
+        uid, gsid = cookie.split("----")
+        from_ = self.from_pin_dct["weico_international"]["v6.4.6"]["from"]
+        pin = self.from_pin_dct["weico_international"]["v6.4.6"]["pin"]
+
+        resp = requests.request(
+            method="post",
+            url="https://api.weibo.cn/2/account/login",
+            headers={
+                "X-Sessionid": self.sessionid,
+                "User-Agent": "google-Pixel 2 XL_11_WeiboIntlAndroid_6460",
+                "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+            },
+            data={
+                "i": "b7cd3c5",
+                "c": "weicoabroad",
+                "from": from_,
+                "s": self.generateS(uid, from_=from_, pin=pin),
+                "aid": self.aid,
+                "gsid": "_2A25FMT6wDeRxGeFK7FsV8C_KwzuIHXVkZzV4rDV6PUJbkdAbLU7RkWpNQuyu451hjYsJZMDCC02-JVmzCbOMAbSH",
+                "uid": uid,
+                "getuser": "1",
+                "getoauth": "1",
+                "getcookie": "1",
+                "lang": "zh_CN_#Hans",
+                "ua": "Google-Pixel 2 XL__weico__6460__android__android11"
+            }
+        )
+        return resp
+
+    def encrypt_pwd(self, pwd: str, appname: str) -> str:
+        realPublicKeyString = self.app_info_dct[appname]["pwd_key"]
+
+        def encrypt_by_public_key(data: bytes, public_key_base64: str) -> bytes:
+            # 解码并导入公钥
+            public_key_bytes = base64.b64decode(public_key_base64)
+            public_key = RSA.import_key(public_key_bytes)
+
+            # 创建加密器（使用PKCS#1 v1.5填充）
+            cipher = PKCS1_v1_5.new(public_key)
+
+            # 计算分段大小（根据密钥长度）
+            key_size = public_key.size_in_bits()
+            segment_size = key_size // 8 - 11  # 减去PKCS#1 v1.5填充字节
+
+            # 分段加密
+            encrypted_parts = []
+            for i in range(0, len(data), segment_size):
+                segment = data[i:i + segment_size]
+                encrypted_part = cipher.encrypt(segment)
+                encrypted_parts.append(encrypted_part)
+
+            # 合并所有分段
+            return b''.join(encrypted_parts)
+
+        return base64.b64encode(encrypt_by_public_key(pwd.encode("utf8"), realPublicKeyString)).decode("utf8")
+
+    def login_by_user_pwd(self, phone: str, password: str, appname: str ) -> requests.Response:
+        appinfo = self.app_info_dct[appname]
+        from_, pin, i, c, = appinfo["from"], appinfo["pin"], appinfo["i"], appinfo["c"]
+        resp = requests.request(
+            method="post",
+            url="https://api.weibo.cn/2/account/login",
+            headers={
+                "X-Sessionid": self.sessionid,
+                "User-Agent": "google-Pixel 2 XL_11_WeiboIntlAndroid_6460",
+                "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+            },
+            data={
+                "c": c,
+                "i": i,
+                "s": self.generateS(phone + password, from_=from_, pin=pin),
+                "u": phone,
+                "p": self.encrypt_pwd(password, appname),
+                "getuser": "1",
+                "getoauth": "1",
+                "getcookie": "1",
+                "lang": "zh_CN_#Hans",
+                # "aid": self.aid,
+                "aid": self.aid,
+                "from": from_
+            }
+        )
+        return resp
+
 
 if __name__ == '__main__':
     spider = WeicoSpider()
     # spider.send_sms_code("15215125122")
     # print(spider.aid)
-    phone = "xx"
-    spider.send_sms_code(phone)
-    resp = spider.login_by_sms_code(phone, code=input("请输入验证码:").strip())
+    # phone = "xx"
+    # spider.send_sms_code(phone)
+    # resp = spider.login_by_sms_code(phone, code=input("请输入验证码:").strip())
+    # print(resp.text)
+    # s = spider.generateS("7479401687", "1299295010", "CypCHG2kSlRkdvr2RG1QF8b2lCWXl7k7")
+    # print(s)
+    # cookie = "7990973324----_2A25FBFb0DeRxGeFH4lIY9y3PyTiIHXVnkO08rDV6PUJbkdCOLVnHkWpNegEnGXcfG44deQ2E1r6VQabdgY3mluCO"
+    # resp = spider.login_by_cookie(cookie)
+    # print(resp.text)
+    resp = spider.login_by_user_pwd("13116552234", "md5sha512", "weicoabroad")
     print(resp.text)
