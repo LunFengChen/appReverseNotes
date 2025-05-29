@@ -108,6 +108,30 @@ hook脚本如下
 
 
 
+我们阅读源码可知，这里要hook初始化函数
+
+## hook一下so初始化函数
+
+call_constructors函数
+
+- 去手机中在找到`call_constructors`的offset
+
+```bash
+readelf -sW /apex/com.android.runtime/bin/linker64 | grep call_constructors
+```
+
+![1748430554222](assets/1748430554222.png)
+
+-> `4a258` 
+
+![1748430777708](assets/1748430777708.png)
+
+![1748430793947](assets/1748430793947.png)
+
+
+
+分析到这里了，懒得写了，去看b站视频吧，相对清晰一点....
+
 
 
 ## 定位检测位置
@@ -548,45 +572,6 @@ si->call_constructors()
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-打印结果并没有leave，由此可知崩溃点就在`libmsaoaidsec.so`中，并且是在`JNI_OnLoad`之前检测的。
-
-根据上面的加载流程，可以确定检测点在`JNI_OnLoad`之前，接下来选择的注入时机可以选择在`dlopen`加载`libmsaoaidsec.so`之后
-
-这里查看dlopen的源码, 下面的图片来源: [@xiaoeeyu](https://xiaoeeyu.github.io/2024/08/09/%E7%BB%95%E8%BF%87%E7%88%B1%E5%A5%87%E8%89%BAlibmsaoaidsec-so%E7%9A%84Frida%E6%A3%80%E6%B5%8B/)
-
-![1748430227599](assets/1748430227599.png)
-
-
-
-![1748445842552](assets/1748445842552.png)
-
-我们这里去hook一下call_constructors函数
-
-- 去手机中在找到`call_constructors`的offset
-
-```bash
-readelf -sW /apex/com.android.runtime/bin/linker64 | grep call_constructors
-```
-
-![1748430554222](assets/1748430554222.png)
-
--> `4a258` 
-
-![1748430777708](assets/1748430777708.png)
-
-![1748430793947](assets/1748430793947.png)
 
 # 抓电影短评
 
