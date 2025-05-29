@@ -119,7 +119,7 @@ def main():
     # 处理未使用文件
     for rel_path in sorted(unused_images):
         full_path = os.path.join(img_dir, rel_path)
-        print(f"未使用：{full_path}")
+        # print(f"未使用：{full_path}")
 
         if not args.preview:
             try:
