@@ -1,0 +1,54 @@
+ ____
+/ _  |   Frida 16.2.1 - A world-class dynamic instrumentation toolkit
+| (_| |
+> _  |   Commands:
+/_/ |_|       help      -> Displays the help system
+. . . .       object?   -> Display information about 'object'
+. . . .       exit/quit -> Exit
+. . . .
+. . . .   More info at https://frida.re/docs/home/
+. . . .
+. . . .   Connected to Pixel 2 XL (id=910KPGS2088343)
+[Pixel 2 XL::�����ȵ� ]-> TreUtil.sign is called: str=app_ver=53&channel=aliapp&device_id=c9ccaaac4d80cc8e6932f01fb9811ec7&device_udid=2c46fba2b2143e96a324a10c0399199f&first_time=1706003627&from=app&last_time=1672988601&limit=8&mac=7E:3E:D1:83:85:3C&nonce=m0uv3k1748662430251&os_ver_code=30&system=1&timestamp=1748662430&with_super=0&with_video=1
+[+] sub_152C_addr is called! args[0]:  app_ver=53&channel=aliapp&device_id=c9ccaaac4d80cc8e6932f01fb9811ec7&device_udid=2c46fba2b2143e96a324a10c0399199f&first_time=1706003627&from=app&last_time=1672988601&limit=8&mac=7E:3E:D1:83:85:3C&nonce=m0uv3k1748662430251&os_ver_code=30&system=1&timestamp=1748662430&with_super=0&with_video=1b2qKgtaW4,9z9D`Fmst?K5JZbLYOY]NP6ssGf2U~;zk9oCNgoytV!}wW7ia+`w9g
+[+] sub_152C_addr is called! args[1]:  YXBwX3Zlcj01MyZjaGFubmVsPWFsaWFwcCZkZXZpY2VfaWQ9YzljY2FhYWM0ZDgwY2M4ZTY5MzJmMDFmYjk4MTFlYzcmZGV2aWNlX3VkaWQ9MmM0NmZiYTJiMjE0M2U5NmEzMjRhMTBjMDM5OTE5OWYmZmlyc3RfdGltZT0xNzA2MDAzNjI3JmZyb209YXBwJmxhc3RfdGltZT0xNjcyOTg4NjAxJmxpbWl0PTgmbWFjPTdFOjNFOkQxOjgzOjg1OjNDJm5vbmNlPW0wdXYzazE3NDg2NjI0MzAyNTEmb3NfdmVyX2NvZGU9MzAmc3lzdGVtPTEmdGltZXN0YW1wPTE3NDg2NjI0MzAmd2l0aF9zdXBlcj0wJndpdGhfdmlkZW89MWIycUtndGFXNCw5ejlEYEZtc3Q/SzVKWmJMWU9ZXU5QNnNzR2YyVX47ems5b0NOZ295dFYhfXdXN2lhK2B3OWc=
+[+] sub_152C_addr retval: 0xa32aebb8
+[+] sub_1640_addr is called! args[0]:             0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+a32af8d8  8d 18 eb 4d 2a 42 d7 bf 8b 29 6b 91 73 f2 bf 3c  ...M*B...)k.s..<
+a32af8e8  4e 5b e9 f1 e0 0e 00 00 00 00 00 00 1c 00 62 30  N[............b0
+a32af8f8  4e 4f 5a 32 39 35 64 46 59 68 66 58 64 58 4e 32  NOZ295dFYhfXdXN2
+a32af908  6c 68 4b 32 42 33 4f 57 63 3d 63 33 51 2f 53 7a  lhK2B3OWc=c3Q/Sz
+a32af918  56 4b 57 6d 4a 4d 57 55 39 5a 58 55 35 51 4e 6e  VKWmJMWU9ZXU5QNn
+a32af928  4e 7a 52 32 59 79 56 58 34 37 65 6d 73 35 a0 c5  NzR2YyVX47ems5..
+a32af938  00 00 00 00 00 00 00 00 8c cd 1f 62 32 71 4b 67  ...........b2qKg
+a32af948  74 61 57 34 2c 39 7a 39 44 60 46 6d 73 74 3f 4b  taW4,9z9D`Fmst?K
+a32af958  35 4a 5a 62 4c 59 4f 59 5d 4e 50 36 73 73 47 66  5JZbLYOY]NP6ssGf
+a32af968  32 55 7e 3b 7a 6b 39 6f 43 4e 67 6f 79 74 56 21  2U~;zk9oCNgoytV!
+a32af978  7d 77 57 37 69 61 2b 60 77 39 67 00 00 00 43 00  }wW7ia+`w9g...C.
+a32af988  8b 3b 5b c8 8c cd 1f dd 8c cd 1f dd 02 00 00 00  .;[.............
+a32af998  0a be d8 df 00 00 00 00 10 ca b2 eb 80 fa 2a a3  ..............*.
+a32af9a8  44 fa 2a a3 eb f1 7c df 8c cd 1f dd fc 17 2b a3  D.*...|.......+.
+a32af9b8  02 00 00 00 c0 cb 26 14 40 a8 de 12 01 00 00 00  ......&.@.......
+a32af9c8  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[+] sub_1640_addr args[1]:            0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+a32af8c4  79 cd c9 fc 33 d3 8b 9c e7 34 a3 7e e0 db 0c d6  y...3....4.~....
+a32af8d4  25 b2 a6 1a fc c9 cd 79 9c 8b d3 33 7e a3 34 e7  %......y...3~.4.
+a32af8e4  d6 0c db e0 1a a6 b2 25 00 00 00 00 00 00 00 00  .......%........
+a32af8f4  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+a32af904  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+a32af914  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+a32af924  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+a32af934  00 00 a0 c5 01 00 00 00 00 00 00 00 8c cd 1f 62  ...............b
+a32af944  32 71 4b 67 74 61 57 34 2c 39 7a 39 44 60 46 6d  2qKgtaW4,9z9D`Fm
+a32af954  73 74 3f 4b 35 4a 5a 62 4c 59 4f 59 5d 4e 50 36  st?K5JZbLYOY]NP6
+a32af964  73 73 47 66 32 55 7e 3b 7a 6b 39 6f 43 4e 67 6f  ssGf2U~;zk9oCNgo
+a32af974  79 74 56 21 7d 77 57 37 69 61 2b 60 77 39 67 00  ytV!}wW7ia+`w9g.
+a32af984  00 00 43 00 8b 3b 5b c8 8c cd 1f dd 8c cd 1f dd  ..C..;[.........
+a32af994  02 00 00 00 0a be d8 df 00 00 00 00 10 ca b2 eb  ................
+a32af9a4  80 fa 2a a3 44 fa 2a a3 eb f1 7c df 8c cd 1f dd  ..*.D.*...|.....
+a32af9b4  fc 17 2b a3 02 00 00 00 c0 cb 26 14 40 a8 de 12  ..+.......&.@...
+[+] sub_1640_addr retval: 0x0
+TreUtil.sign result=79cdc9fc33d38b9ce734a37ee0db0cd625b2a61a
+
+
+Thank you for using Frida!

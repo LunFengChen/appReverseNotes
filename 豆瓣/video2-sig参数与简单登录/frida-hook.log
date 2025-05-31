@@ -1,0 +1,42 @@
+ ____
+/ _  |   Frida 16.2.1 - A world-class dynamic instrumentation toolkit
+| (_| |
+> _  |   Commands:
+/_/ |_|       help      -> Displays the help system
+. . . .       object?   -> Display information about 'object'
+. . . .       exit/quit -> Exit
+. . . .
+. . . .   More info at https://frida.re/docs/home/
+. . . .
+. . . .   Connected to Pixel 2 XL (id=910KPGS2088343)
+[Pixel 2 XL::¶¹°ê ]-> ¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý
+Mac.init('java.security.Key') is called!
+¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý
+Mac.init('java.security.Key') is called!
+HmacSHA1 init Key Utf8:  bf7dddc7c9cfe6f7
+HmacSHA1 init Key Hex:  62663764646463376339636665366637
+HmacSHA1 init Key Base64:  YmY3ZGRkYzdjOWNmZTZmNw==
+¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü
+¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý
+Mac.doFinal('[B') is called!
+HmacSHA1 init Key Utf8:  bf7dddc7c9cfe6f7
+HmacSHA1 doFinal data Utf8:  GET&%2Fapi%2Fv2%2Fmovie%2F30433456%2Finterests&1748657006
+HmacSHA1 doFinal data Hex:  4745542625324661706925324676322532466d6f7669652532463330343333343536253246696e746572657374732631373438363537303036
+HmacSHA1 doFinal data Base64:  R0VUJiUyRmFwaSUyRnYyJTJGbW92aWUlMkYzMDQzMzQ1NiUyRmludGVyZXN0cyYxNzQ4NjU3MDA2
+HmacSHA1 init Key Hex:  62663764646463376339636665366637
+ÃÜÎÄ£º
+HmacSHA1 init Key Base64:  YmY3ZGRkYzdjOWNmZTZmNw==
+¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü
+HmacSHA1 doFinal data Base64:  rjMmN2opBIPLGFiyQY5O+m0FbwU=
+¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü
+¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý
+Mac.doFinal('[B') is called!
+HmacSHA1 doFinal data Utf8:  GET&%2Fapi%2Fv2%2Fmovie%2F30433456%2Frating&1748657006
+HmacSHA1 doFinal data Hex:  4745542625324661706925324676322532466d6f7669652532463330343333343536253246726174696e672631373438363537303036
+HmacSHA1 doFinal data Base64:  R0VUJiUyRmFwaSUyRnYyJTJGbW92aWUlMkYzMDQzMzQ1NiUyRnJhdGluZyYxNzQ4NjU3MDA2
+ÃÜÎÄ£º
+HmacSHA1 doFinal data Base64:  Elj7a0NbmsJ8vROR+DweCTmQulk=
+¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü
+q
+
+Thank you for using Frida!

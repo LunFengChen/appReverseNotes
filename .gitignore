@@ -1,3 +1,5 @@
 .idea
 .git
 docs/
+*.apk
+*.jar
