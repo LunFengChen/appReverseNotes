@@ -33,7 +33,26 @@ class HaiboTvSpider:
 
     def get_versionInfo(self) -> requests.Response:
         api_timestamp = self.api_timestamp
-        url = f"http://versionsc.api.hoge.cn?m=version&c=version&bundle_id=com.hoge.android.app.fujian&client_type=android&uuid={self.uuid}&app_version={self.version}&phone_models=22127RK46C&client_id_android=a2169f8210bd985c1dcdd17e5d60f3b3&language=Chinese&client_type=android&version={self.version}&locating_city=%E7%A6%8F%E5%B7%9E&system_version=9&appid=9&device_token=2ac8820f45dc9aa35bf8722a345b9275&location_city=%E7%A6%8F%E5%B7%9E&package_name=com.hoge.android.app.fujian&appkey=OU4VuJgmGkqFzelCaueFLHll1sZJpOG4"
+        url = "http://versionsc.api.hoge.cn"
+        params = {
+            "m": "version",
+            "c": "version",
+            "bundle_id": "com.hoge.android.app.fujian",
+            "client_type": "android",
+            "uuid": f"{self.uuid}",
+            "app_version": f"{self.version}",
+            "phone_models": "22127RK46C",
+            "client_id_android": "a2169f8210bd985c1dcdd17e5d60f3b3",
+            "language": "Chinese",
+            "version": f"{self.version}",
+            "locating_city": "福州",
+            "system_version": "9",
+            "appid": "9",
+            "device_token": "2ac8820f45dc9aa35bf8722a345b9275",
+            "location_city": "福州",
+            "package_name": "com.hoge.android.app.fujian",
+            "appkey": "OU4VuJgmGkqFzelCaueFLHll1sZJpOG4"
+        }
         headers = {
             'User-Agent': "Dalvik/2.1.0 (Linux; U; Android 9; 22127RK46C Build/PQ3B.190801.04221809) m2oSmartCity_83 1.0.0",
             'X-API-VERSION': self.version,
@@ -43,7 +62,7 @@ class HaiboTvSpider:
             'X-AUTH-TYPE': "sha1"
         }
 
-        response = requests.get(url, headers=headers)
+        response = requests.get(url, params=params, headers=headers)
         return response
 
 
