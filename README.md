@@ -18,7 +18,7 @@ apks和jar包链接 通过网盘分享的文件： https://pan.baidu.com/s/1f28f
   - [【ck号登录&密码登录】&【s参数】](https://www.bilibili.com/video/BV1Cej9z2EWd/)
   
   - [【点赞&评论&回复&发帖&转帖】](https://www.bilibili.com/video/BV1kBjdzQEnz/)
-  - [【点赞&评论&回复&发帖&转帖】](https://www.bilibili.com/video/BV1usjdzaEG3/)
+  - [【超话签到】](https://www.bilibili.com/video/BV1usjdzaEG3/)
   
 - 豆瓣 v7.100.0
 
