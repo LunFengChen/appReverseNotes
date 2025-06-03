@@ -44,3 +44,6 @@ apks和jar包链接 通过网盘分享的文件： https://pan.baidu.com/s/1f28f
 
   
 
+- 喜马拉雅 v6.6.99.3
+  - [登录接口参数逆向&unidbg补环境练习](https://www.bilibili.com/video/BV1AN7ezfEyc/)
+
