@@ -1,0 +1,51 @@
+ ____
+/ _  |   Frida 16.2.1 - A world-class dynamic instrumentation toolkit
+| (_| |
+> _  |   Commands:
+/_/ |_|       help      -> Displays the help system
+. . . .       object?   -> Display information about 'object'
+. . . .       exit/quit -> Exit
+. . . .
+. . . .   More info at https://frida.re/docs/home/
+. . . .
+. . . .   Connected to Pixel 2 XL (id=910KPGS2088343)
+[Pixel 2 XL::喜马拉雅 ]-> LoginRequest.loginByPsw is called: fragmentActivity=com.ximalaya.ting.android.host.activity.login.LoginActivity@b248ed0, iRequestData=[object Object], map=[object Object], iDataCallBackUseLogin=[object Object]
+Map contents:
+password = eygjkjj
+account = 15521115338
+AnonymousClass12.$init is called: iDataCallBackUseLogin=[object Object], fragmentActivity=com.ximalaya.ting.android.host.activity.login.LoginActivity@b248ed0, map=[object Object], iRequestData=[object Object]
+LoginRequest.baseRequest is called: iRequestData=[object Object], str=https://passport.ximalaya.com/mobile/nonce/1748944215554, map=null, iDataCallBackUseLogin=[object Object], iRequestCallBack=[object Object], str2=get
+AnonymousClass2.$init is called: str=get, iRequestData=[object Object], str2=https://passport.ximalaya.com/mobile/nonce/1748944215554, map=null, iDataCallBackUseLogin=[object Object], iRequestCallBack=[object Object]
+AnonymousClass2.$init result=com.ximalaya.ting.android.loginservice.LoginRequest$2@7996270
+Map is null
+a.a is called: str=https://passport.ximalaya.com/mobile/nonce/1748944215554
+LoginUrlConstants.loginByPsw is called
+LoginUrlConstants.loginByPsw result=https://passport.ximalaya.com/mobile/login/pwd/v3
+a.a result=https://passport.ximalaya.com/mobile/nonce/1748944215554
+LoginUrlConstants.loginByPsw is called
+LoginUrlConstants.loginByPsw result=https://passport.ximalaya.com/mobile/login/pwd/v3
+LoginRequest.baseRequest is called: iRequestData=[object Object], str=https://passport.ximalaya.com/mobile/login/pwd/v3, map=[object Object], iDataCallBackUseLogin=[object Object], iRequestCallBack=[object Object], str2=post
+AnonymousClass2.$init is called: str=post, iRequestData=[object Object], str2=https://passport.ximalaya.com/mobile/login/pwd/v3, map=[object Object], iDataCallBackUseLogin=[object Object], iRequestCallBack=[object Object]
+AnonymousClass2.$init result=com.ximalaya.ting.android.loginservice.LoginRequest$2@988b1fc
+Map contents:
+password = dDzyJ/LtsgQc+YYY14fYPGaiXbFtS9xNE5SQgOboRex/XgHVvygnnu83v9+JhF8w8BdhVRZvXOn/
+eKvWNH3tcNKRH47I1yVVMzrWoK9bnyy0ulK0GHlAbTEWtdk3K2/jQkZmX9fEMFKuTKKeqLX+lB1Q
+qZnCLf9/gDO5SCy425U=
+
+fdsOtp = 6533656727954019750
+signature = 35a1300c6a86b59c55fc0a5d2f8fe3105b2d1713
+nonce = 0-675634F96E84993418d2d7136fc0e16cedaddeeba21df1bdc88fb3401041e1
+account = LeTiae5NSFX+vtqWim598EJWHLS3vAwTlATEdbVkjaKXZ2zV1FODgDD7t3OLjFPiTcm0C6XSzFEf
+bbR7LFXo/wWj3uUEkimRUT+RdvZgEJX+iVdUIxeG+/e3J4LERoLM0ozddb9wkA9VQqdl1HB/7zJi
+rv3d3Gbj7nRgSRvv0mg=
+
+AnonymousClass3.postByJson is called: str=https://passport.ximalaya.com/mobile/login/pwd/v3, map=[object Object]
+a.a is called: str=https://passport.ximalaya.com/mobile/login/pwd/v3
+LoginUrlConstants.loginByPsw is called
+LoginUrlConstants.loginByPsw result=https://passport.ximalaya.com/mobile/login/pwd/v3
+a.a result=https://passport.ximalaya.com/mobile/login/pwd/v3
+AnonymousClass3.postByJson result={"ret":20007,"msg":"账号或密码错误，请重新输入"}
+
+[Pixel 2 XL::喜马拉雅 ]-> q
+
+Thank you for using Frida!
