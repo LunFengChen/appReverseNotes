@@ -1,8 +1,15 @@
+# ide配置
 .idea
+# git仓库配置
 .git
-docs/
+
+# 这几个放网盘就行
 *.apk
 *.jar
 *.so
 
+# 百度云
 *.cfg
+
+# 大文件pdf传不了
+*.pdf
