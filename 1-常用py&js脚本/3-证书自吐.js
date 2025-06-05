@@ -1,7 +1,6 @@
 function hook_cert() {
     function showStacks() {
         console.log(Java.use("android.util.Log").getStackTraceString(Java.use("java.lang.Throwable").$new()));
-
     }
 
     function write_cert(inputStream, filename) {
@@ -26,12 +25,11 @@ function hook_cert() {
         KeyStore.load.overload('java.io.InputStream', '[C').implementation = function (inputStream, pwd) {
             const cert_pwd = Java.use("java.lang.String").$new(pwd);
             console.log("\n证书密码: " + cert_pwd, "证书类型: " + this.getType(), "证书对象: ", JSON.stringify(inputStream));
+            // android.content.res.AssetManager 代表在证书在assert中
+            // 查看调用栈，分析打印的证书是哪个类的
             showStacks();
-            // android.content.res.AssetManager 代表在assert中
             // (1) 先去找bks后缀，然后把所有的bks都上网搜一下排除一下
             // (2) 没找到合适的，就hook找一下
-            // 查看调用栈，分析打印的证书是哪个类的
-
             // 找到证书了, 就写文件
             let filename;
             if (this.getType() === "PKCS12" || this.getType() === "pkcs12") {

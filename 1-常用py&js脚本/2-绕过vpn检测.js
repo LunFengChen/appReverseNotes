@@ -1,6 +1,6 @@
 function bypass_vpnCheck() {
     Java.perform(function () {
-        // hook-- java.net.NetworkInterface的getName返回值
+        // 篡改检测
         let String = Java.use("java.lang.String");
         let NetworkInterface = Java.use("java.net.NetworkInterface");
         NetworkInterface.getName.implementation = function () {
@@ -8,9 +8,10 @@ function bypass_vpnCheck() {
             var result = this.getName();
             console.log("find getName：", result);
             if (result && (result.indexOf("ppp0") > -1 || result.indexOf("tun0") > -1)) {
-                return String.$new("rmnet_data0");
+                return "rmnet_data0";
             }
         }
+        // 篡改getAll(hooker工具包js)
         NetworkInterface.getAll.implementation = function () {
             var nis = this.getAll();
             console.log("call java.net.NetworkInterface.getAll()");
@@ -27,6 +28,7 @@ function bypass_vpnCheck() {
         // 2.  hook-- android.net.ConnectivityManager.getNetworkCapabilities
         // 这个部分的hook代码有一部分来自hooker工具包
         var can_hook = false;
+        // 检测监听
         let ConnectivityManager = Java.use("android.net.ConnectivityManager");
         ConnectivityManager.getNetworkInfo.overload('int').implementation = function () {
             if (arguments[0] === 17) {
@@ -36,6 +38,7 @@ function bypass_vpnCheck() {
             console.log("find getNetworkInfo：", ret)
             return ret;
         }
+        // 篡改返回值
         let NetworkInfo = Java.use("android.net.NetworkInfo")
         NetworkInfo.isConnected.implementation = function () {
             let ret = this.isConnected()
@@ -46,7 +49,7 @@ function bypass_vpnCheck() {
             }
             return ret
         }
-
+        // 禁用网络能力检测
         ConnectivityManager.getNetworkCapabilities.implementation = function (arg) {
             let result = this["getNetworkCapabilities"](arg);
             console.log("find getNetworkCapabilities：", result);
@@ -54,6 +57,7 @@ function bypass_vpnCheck() {
         }
 
         // 3. hook-- android.net.NetworkCapabilities.hasTransport
+        // 篡改是否转发
         let NetworkCapabilities = Java.use("android.net.NetworkCapabilities");
         NetworkCapabilities.hasTransport.implementation = function (v) {
             console.log(v);
@@ -61,6 +65,7 @@ function bypass_vpnCheck() {
             console.log("res hasTransport ==> ", res)
             return false;
         }
+        // 篡改vpn为wifi
         NetworkCapabilities.transportNameOf.overload('int').implementation = function () {
             let ret = this["transportNameOf"](arguments[0]);
             if (ret.indexOf("VPN") >= 0) {
@@ -68,7 +73,6 @@ function bypass_vpnCheck() {
             }
             return ret;
         }
-
     })
 }
 
