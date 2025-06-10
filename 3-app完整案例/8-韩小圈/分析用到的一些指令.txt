@@ -1,0 +1,12 @@
+adb shell
+su
+./data/local/tmp/rusda16_2_1
+
+F:
+cd F:\codes\reverse\hanxiaoquan
+F:\codes\reverse\.venv\Scripts\activate
+
+frida -U -f com.babycloud.hanju -l 1-绕过frida检测脚本.js
+
+adb shell pm clear com.babycloud.hanju
+

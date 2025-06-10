@@ -1,4 +1,6 @@
 function hook_cert() {
+    console.log("trying hook and download certs!")
+
     function showStacks() {
         console.log(Java.use("android.util.Log").getStackTraceString(Java.use("java.lang.Throwable").$new()));
     }
@@ -37,8 +39,8 @@ function hook_cert() {
                 write_cert(inputStream, filename);
             } else if (this.getType() === "BKS" || this.getType() === "bks") {
                 filename = "/sdcard/Download/certs-" + new Date().getTime() + ".bks";
+                write_cert(inputStream, filename);
             }
-            write_cert(inputStream, filename);
             return this.load(inputStream, pwd);
         };
 
