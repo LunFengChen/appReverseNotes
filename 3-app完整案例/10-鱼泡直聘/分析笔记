@@ -1,0 +1,103 @@
+1. 验证码登录
+请求头
+	# 有意义的参数
+		"deviceId": "XwYTxpdnfa0XRazuodnFSwqsj9LilswswjZvMh/IFWs=", 
+								和imei生成一样就行
+		"imei": "XwYTxpdnfa0XRazuodnFSwqsj9LilswswjZvMh/IFWs=",
+								1. 明文: c9c035456a2c7333
+										imei
+								2. 经历aes/cbc/pkcs5，再转b64
+									key(hex):806e281a8a88564f32726c088679bf07a7c267b193b9933eed6d062b53e9cc8b 
+									iv(hex):6162395e21267977782a343724403964
+		"user-agent": "/4OnyDHoDfS+ZRdkdAkguqTfyVqoxF1wek1wNPwWUZVlbGyNBYA9heIiYVVHaLqiBR3+Tpsd5n0Dx3ysl6P9kpHlyAakAN1oyQtcQI1337o=",
+								1. 明文： YP YPZP google Pixel 2 XL 11 9.7.1 c9c035456a2c7333 1749884241436
+										 YP YPZP 手机model 安卓版本 app版本号 imei 时间戳(可能是打开app或者安装时间)
+								2. aes/cbc/pkcs5，再转b64
+									key(hex):806e281a8a88564f32726c088679bf07a7c267b193b9933eed6d062b53e9cc8b 
+									iv(hex):6162395e21267977782a343724403964
+
+		"sign": "a121508d642d3482f1c04387a904d609293e41e8333508cce3abf5b6e7dd5ea4", # sha256来的
+								1. 明文: 3015f42fd5702a93ed3de6b429e1c737fd5aacc3176e9e66555acafe896c004a 
+								code=1233&nonce=507995&shareReq={"refTenantId":"","shareSource":"","trackSeed":""}&tel=13116990059&timestamp=1749884250004&verifyToken=SH3pHcXbYYhksxNHOIIspBXHI50CzCOK4sc8rKVXx7FZg2o4RduJM8Ozj#/#L8W8daFNscP0QdxuKre7gdRbua6eUXtzdRwRTM/RHZetHRg_&8k&^$Hsk1?kkcj12^99K1ia
+								code=1233&nonce=507995&shareReq={"refTenantId": "", "shareSource": "", "trackSeed": ""}&tel=13116990059&timestamp=1749884250004&verifyToken=SH3pHcXbYYhksxNHOIIspBXHI50CzCOK4sc8rKVXx7FZg2o4RduJM8Ozj#/#L8W8daFNscP0QdxuKre7gdRbua6eUXtzdRwRTM/RHZetHRg_&8k&^$Hsk1?kkcj12^99K1ia d922dea17f0bf111ecc77172ecdb5f680e102089d27d7888cdf3b3cdcf09e2ef
+
+								code=1111&nonce=460752&shareReq={'refTenantId': '', 'shareSource': '', 'trackSeed': ''}&tel=13116990066&timestamp=1749885228573&verifyToken=SH3pHcXbYYhksxNHOIIspBXHI50CzCOK4sc8rKVXx7FPQhDua8buxqOFqrf76LOgEmb9RZYWiZ3/ck9kEyo7muKWe5NPQbMzas/h9bApJmg_&8k&^$Hsk1?kkcj12^99K1ia
+
+									验证码 + nonce + shareReq + 手机号 + 请求头时间戳 + 请求体verifytoken + 8k&^$Hsk1?kkcj12^99K1ia
+								2. sha256
+
+		"timestamp": "1749884250004",
+								时间戳
+		"nonce": "507995", 
+								不确定
+
+	# 一些意义不大的参数
+		"runtimeVersion": "11",
+		"track_seed": "",
+		"channel": "alibaba",
+		"source": "android",
+		"deviceName": "Pixel 2 XL",
+		"uid": "",
+		"osVersion": "11",
+		"model": "Pixel 2 XL",
+		"packageName": "io.dcloud.H576E6CC7",
+		"brand": "google",
+		"os": "ANDROID",
+		"business": "YPZP",
+		"packageVersionCode": "309007130",
+		"runtime": "ANDROID",
+		"advertisingid": "",
+		"packageVersion": "9.7.1",
+		"userrole": "",
+		"token": "",
+		"occversion": "2",
+		"deviceImei": "",
+		"encrypted": "1.0",
+		"reqsource": "YPZP",
+		"sdkVersion": "1.0.1",
+		"signVersion": "1",
+
+请求体，content-type指定json传就行
+	{"code":"1233","shareReq":{"refTenantId":"","shareSource":"","trackSeed":""},"tel":"13116990059","verifyToken":"SH3pHcXbYYhksxNHOIIspBXHI50CzCOK4sc8rKVXx7FZg2o4RduJM8Ozj#/#L8W8daFNscP0QdxuKre7gdRbua6eUXtzdRwRTM/RHZetHRg_"}
+	code 验证码
+	tel 手机号
+	verifyToken 前面的请求返回的
+
+2. 发送验证码
+请求头
+	# 有意义的参数
+		"deviceId": "XwYTxpdnfa0XRazuodnFSwqsj9LilswswjZvMh/IFWs=",
+		"imei": "XwYTxpdnfa0XRazuodnFSwqsj9LilswswjZvMh/IFWs=",
+		"user-agent": "/4OnyDHoDfS+ZRdkdAkguqTfyVqoxF1wek1wNPwWUZVlbGyNBYA9heIiYVVHaLqijE8Sy2VHNnuXNfy7AhuCIifCWPwCNbrbyNQ+i+gkiZQ=",
+		"sign": "72c7549a542951e0e850d68dd3865bb1a83f170eeb9081ba8791fe8065670457",
+		"timestamp": "1749885212824",
+		"nonce": "501495",
+
+	# 一些意义不大的参数
+		"runtimeVersion": "11",
+		"track_seed": "",
+		"channel": "alibaba",
+		"source": "android",
+		"deviceName": "Pixel 2 XL",
+		"uid": "",
+		"osVersion": "11",
+		"model": "Pixel 2 XL",
+		"packageName": "io.dcloud.H576E6CC7",
+		"brand": "google",
+		"os": "ANDROID",
+		"business": "YPZP",
+		"packageVersionCode": "309007130",
+		"runtime": "ANDROID",
+		"advertisingid": "",
+		"packageVersion": "9.7.1",
+		"userrole": "",
+		"token": "",
+		"occversion": "2",
+		"deviceImei": "",
+		"encrypted": "1.0",
+		"reqsource": "YPZP",
+		"sdkVersion": "1.0.1",
+		"signVersion": "1",
+
+
+请求体

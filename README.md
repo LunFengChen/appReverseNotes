@@ -24,78 +24,35 @@ js逆向瞬息万变，混淆方式也是层出不穷，可能前几天学的东
 
 # 关于资料
 
-- 优先考虑代码上传;
+代码和分析笔记去对应文件夹看，视频讲解去b站合集观看
 
-  > github文件大小限制
+> 有的没有笔记，有的没有视频，有的啥也没有
 
-- 对于能抽象出来的重复代码可以去看第一个文件夹
-- apk和jar包： 请点击 [网盘链接](https://pan.baidu.com/s/1f28fv9A39LruaMg4wx4QYA?pwd=uxw2) 下载（懒得搞其他网盘了，一顿百度网盘塞了）
-
-
-
-下面是md分析链接和视频链接
-
-具体也可以去文件夹中找，也可以直接看 [具体目录](#具体目录) 
+> apk和jar包： 请点击 [网盘链接](https://pan.baidu.com/s/1f28fv9A39LruaMg4wx4QYA?pwd=uxw2) 下载（懒得搞其他网盘了，一顿百度网盘塞了）
 
 
 
 # 具体目录
 
+下面是涉及到的app，如果你有需要的接口和参数没有的，请联系我：3685168793
+
 - 唯品会   v7.83.3
 
-  > [图文流程](./3-app完整案例/1-唯品会/唯品会v7.83.3接口.md)
 
-
-
-- 微博 【轻享版v6.4.6 and  极速版v10.9.8】
-
-  > [图文流程](./3-app完整案例/2-微博/微博系列app接口逆向分析.md)
-  
-  - [【验证码登录接口】&【aid参数】](https://www.bilibili.com/video/BV17Xj2zHEKX/)
-  - [【ck号登录&密码登录】&【s参数】](https://www.bilibili.com/video/BV1Cej9z2EWd/)
-  - [【点赞&评论&回复&发帖&转帖】](https://www.bilibili.com/video/BV1kBjdzQEnz/)
-  - [【超话签到】](https://www.bilibili.com/video/BV1usjdzaEG3/)
-  
-  
-  
+- 微博  轻享版v6.4.6  极速版v10.9.8
 - 豆瓣 v7.100.0
-
-  > [图文流程](./3-app完整案例/3-豆瓣/豆瓣app接口逆向分析.md)
-  
-  - [【frida反调试检测】 针对性绕过的分析&实现](https://www.bilibili.com/video/BV1gd7GzLEEM)
-  - [【sig参数&常见登录接口】](https://www.bilibili.com/video/BV1Wx7czKEkt)
-
 
 
 - 淘最热点 v2.3.3
   
-  - [ sign签名的纯算&unidbg方案](https://www.bilibili.com/video/BV1E67AzeEhM)
-  
-  
-  
 - 海博tv v3.26
-
-  > 只有frida脚本和py代码
-
-  
 
 - 喜马拉雅 v6.6.99.3
   
-  > [图文流程](./3-app完整案例/6-喜马拉雅/喜马拉雅appV6.66.93逆向分析.md)
-  
-  - [登录接口参数逆向&unidbg补环境练习](https://www.bilibili.com/video/BV1AN7ezfEyc/)
-
-
 
 - 美之图 v4.0.0
 
-  > [图文教程](./3-app完整案例/7-美之图/美之图app接口逆向分析.md)
-
-
 
 - 韩小圈 v6.5.3
-
-  > [图文教程](./3-app完整案例/8-韩小圈/韩小圈app接口逆向分析.md)
-
-  - [搜索接口&uk参数&sign参数&rpc解密响应体](https://www.bilibili.com/video/BV12QTkzAED5/)
-
+- b站 v8.48.0
+- 鱼泡直聘 v9.7.1
