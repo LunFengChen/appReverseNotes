@@ -1,0 +1,20 @@
+ ____
+/ _  |   Frida 16.2.1 - A world-class dynamic instrumentation toolkit
+| (_| |
+> _  |   Commands:
+/_/ |_|       help      -> Displays the help system
+. . . .       object?   -> Display information about 'object'
+. . . .       exit/quit -> Exit
+. . . .
+. . . .   More info at https://frida.re/docs/home/
+. . . .
+. . . .   Connected to Pixel 2 XL (id=910KPGS2088343)
+[Pixel 2 XL::咕咕语音 ]-> JniMakeUrl.native_newmakeUrl is called: context=air.tv.douyu.android.MainApplication@957803d, str=passport/app/v1/captchaSend?, strArr=client_sys,time,aid, strArr2=android,1750166476,htandroid, strArr3=areaCode,bizType,phone,verType, strArr4=0086,12,15615521153,v3, i=21, i2=1
+JniMakeUrl.native_newmakeUrl result=9845bede71f1cd7c085770b1a34d53af
+JniMakeUrl.native_newmakeUrl is called: context=air.tv.douyu.android.MainApplication@957803d, str=passport/app/v1/captchaSend?, strArr=client_sys,time,aid, strArr2=android,1750166478,htandroid, strArr3=areaCode,codeData[challenge],bizType,phone,codeToken,verType,codeData[validate],codeData[seccode], strArr4=0086,01c20ef265816bc078aad9f73355118e,12,15615521153,7af331b0e932070be5df75deddead734,v3,a560d67a88a2d0a8fd1afbe4adaf92c0,a560d67a88a2d0a8fd1afbe4adaf92c0|jordan, i=21, i2=1
+JniMakeUrl.native_newmakeUrl result=2aaf0f2e4f98f90c7c80b7850ebcb8d7
+JniMakeUrl.native_newmakeUrl is called: context=air.tv.douyu.android.MainApplication@957803d, str=fish3/app?, strArr=client_sys,time,aid, strArr2=android,1750166508,htandroid, strArr3=v,m, strArr4=1.5,[{"ac":"201200506007","app_id":"1","bst_id":"2234231750166320488","cha":"94","d":"082766511d12442a769e2fae20107111","e":1,"ext":{"_gu_log_type":"2","_status":"0"},"i":"0","net":"WIFI","ot":1750166478139,"pac":"201200506005.1.1","sid":"7400491750166320672","t":1,"ver":"v4.8.0"},{"ac":"201200506005","app_id":"1","bst_id":"2234231750166320488","cha":"94","d":"082766511d12442a769e2fae20107111","e":1,"ext":{"_gu_log_type":"2","_b_name":"获取验证码","_status":"1"},"i":"0","net":"WIFI","ot":1750166479130,"pac":"201200506007.1.1","sid":"7400491750166320672","t":1,"ver":"v4.8.0"}], i=21, i2=1
+JniMakeUrl.native_newmakeUrl result=f75ac38e39ccda7927fcd65aa52d4814
+Process terminated
+
+Thank you for using Frida!

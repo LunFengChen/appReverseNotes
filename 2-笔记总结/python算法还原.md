@@ -37,6 +37,49 @@
 
 
 
+## 对称
+
+
+
+
+
+
+
+## 非对称
+
+### rsa随机填充
+
+
+
+
+
+### rsa固定填充
+
+```python
+    def rsa_encrypt(self, message: str, public_key: str) -> str:
+        """固定输出的RSA加密"""
+        # 解码Base64公钥
+        der_data = base64.b64decode(public_key)
+        key = RSA.import_key(der_data)
+
+        # 明文转整数
+        plain_bytes = public_key.encode('utf-8')
+        plain_int = bytes_to_long(plain_bytes)
+
+        # RSA核心运算：c = m^e mod n
+        cipher_int = pow(plain_int, key.e, key.n)
+
+        # 转Base64
+        cipher_bytes = long_to_bytes(cipher_int)
+        return base64.b64encode(cipher_bytes).decode('utf-8')
+```
+
+
+
+
+
+
+
 # 数据类型转化
 
 ## str2hex

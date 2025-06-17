@@ -1780,6 +1780,8 @@ python sktrace.py -m attach -l lib52pojie.so -i 0x103B4 com.zj.wuaipojie
 
 
 
+
+
 # hook系统库
 
 ## dlopen
@@ -2315,3 +2317,20 @@ ip route show table 0
 
 
 
+# frida-inject
+
+
+
+
+
+
+
+# frida-gadget
+
+这个so需要注入app中，所以需要重打包app；
+
+优点：1）免root；2）稳定
+
+不过我们一般需要改系统，让系统注入so，就不要重打包了。
+
+> xposed是把代码注入了zygote。
