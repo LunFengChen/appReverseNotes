@@ -1,0 +1,15 @@
+ ____
+/ _  |   Frida 16.2.1 - A world-class dynamic instrumentation toolkit
+| (_| |
+> _  |   Commands:
+/_/ |_|       help      -> Displays the help system
+. . . .       object?   -> Display information about 'object'
+. . . .       exit/quit -> Exit
+. . . .
+. . . .   More info at https://frida.re/docs/home/
+. . . .
+. . . .   Connected to Pixel 2 XL (id=910KPGS2088343)
+
+[Pixel 2 XL::±Òcoin ]-> [Pixel 2 XL::±Òcoin ]-> q
+
+Thank you for using Frida!

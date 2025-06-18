@@ -39,6 +39,26 @@
 
 ## 对称
 
+### aes
+
+```python
+from Crypto.Cipher import AES
+from Crypto.Util.Padding import pad, unpad
+
+
+def aes_encrypt(plain_text: bytes, aes_key: bytes, aes_iv: bytes) -> bytes:
+    return AES.new(aes_key, AES.MODE_CBC, aes_iv).encrypt(pad(plain_text, AES.block_size))
+
+
+def aes_decrypt(cipher_text: bytes, aes_key: bytes, aes_iv: bytes) -> bytes:
+    return unpad(AES.new(aes_key, AES.MODE_CBC, aes_iv).decrypt(cipher_text), AES.block_size)
+
+```
+
+
+
+
+
 
 
 
