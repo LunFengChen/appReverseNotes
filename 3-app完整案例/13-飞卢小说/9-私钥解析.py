@@ -1,0 +1,23 @@
+from Crypto.Cipher import PKCS1_v1_5
+from Crypto import Random
+from Crypto.PublicKey import RSA
+import base64
+
+
+def rsa_ecb_decrypt(encrypted_bytes: bytes, private_key_b64: str) -> bytes:
+    """
+    rsa解密
+    :param encrypted_text_base64:  Base64编码的密文
+    :param private_key_b64: Base64编码的私钥字符串
+    :return:  解密后的字节数据
+    """
+    private_key_pem = base64.b64decode(private_key_b64)
+    private_key = RSA.import_key(private_key_pem)
+    cipher = PKCS1_v1_5.new(private_key)
+    decrypted_bytes = cipher.decrypt(encrypted_bytes, Random.new().read(16))
+    return decrypted_bytes
+
+
+res = rsa_ecb_decrypt(base64.b64decode("gYMBWpwHYvLmMYshV/p/9u1vUhmyZSkGPGOOGJ84cHFDiD/EpalHhBOS4QsPfi+PCHRgE+kEn2UtiQUBjt1md3iplsgYGhhmkXdgEn8qqqzV/soGnIXsjMnNC4PPuiqf06RsdGUfKoFSgKZPB0kjO8TunYuLnJ9oQ3TtrQJ1Z3j9aUPLy6p+Jm8mUYsyjWyHmaA+NwpHuexc2CMvXiMe0zxyceTnGHaB9xRgruu8bEviHR6X6Xc+cl0GfE/u2gW6DPje3T8EGf0beyO5nNMHGyg6FhsPcaJADHQYA3bQL1DF3fMPHtU+KYw1iUAnIs1gJepMMvPdgUU7UB2rkIY6Ew=="),
+                      "MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCcxnOSfmnnZB54fPGlx7Enh/QbkVHWF0AgQKudckCyiV8HOa7AcO65TmFcZ0zF43EQxv2FYr5LDMnQ9ikXbO7rnh4r84We7zB7uzZyOaBzSAuxFfNQfrMtOGiOuQgjij6XEDorcmsTV/7oGURZCOrqaP6prI0fpw3WRBqviygYevPVZgj87YoL+1Wc8Gc2Vyuif9ncwCcRH6sXsCGhnTY1TMmSxZRUOukf3P3D0klgZjkXguNfI8p+EwWn0uGMuErZsu/3Fl6plCZdyBALaYPmhiqgr7UvwyZcg29Kxum7hQg3w6v/TTknTdRYPNhB5x76lvDC4wcSSGKUDtuazj0nAgMBAAECggEADXGnL4TPqBwZ0NNGFaVON8mc0VBg6C8OPLXPAa1uhuDo2UHFDpOgpRtnlfj1yHJ8m6e0zd9t2hm6pMS3OV8KDgJ9K9+yMbLpQXMIdDsk2z3uYr0zJE/5JYOU08hiPkn4nBO0KU2iiQIexeCEz+3H11oxnHNDltdIhHtKnoscYRznsM4kx9FBdbNefa/R7wqHfnWUCjCYM3guzsKjz8PdrZl1syh8apAn2Q7o0DWSZZJ/aKmkiSg/Ua6Cf5LuCWGJxFVHlmP//GPobnlBTNmjQe9Fuuj9Yo9cgzKUd9SGm564HnbuROk+vc+glukRfW7X6WZFFG4kZugVcUGQ8WCOoQKBgQDQm/OGOax8lzkH5p/nFviSM9WXsN0DHTWw4BTj7Yh1nmGWZHrmmnhQZONI7XvtTvOUKB79gEaHOC/2TF3IevJRjCnHc2C4We1kFKfAca3KL4uenTdeylLJcNm2enmgA4U6nimLPv1lH+lT9waqdRIaF1zh606KmCCPOtfjWK2yywKBgQDAZAADT6R6pTAqUOcFL2HyHyyau/vPxUBr9k+CGn7ps5B+OMKW/j5jGzysUE6WmGwKR7ZiAf6VuYE0+qQIqBzs092GAFuIDA7C5+7xfHJKlpzoeZkfBqhXs8RW2+r3uB746UUBDfQxudjScHEDag+g2GCSovUzLrMylNdkuCDnlQKBgQCWbP5r+caxiPJtChagMuZHtuz8l2KnzjZbNxqZST2vYugH5KjjBNxhTH7Apc9JTjdCzLOcJRW2iAO93U97M3zs5N9znXVPOjl+g457rP2e4C4T0FaPGeIctC2p8iMmCaPWoxpd+KwMcbh0/Zpm7EiDW/l0R5O5SP2hitMGc3m9hQKBgQCjQfiU1rePb6/AqOhxiPTHnlaec5jKhesV8m0jzVIXBM4/nfDaaqMMPKeu3XLi7jL4QkRtRJ4B9enDyFD8G5R4D40y0gjaGMlJ8cDc4SqnSsmZqN4b6u1dhum8f2ATmAWIWYK501p9++QXJ11vdUgPyK2ioXALX7ym1pE1Id6iRQKBgQCfJGQJXFjeGXLTpGhKSzx83klWhhy+2SZmwKAO9AREqEt8574J0kgOh2Ee/GxNkQSeT9dIQdGZWD4tPA8e3AZW42nD+L4DuIsj+ieN/Xibeq93iwTVw/qA/2BxZoFhVXNA8mkDRhA/Qhzkb4DV++DRv3Lgb9BFC4SZqW0ZjC1V/Q==")
+print(res.decode())
