@@ -1,0 +1,26 @@
+算法类型：desede/CBC/PKCS5Padding
+解密秘钥（文本）：3023EFAC3BBF94B69E097310
+
+解密Iv（文本）：01234567
+
+解密内容（Base64）：ZgHqJsJbOqhlfZQt4ch13WEvxyexnIGltGl6qR9bHp2vJCyk3DTmfo+Vdrk3mfuF0YNBNuSD0BBSv7oxD1Oo9wkj5DUMyBAMHNCKV+P4pmaZ7IAo18IbqW4Oenrct8w2aGYtqGyAwGeE7QySeQdNvkzoIs55Y/NS2Z/PK/Mr5fYXlY7vPloOOMqgTEE8PLrO38Seheji+3wSbS08KRTeH2fvav6ITaAzYKRndSiN0kS6MYZ1Q9y7J5XtT470n3m3701/fYajNrx2IVp3J0BXn/uELnmRn3OmQOs0Da+0YsFMjfCGqadYrgXwLzfovnlTa0+2JTYwqebjg+ppc/Jp5lqr5KJVbKuf
+解密内容（Hex）：6601ea26c25b3aa8657d942de1c875dd612fc727b19c81a5b4697aa91f5b1e9daf242ca4dc34e67e8f9576b93799fb85d1834136e483d01052bfba310f53a8f70923e4350cc8100c1cd08a57e3f8a66699ec8028d7c21ba96e0e7a7adcb7cc3668662da86c80c06784ed0c9279074dbe4ce822ce7963f352d99fcf2bf32be5f617958eef3e5a0e38caa04c413c3cbacedfc49e85e8e2fb7c126d2d3c2914de1f67ef6afe884da03360a46775288dd244ba31867543dcbb2795ed4f8ef49f79b7ef4d7f7d86a336bc76215a772740579ffb842e79919f73a640eb340dafb462c14c8df086a9a758ae05f02f37e8be79536b4fb6253630a9e6e383ea6973f269e65aabe4a2556cab9f
+
+解密结果（文本）：{"body":{"hasMessage":false,"message":{"keyCode":2019050501,"value":"抱歉，您输入的用户名或密码有误，请检查后重试！"},"status":"TP_LOGIN_S001","timestamp":1749892638382},"head":{"forceLogOut":false,"serverTime":"2025-06-14 17:17:18"}}
+
+解密结果（Base64）：eyJib2R5Ijp7Imhhc01lc3NhZ2UiOmZhbHNlLCJtZXNzYWdlIjp7ImtleUNvZGUiOjIwMTkwNTA1MDEsInZhbHVlIjoi5oqx5q2J77yM5oKo6L6T5YWl55qE55So5oi35ZCN5oiW5a+G56CB5pyJ6K+v77yM6K+35qOA5p+l5ZCO6YeN6K+V77yBIn0sInN0YXR1cyI6IlRQX0xPR0lOX1MwMDEiLCJ0aW1lc3RhbXAiOjE3NDk4OTI2MzgzODJ9LCJoZWFkIjp7ImZvcmNlTG9nT3V0IjpmYWxzZSwic2VydmVyVGltZSI6IjIwMjUtMDYtMTQgMTc6MTc6MTgifX0=
+解密结果（Hex）：7b22626f6479223a7b226861734d657373616765223a66616c73652c226d657373616765223a7b226b6579436f6465223a323031393035303530312c2276616c7565223a22e68ab1e6ad89efbc8ce682a8e8be93e585a5e79a84e794a8e688b7e5908de68896e5af86e7a081e69c89e8afafefbc8ce8afb7e6a380e69fa5e5908ee9878de8af95efbc81227d2c22737461747573223a2254505f4c4f47494e5f53303031222c2274696d657374616d70223a313734393839323633383338327d2c2268656164223a7b22666f7263654c6f674f7574223a66616c73652c2273657276657254696d65223a22323032352d30362d31342031373a31373a3138227d7d
+
+调用堆栈：
+        at com.bw30.zsch.security.BwSecurityNative.decrypt(Native Method)
+        at com.bw.zsch.client.android.service.encrypt.EncryptUtils2$1.onSuccess(EncryptUtils2.java:114)
+        at com.bw.zsch.client.android.service.http.HttpEngine$1.onSuccess(HttpEngine.java:106)
+        at com.lidroid.xutils.http.HttpHandler.onProgressUpdate(HttpHandler.java:225)
+        at com.lidroid.xutils.task.PriorityAsyncTask$InternalHandler.handleMessage(PriorityAsyncTask.java:206)
+        at android.os.Handler.dispatchMessage(Handler.java:106)
+        at android.os.Looper.loop(Looper.java:223)
+        at android.app.ActivityThread.main(ActivityThread.java:7656)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+

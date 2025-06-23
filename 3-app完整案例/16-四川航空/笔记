@@ -1,0 +1,75 @@
+ com.bw30.zsch
+
+https://mapi.sichuanair.com/zt/tribeport/clientapi/login/member/login.htm
+参数： {
+  "actionType": "clientapi/login/member/login",
+  "platformID": "0",
+  "appVersion": "6.14.3",
+  "channelID": "myself",
+  "imei": "14fff3525537169f", 
+  "networkOperator": "",
+  "mac": "02:00:00:00:00:00",
+  "transActionId": "8805c5e9-b9de-41a1-a78a-58703de564fd" # 像是随机uuid
+  					3f11ac4e-b56c-47fe-bd35-09cc5148afe6
+}
+请求头： {
+  "Cookie": "JSESSIONID=C34DB740A99F9DC0D3AA66952B800B87",
+  			 JSESSIONID=BE8B4C104B88F628D28C84DAA2EFA9DB
+  "User-Agent": "Mozilla/5.0 (Linux; U; Android 11; zh-cn; Pixel 2 XL Build/RP1A.201005.004) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
+}
+请求体: nANDIZbT0d8JBHUeNtATZpWHReFCMgKCb1MoWwFN6B38jcTt/HKz+ZG0U1EZPTXO7jphJDuaFneHfMTZec3mcwmRFsWDnJCwPisOqgDYF250k3oSYoc71jCtTZNwwMhlnreo/G8KCNrWZxxmGcIvD8AMTWznyXq1A7tjgKJtD/7zkL0rFBOyD4PDsknBBeu8I5fsIRp6l2zAYETtr7jv7TQ8fedoCaF76l4+mbVMiS7rEVSOzKQ9nH/9J17UTstQ+wXDdRwfspC4UHZV5iuxU73JGrouQlLcWJTbCnAnuWDufbEyTMkCqHvi4yM2plO3yud0Fvmm7Fe5JfKRwUoS3vao56NVBk7+3Dh2ZfkJcMPLZyHN196fw9EnPoP+Fkg/1vipDmneC09h3YbzgmreyZtVgfUfwo+sCIigx7SLIvDHrxsl3L1P+sBCzQJ7CyZHX4Aem6hCBWx2Dlii6BYeog9Tq7M1RTsp0Jh9Opu7jLEzaL+CNi0w5RpIsxwiwSEkAny7otuWihARRqssQij8XWW8UxSvb1Jw1nE4k3bH4bbIhZwvBxbB96hJu6NYkudsA3JRW3W624xEZjkyHA4tv0bPIKzmK/6wo+8cFwx9krcHasFD0rWuVD4SYg/KO7+nUtBqumx9L6D5+zO6d5slUzqesggxqqj71SNFTJsDjoj7SBdoFKMLQ5Z8CRGV/cl30KgCTX6PvO9MfDJUYNUgBDgkYVS3IQp2aM+BrrqXEGUhm1S/Y31cTdiGb80FtsIHnu8maBwfMxAMTyeS5T3peCbrSkuqaQpsySBxnB3qDwN5x5RelGWwQbOyN0wQjhGlB8JtsJi7pqanJaUAtnhRfGVVDpOGNg4QL4tx7W8ruFvHQzsv2brt3Vzxda47lpSRCnrZAtKEeYXHDQpUFsN/2DZExSsYaGGc3lBD5QGZxjQBQwRjZg4wvYik2y/VTMWDC5hKEOEBX6izSHcDKRWaprZPyAA7uyy+NtCfBx+AEVRpheAc+gqoGBlCL44l1Xchtr+pVCyTlNJQnBQfKlkm00jb2z9c4cGUt9igDKoHB8m//1k1u2k4RRbDibuR9vPuSpx9OvsFMEP94pjzf99hkupzd7LrHoia
+
+响应体： nANDIZbT0d8II1WZqfm3y0UwFCb/CaAxmHEnk1OGvHPFwTCDAwE+Q2l6qczoULkadDpH6dhQwWiBhKH97aB9UgBfquZuCF/N/4XUrUUbBw+TJvxlOa1EBB4COUUwWjykcVju3uxera3mwvd59+udFgvzGOOsBs6mJVWABea40RkvwtWK3j4gEToAEx/HFxkMX50bQ2L/EfpsRz9ZUT3TLSclWsV4wfum4xVcYe4Dtubr0GPVKHiAUKgZg3N2o2H0rdm/6EnUk9JbFeLpRkcQkWqUxO4n0eRKCZM4t1MYanvgzl85BnvL9Ua8pgCcpYX0r+e0xQ2lPiZpKHOhf+97bYNbWlOGf/bN
+
+
+
+请求体加密 【desede/CBC/PKCS5Padding key与sessionid有关，iv:01234567】
+
+	1.	时间：2025-06-10 18:10:41
+		算法类型：desede/CBC/PKCS5Padding
+		Key类型：javax.crypto.spec.SecretKeySpec
+		解密秘钥（文本）： C34DB740A99F9DC0D3AA6695
+		解密Iv（文本）：01234567
+		加密内容（文本）：{"body":{"loginPassword":"1231314","loginUsername":"15615521145","picCode":""},"head":{"action":"clientapi/login/member/login","appVersion":"6.14.3","channelId":"myself","customerId":"","imie":"ffffffff-8bc1-ae48-ffff-ffffca01fdf4","jpushId":"18071adc022dbf76be7","loginFlag":false,"macAddress":"02:00:00:00:00:00","platformId":0,"proVersion":"2.0","sessionId":"C34DB740A99F9DC0D3AA66952B800B87","sign":"5ac2edf6f4b0cf0f7273bfbc1374c5817721b8ca56cb9782c5ecff97f1c08e85bc51051dd1a0f3f8b19eefe0116b3eb0fe95590512fccc2b55fd674fd846d276cca14b5b7382d449d39fe2410bd0cffdce55fb6e89aa4d6eb351a85ada64bb069e92393d5d10c0ae387d5c45da688f3b9faf9e4e6b73516110dda5387918b0ac","timestamp":"2025-06-10 18:10:41","transActionId":"8805c5e9-b9de-41a1-a78a-58703de564fd"},"riskReqBody":{"constId":"6848049dfWBKIpMj7pssfLezsLQdUzStgtoo6tn3","validType":"0"}}
+		加密结果(b64) : nANDIZbT0d8JBHUeNtATZpWHReFCMgKCb1MoWwFN6B38jcTt/HKz+ZG0U1EZPTXO7jphJDuaFneHfMTZec3mcwmRFsWDnJCwPisOqgDYF250k3oSYoc71jCtTZNwwMhlnreo/G8KCNrWZxxmGcIvD8AMTWznyXq1A7tjgKJtD/7zkL0rFBOyD4PDsknBBeu8I5fsIRp6l2zAYETtr7jv7TQ8fedoCaF76l4+mbVMiS7rEVSOzKQ9nH/9J17UTstQ+wXDdRwfspC4UHZV5iuxU73JGrouQlLcWJTbCnAnuWDufbEyTMkCqHvi4yM2plO3yud0Fvmm7Fe5JfKRwUoS3vao56NVBk7+3Dh2ZfkJcMPLZyHN196fw9EnPoP+Fkg/1vipDmneC09h3YbzgmreyZtVgfUfwo+sCIigx7SLIvDHrxsl3L1P+sBCzQJ7CyZHX4Aem6hCBWx2Dlii6BYeog9Tq7M1RTsp0Jh9Opu7jLEzaL+CNi0w5RpIsxwiwSEkAny7otuWihARRqssQij8XWW8UxSvb1Jw1nE4k3bH4bbIhZwvBxbB96hJu6NYkudsA3JRW3W624xEZjkyHA4tv0bPIKzmK/6wo+8cFwx9krcHasFD0rWuVD4SYg/KO7+nUtBqumx9L6D5+zO6d5slUzqesggxqqj71SNFTJsDjoj7SBdoFKMLQ5Z8CRGV/cl30KgCTX6PvO9MfDJUYNUgBDgkYVS3IQp2aM+BrrqXEGUhm1S/Y31cTdiGb80FtsIHnu8maBwfMxAMTyeS5T3peCbrSkuqaQpsySBxnB3qDwN5x5RelGWwQbOyN0wQjhGlB8JtsJi7pqanJaUAtnhRfGVVDpOGNg4QL4tx7W8ruFvHQzsv2brt3Vzxda47lpSRCnrZAtKEeYXHDQpUFsN/2DZExSsYaGGc3lBD5QGZxjQBQwRjZg4wvYik2y/VTMWDC5hKEOEBX6izSHcDKRWaprZPyAA7uyy+NtCfBx+AEVRpheAc+gqoGBlCL44l1Xchtr+pVCyTlNJQnBQfKlkm00jb2z9c4cGUt9igDKoHB8m//1k1u2k4RRbDibuR9vPuSpx9OvsFMEP94pjzf99hkupzd7LrHoia
+
+		调用栈
+        at com.bw30.zsch.security.BwSecurityNative.encrypt(Native Method)
+        at com.bw.zsch.client.android.service.encrypt.EncryptUtils2.getData(EncryptUtils2.java:83)
+        at com.bw.zsch.client.android.EncryptBeforeReqManager.lambda$moreRequest$0(EncryptBeforeReqManager.java:53)
+        at com.bw.zsch.client.android.EncryptBeforeReqManager$$ExternalSyntheticLambda1.verify(Unknown Source:4)
+        at com.bw.zsch.client.android.service.encrypt.EncrypInterfaceVerifyUtil$1.onSuccess(EncrypInterfaceVerifyUtil.java:90)
+        at com.bw.zsch.client.android.service.http.HttpEngine$1.onSuccess(HttpEngine.java:106)
+        at com.lidroid.xutils.http.HttpHandler.onProgressUpdate(HttpHandler.java:225)
+        at com.lidroid.xutils.task.PriorityAsyncTask$InternalHandler.handleMessage(PriorityAsyncTask.java:206)
+        at android.os.Handler.dispatchMessage(Handler.java:106)
+        at android.os.Looper.loop(Looper.java:223)
+        at android.app.ActivityThread.main(ActivityThread.java:7656)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+
+
+响应体解密 【desede/CBC/PKCS5Padding，key与(j)sessionid有关，iv: 01234567】
+	BE8B4C104B88F628D28C84DAA2EFA9DB去掉后8位就是key
+    1. 	时间：2025-06-10 18:19:14
+		算法类型：desede/CBC/PKCS5Padding
+		Key类型：javax.crypto.spec.SecretKeySpec
+		解密秘钥（文本）： BE8B4C104B88F628D28C84DA
+		解密Iv（文本）：01234567
+		解密内容（Base64）：TCtNvNz/43BYni7OhoIyQurPvthUh0b3bt/XJQRPKHzCB1sgzawWhSSQznt0VpRYfEKryPSRrt9A0lVoyCvAZ6FcZza9BamPDwxHcKYjLYFDNwHj21ZWwheTQjIxG+vytYBCRiCU9M7aQz3rbRtEsdA0wNv/CZHCA8RC7yB7zdY9OGVxlTzjzn8vYkO/Pn3Lvf2eZ60qyoEEhjvt2EuRT4vFl6FurgtUBu/dfd9MXiYtPUavSPMwWZ73TYnLsEQSouHr01sjs6JQMNstWMTqsm7zkykHPjt66+9Am90ImCP+gOrMP7fX5l12sDYEcfzhY2BpfOhbyqlGcfQ15kzT8IlSvY6H2zd8
+		解密结果（文本）：{"body":{"hasMessage":false,"message":{"keyCode":2019050501,"value":"抱歉，您输入的用户名或密码有误，请检查后重试！"},"status":"TP_LOGIN_S001","timestamp":1749550750326},"head":{"forceLogOut":false,"serverTime":"2025-06-10 18:19:10"}}
+
+		调用堆栈：
+        at com.bw30.zsch.security.BwSecurityNative.decrypt(Native Method)
+        at com.bw.zsch.client.android.service.encrypt.EncryptUtils2$1.onSuccess(EncryptUtils2.java:114)
+        at com.bw.zsch.client.android.service.http.HttpEngine$1.onSuccess(HttpEngine.java:106)
+        at com.lidroid.xutils.http.HttpHandler.onProgressUpdate(HttpHandler.java:225)
+        at com.lidroid.xutils.task.PriorityAsyncTask$InternalHandler.handleMessage(PriorityAsyncTask.java:206)
+        at android.os.Handler.dispatchMessage(Handler.java:106)
+        at android.os.Looper.loop(Looper.java:223)
+        at android.app.ActivityThread.main(ActivityThread.java:7656)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
