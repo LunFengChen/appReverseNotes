@@ -11,4 +11,8 @@
 # 百度云
 *.cfg
 
-# 大文件pdf传不了
+# 大文件pdf传不了 # 用LFS管理
+
+# flutter的东西
+arm64/
+out/
