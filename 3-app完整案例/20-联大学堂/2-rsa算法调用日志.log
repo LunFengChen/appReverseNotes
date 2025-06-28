@@ -1,0 +1,1373 @@
+[+] Hooking func_sub_54598C at 0x7b2a32398c
+
+
+[+] Hooking func_sub_545B90 at 0x7b2a323b90
+
+
+[+] Hooking func_sub_548E98 at 0x7b2a326e98
+
+
+[+] Hooking func_sub_549124 at 0x7b2a327124
+
+
+[+] Hooking func_sub_54CA94 at 0x7b2a32aa94
+
+
+[+] Hooking func_sub_54CB88 at 0x7b2a32ab88
+
+
+[+] Hooking func_sub_54CCEC at 0x7b2a32acec
+
+
+[+] Hooking func_sub_54CEC0 at 0x7b2a32aec0
+
+
+[+] Hooking func_sub_54CF0C at 0x7b2a32af0c
+
+
+[!] All hooks installed. Waiting for calls...
+[+] =========== encodeString_537408 is called ===========
+0x7a00867539
+0x7a00000008
+0xe0c108
+[-] =========== encodeString_537408 is ended ===========
+0x7a00867549
+[+] =========== func_sub_54598C is called ===========
+[+] =========== func_sub_54CCEC is called ===========
+[+] =========== func_sub_54CF0C is called ===========
+Call Stack:
+0x7b2a50e384 libapp.so!0x730384
+0x7b2a50e0c8 libapp.so!0x7300c8
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c57b8 libapp.so!0x3e77b8
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CF0C is ended ===========
+[+] =========== func_sub_54CF0C is called ===========
+Call Stack:
+0x7b2a50e384 libapp.so!0x730384
+0x7b2a50e0c8 libapp.so!0x7300c8
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c57b8 libapp.so!0x3e77b8
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CF0C is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c57b8 libapp.so!0x3e77b8
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5838 libapp.so!0x3e7838
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5918 libapp.so!0x3e7918
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5918 libapp.so!0x3e7918
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5918 libapp.so!0x3e7918
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5918 libapp.so!0x3e7918
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5918 libapp.so!0x3e7918
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5918 libapp.so!0x3e7918
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+Call Stack:
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a315480 libapp.so!0x537480
+0x7b2a315480 libapp.so!0x537480
+[-] =========== func_sub_54CCEC is ended ===========
+[+] =========== func_sub_54CA94 is called ===========
+Call Stack:
+0x7b2a323a98 libapp.so!0x545a98
+0x7b2a315480 libapp.so!0x537480
+0x7b2a315480 libapp.so!0x537480
+[-] =========== func_sub_54CA94 is ended ===========
+[+] =========== func_sub_54CB88 is called ===========
+Call Stack:
+0x7b2a323aa4 libapp.so!0x545aa4
+0x7b2a315480 libapp.so!0x537480
+0x7b2a315480 libapp.so!0x537480
+[-] =========== func_sub_54CB88 is ended ===========
+Call Stack:
+0x7b2a315480 libapp.so!0x537480
+0x7b2a5e7ae0 libapp.so!0x809ae0
+0x7b2a5e8c10 libapp.so!0x80ac10
+0x7b2a100c30 libapp.so!0x322c30
+0x7b2a100b18 libapp.so!0x322b18
+0x7b2a100adc libapp.so!0x322adc
+0x7b2a0f1d30 libapp.so!0x313d30
+0x7b2fbce6e8 libflutter.so!0x7776e8
+0x7b2fd0a43c libflutter.so!0x8b343c
+0x7b2fb3217c libflutter.so!0x6db17c
+0x7b2f7f5f34 libflutter.so!0x39ef34
+0x7b2f7f9aa8 libflutter.so!0x3a2aa8
+0x7e2d1e8068 libutils.so!_ZN7android6Looper9pollInnerEi+0x398
+0x7e2d1e7c6c libutils.so!_ZN7android6Looper8pollOnceEiPiS1_PPv+0x74
+0x7b9065dd40 libandroid.so!ALooper_pollOnce+0x68
+0x7b2f7f9bb8 libflutter.so!0x3a2bb8
+[-] =========== func_sub_54598C is ended ===========
+[+] Hooking func_sub_54598C at 0x7b2a32398c
+
+
+[+] Hooking func_sub_545B90 at 0x7b2a323b90
+
+
+[+] Hooking func_sub_548E98 at 0x7b2a326e98
+
+
+[+] Hooking func_sub_549124 at 0x7b2a327124
+
+
+[+] Hooking func_sub_54CA94 at 0x7b2a32aa94
+
+
+[+] Hooking func_sub_54CB88 at 0x7b2a32ab88
+
+
+[+] Hooking func_sub_54CCEC at 0x7b2a32acec
+
+
+[+] Hooking func_sub_54CEC0 at 0x7b2a32aec0
+
+
+[+] Hooking func_sub_54CF0C at 0x7b2a32af0c
+
+
+[!] All hooks installed. Waiting for calls...
+[+] Hooking func_sub_54598C at 0x7b2a32398c
+
+
+[+] Hooking func_sub_545B90 at 0x7b2a323b90
+
+
+[+] Hooking func_sub_548E98 at 0x7b2a326e98
+
+
+[+] Hooking func_sub_549124 at 0x7b2a327124
+
+
+[+] Hooking func_sub_54CA94 at 0x7b2a32aa94
+
+
+[+] Hooking func_sub_54CB88 at 0x7b2a32ab88
+
+
+[+] Hooking func_sub_54CCEC at 0x7b2a32acec
+
+
+[+] Hooking func_sub_54CEC0 at 0x7b2a32aec0
+
+
+[+] Hooking func_sub_54CF0C at 0x7b2a32af0c
+
+
+[!] All hooks installed. Waiting for calls...
+[+] =========== encodeString_537408 is called ===========
+0x7a00df1759
+0x7a00000008
+0xe0c108
+0x7a00df1768
+0x7a00df1770
+0x7a00dfffe8
+[-] =========== encodeString_537408 is ended ===========
+0x7a00df1769
+[+] =========== func_sub_54598C is called ===========
+[+] =========== func_sub_54CCEC is called ===========
+[+] =========== func_sub_54CF0C is called ===========
+Call Stack:
+0x7b2a50e384 libapp.so!0x730384
+0x7b2a50e0c8 libapp.so!0x7300c8
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c57b8 libapp.so!0x3e77b8
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CF0C is ended ===========
+[+] =========== func_sub_54CF0C is called ===========
+Call Stack:
+0x7b2a50e384 libapp.so!0x730384
+0x7b2a50e0c8 libapp.so!0x7300c8
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c57b8 libapp.so!0x3e77b8
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CF0C is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c57b8 libapp.so!0x3e77b8
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5838 libapp.so!0x3e7838
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5918 libapp.so!0x3e7918
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5918 libapp.so!0x3e7918
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5918 libapp.so!0x3e7918
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5918 libapp.so!0x3e7918
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5918 libapp.so!0x3e7918
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5918 libapp.so!0x3e7918
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+Call Stack:
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a315480 libapp.so!0x537480
+0x7b2a315480 libapp.so!0x537480
+[-] =========== func_sub_54CCEC is ended ===========
+[+] =========== func_sub_54CA94 is called ===========
+Call Stack:
+0x7b2a323a98 libapp.so!0x545a98
+0x7b2a315480 libapp.so!0x537480
+0x7b2a315480 libapp.so!0x537480
+[-] =========== func_sub_54CA94 is ended ===========
+[+] =========== func_sub_54CB88 is called ===========
+Call Stack:
+0x7b2a323aa4 libapp.so!0x545aa4
+0x7b2a315480 libapp.so!0x537480
+0x7b2a315480 libapp.so!0x537480
+[-] =========== func_sub_54CB88 is ended ===========
+Call Stack:
+0x7b2a315480 libapp.so!0x537480
+0x7b2a5e7ae0 libapp.so!0x809ae0
+0x7b2a5e8c10 libapp.so!0x80ac10
+0x7b2a100c30 libapp.so!0x322c30
+0x7b2a100b18 libapp.so!0x322b18
+0x7b2a100adc libapp.so!0x322adc
+0x7b2a0f1d30 libapp.so!0x313d30
+0x7b2fbce6e8 libflutter.so!0x7776e8
+0x7b2fd0a43c libflutter.so!0x8b343c
+0x7b2fb3217c libflutter.so!0x6db17c
+0x7b2f7f5f34 libflutter.so!0x39ef34
+0x7b2f7f9aa8 libflutter.so!0x3a2aa8
+0x7e2d1e8068 libutils.so!_ZN7android6Looper9pollInnerEi+0x398
+0x7e2d1e7c6c libutils.so!_ZN7android6Looper8pollOnceEiPiS1_PPv+0x74
+0x7b9065dd40 libandroid.so!ALooper_pollOnce+0x68
+0x7b2f7f9bb8 libflutter.so!0x3a2bb8
+[-] =========== func_sub_54598C is ended ===========
+[+] Hooking func_sub_54598C at 0x7b2a32398c
+
+
+[+] Hooking func_sub_545B90 at 0x7b2a323b90
+
+
+[+] Hooking func_sub_548E98 at 0x7b2a326e98
+
+
+[+] Hooking func_sub_549124 at 0x7b2a327124
+
+
+[+] Hooking func_sub_54CA94 at 0x7b2a32aa94
+
+
+[+] Hooking func_sub_54CB88 at 0x7b2a32ab88
+
+
+[+] Hooking func_sub_54CCEC at 0x7b2a32acec
+
+
+[+] Hooking func_sub_54CEC0 at 0x7b2a32aec0
+
+
+[+] Hooking func_sub_54CF0C at 0x7b2a32af0c
+
+
+[!] All hooks installed. Waiting for calls...
+[+] Hooking func_sub_54598C at 0x7b2a32398c
+
+
+[+] Hooking func_sub_545B90 at 0x7b2a323b90
+
+
+[+] Hooking func_sub_548E98 at 0x7b2a326e98
+
+
+[+] Hooking func_sub_549124 at 0x7b2a327124
+
+
+[+] Hooking func_sub_54CA94 at 0x7b2a32aa94
+
+
+[+] Hooking func_sub_54CB88 at 0x7b2a32ab88
+
+
+[+] Hooking func_sub_54CCEC at 0x7b2a32acec
+
+
+[+] Hooking func_sub_54CEC0 at 0x7b2a32aec0
+
+
+[+] Hooking func_sub_54CF0C at 0x7b2a32af0c
+
+
+[!] All hooks installed. Waiting for calls...
+[+] Hooking func_sub_54598C at 0x7b2a32398c
+
+
+[+] Hooking func_sub_545B90 at 0x7b2a323b90
+
+
+[+] Hooking func_sub_548E98 at 0x7b2a326e98
+
+
+[+] Hooking func_sub_549124 at 0x7b2a327124
+
+
+[+] Hooking func_sub_54CA94 at 0x7b2a32aa94
+
+
+[+] Hooking func_sub_54CB88 at 0x7b2a32ab88
+
+
+[+] Hooking func_sub_54CCEC at 0x7b2a32acec
+
+
+[+] Hooking func_sub_54CEC0 at 0x7b2a32aec0
+
+
+[+] Hooking func_sub_54CF0C at 0x7b2a32af0c
+
+
+[!] All hooks installed. Waiting for calls...
+[+] Hooking func_sub_54598C at 0x7b2a32398c
+
+
+[+] Hooking func_sub_545B90 at 0x7b2a323b90
+
+
+[+] Hooking func_sub_548E98 at 0x7b2a326e98
+
+
+[+] Hooking func_sub_549124 at 0x7b2a327124
+
+
+[+] Hooking func_sub_54CA94 at 0x7b2a32aa94
+
+
+[+] Hooking func_sub_54CB88 at 0x7b2a32ab88
+
+
+[+] Hooking func_sub_54CCEC at 0x7b2a32acec
+
+
+[+] Hooking func_sub_54CEC0 at 0x7b2a32aec0
+
+
+[+] Hooking func_sub_54CF0C at 0x7b2a32af0c
+
+
+[!] All hooks installed. Waiting for calls...
+[+] =========== encodeString_537408 is called ===========
+arg[0] is at 0x7a0116e859, arg[1] is at 0x7a00000008, arg[0] is at 0xe0c108, arg[0] is at 0x7a0116e868,  arg[0] is at 0x7a0116e870, 
+args[0] is              0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+7a0116e859  c1 e0 00 00 00 00 00 81 80 00 00 81 80 00 00 81  ................
+7a0116e869  80 00 00 81 80 00 00 00 00 00 00 00 00 00 00 00  ................
+7a0116e879  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a0116e889  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a0116e899  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a0116e8a9  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a0116e8b9  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a0116e8c9  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a0116e8d9  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a0116e8e9  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a0116e8f9  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a0116e909  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a0116e919  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a0116e929  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a0116e939  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a0116e949  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+args[1] is              0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+7a0116e859  c1 e0 00 00 00 00 00 81 80 00 00 81 80 00 00 81  ................
+7a0116e869  80 00 00 81 80 00 00 00 00 00 00 00 00 00 00 00  ................
+7a0116e879  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a0116e889  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a0116e899  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a0116e8a9  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a0116e8b9  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a0116e8c9  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a0116e8d9  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a0116e8e9  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a0116e8f9  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a0116e909  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a0116e919  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a0116e929  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a0116e939  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a0116e949  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[-] =========== encodeString_537408 is ended ===========
+0x7a0116e869
+retval is              0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+7a0116e869  c2 12 01 00 00 00 00 01 a3 41 00 00 00 00 00 00  .........A......
+7a0116e879  00 00 00 e1 62 89 00 81 80 00 00 81 80 00 00 08  ....b...........
+7a0116e889  c2 01 00 00 00 00 00 01 00 00 00 81 80 00 00 d1  ................
+7a0116e899  88 c2 00 81 80 00 00 81 80 00 00 81 80 00 00 08  ................
+7a0116e8a9  83 03 00 00 00 00 00 81 80 00 00 81 80 00 00 81  ................
+7a0116e8b9  80 00 00 01 94 70 00 89 e8 16 01 81 80 00 00 d0  .....p..........
+7a0116e8c9  af 32 2a 7b 00 00 00 00 00 00 00 00 00 00 00 08  .2*{............
+7a0116e8d9  d6 04 00 00 00 00 00 30 00 00 00 00 00 00 00 6c  .......0.......l
+7a0116e8e9  54 31 2a 7b 00 00 00 69 e8 16 01 59 e9 16 01 89  T1*{...i...Y....
+7a0116e8f9  e9 16 01 00 00 00 00 d1 88 c2 00 7a 00 00 00 c1  ...........z....
+7a0116e909  e7 c2 00 7a 00 00 00 39 e8 16 01 7a 00 00 00 51  ...z...9...z...Q
+7a0116e919  c7 01 01 7a 00 00 00 41 73 d6 00 7a 00 00 00 d9  ...z...As..z....
+7a0116e929  e8 16 01 7a 00 00 00 00 00 00 00 00 00 00 00 08  ...z............
+7a0116e939  c2 01 00 00 00 00 00 01 00 00 00 81 80 00 00 d9  ................
+7a0116e949  e8 16 01 81 80 00 00 81 80 00 00 81 80 00 00 08  ................
+7a0116e959  83 03 00 00 00 00 00 81 80 00 00 81 80 00 00 81  ................
+[+] =========== func_sub_54598C is called ===========
+[+] =========== func_sub_54CCEC is called ===========
+[+] =========== func_sub_54CF0C is called ===========
+Call Stack:
+0x7b2a50e384 libapp.so!0x730384
+0x7b2a50e0c8 libapp.so!0x7300c8
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c57b8 libapp.so!0x3e77b8
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CF0C is ended ===========
+[+] =========== func_sub_54CF0C is called ===========
+Call Stack:
+0x7b2a50e384 libapp.so!0x730384
+0x7b2a50e0c8 libapp.so!0x7300c8
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c57b8 libapp.so!0x3e77b8
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CF0C is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c57b8 libapp.so!0x3e77b8
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5838 libapp.so!0x3e7838
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5918 libapp.so!0x3e7918
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5918 libapp.so!0x3e7918
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5918 libapp.so!0x3e7918
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5918 libapp.so!0x3e7918
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5918 libapp.so!0x3e7918
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5918 libapp.so!0x3e7918
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+Call Stack:
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a315480 libapp.so!0x537480
+0x7b2a315480 libapp.so!0x537480
+[-] =========== func_sub_54CCEC is ended ===========
+[+] =========== func_sub_54CA94 is called ===========
+Call Stack:
+0x7b2a323a98 libapp.so!0x545a98
+0x7b2a315480 libapp.so!0x537480
+0x7b2a315480 libapp.so!0x537480
+[-] =========== func_sub_54CA94 is ended ===========
+[+] =========== func_sub_54CB88 is called ===========
+Call Stack:
+0x7b2a323aa4 libapp.so!0x545aa4
+0x7b2a315480 libapp.so!0x537480
+0x7b2a315480 libapp.so!0x537480
+[-] =========== func_sub_54CB88 is ended ===========
+Call Stack:
+0x7b2a315480 libapp.so!0x537480
+0x7b2a5e7ae0 libapp.so!0x809ae0
+0x7b2a5e8c10 libapp.so!0x80ac10
+0x7b2a100c30 libapp.so!0x322c30
+0x7b2a100b18 libapp.so!0x322b18
+0x7b2a100adc libapp.so!0x322adc
+0x7b2a0f1d30 libapp.so!0x313d30
+0x7b2fbce6e8 libflutter.so!0x7776e8
+0x7b2fd0a43c libflutter.so!0x8b343c
+0x7b2fb3217c libflutter.so!0x6db17c
+0x7b2f7f5f34 libflutter.so!0x39ef34
+0x7b2f7f9aa8 libflutter.so!0x3a2aa8
+0x7e2d1e8068 libutils.so!_ZN7android6Looper9pollInnerEi+0x398
+0x7e2d1e7c6c libutils.so!_ZN7android6Looper8pollOnceEiPiS1_PPv+0x74
+0x7b9065dd40 libandroid.so!ALooper_pollOnce+0x68
+0x7b2f7f9bb8 libflutter.so!0x3a2bb8
+[-] =========== func_sub_54598C is ended ===========
+[+] Hooking func_sub_54598C at 0x7b2a32398c
+
+
+[+] Hooking func_sub_545B90 at 0x7b2a323b90
+
+
+[+] Hooking func_sub_548E98 at 0x7b2a326e98
+
+
+[+] Hooking func_sub_549124 at 0x7b2a327124
+
+
+[+] Hooking func_sub_54CA94 at 0x7b2a32aa94
+
+
+[+] Hooking func_sub_54CB88 at 0x7b2a32ab88
+
+
+[+] Hooking func_sub_54CCEC at 0x7b2a32acec
+
+
+[+] Hooking func_sub_54CEC0 at 0x7b2a32aec0
+
+
+[+] Hooking func_sub_54CF0C at 0x7b2a32af0c
+
+
+[!] All hooks installed. Waiting for calls...
+[+] Hooking func_sub_54598C at 0x7b2a32398c
+
+
+[+] Hooking func_sub_545B90 at 0x7b2a323b90
+
+
+[+] Hooking func_sub_548E98 at 0x7b2a326e98
+
+
+[+] Hooking func_sub_549124 at 0x7b2a327124
+
+
+[+] Hooking func_sub_54CA94 at 0x7b2a32aa94
+
+
+[+] Hooking func_sub_54CB88 at 0x7b2a32ab88
+
+
+[+] Hooking func_sub_54CCEC at 0x7b2a32acec
+
+
+[+] Hooking func_sub_54CEC0 at 0x7b2a32aec0
+
+
+[+] Hooking func_sub_54CF0C at 0x7b2a32af0c
+
+
+[!] All hooks installed. Waiting for calls...
+[+] Hooking func_sub_54598C at 0x7b2a32398c
+
+
+[+] Hooking func_sub_545B90 at 0x7b2a323b90
+
+
+[+] Hooking func_sub_548E98 at 0x7b2a326e98
+
+
+[+] Hooking func_sub_549124 at 0x7b2a327124
+
+
+[+] Hooking func_sub_54CA94 at 0x7b2a32aa94
+
+
+[+] Hooking func_sub_54CB88 at 0x7b2a32ab88
+
+
+[+] Hooking func_sub_54CCEC at 0x7b2a32acec
+
+
+[+] Hooking func_sub_54CEC0 at 0x7b2a32aec0
+
+
+[+] Hooking func_sub_54CF0C at 0x7b2a32af0c
+
+
+[!] All hooks installed. Waiting for calls...
+[+] Hooking func_sub_54598C at 0x7b2a32398c
+
+
+[+] Hooking func_sub_545B90 at 0x7b2a323b90
+
+
+[+] Hooking func_sub_548E98 at 0x7b2a326e98
+
+
+[+] Hooking func_sub_549124 at 0x7b2a327124
+
+
+[+] Hooking func_sub_54CA94 at 0x7b2a32aa94
+
+
+[+] Hooking func_sub_54CB88 at 0x7b2a32ab88
+
+
+[+] Hooking func_sub_54CCEC at 0x7b2a32acec
+
+
+[+] Hooking func_sub_54CEC0 at 0x7b2a32aec0
+
+
+[+] Hooking func_sub_54CF0C at 0x7b2a32af0c
+
+
+[!] All hooks installed. Waiting for calls...
+[+] Hooking func_sub_54598C at 0x7b2a32398c
+
+
+[+] Hooking func_sub_545B90 at 0x7b2a323b90
+
+
+[+] Hooking func_sub_548E98 at 0x7b2a326e98
+
+
+[+] Hooking func_sub_549124 at 0x7b2a327124
+
+
+[+] Hooking func_sub_54CA94 at 0x7b2a32aa94
+
+
+[+] Hooking func_sub_54CB88 at 0x7b2a32ab88
+
+
+[+] Hooking func_sub_54CCEC at 0x7b2a32acec
+
+
+[+] Hooking func_sub_54CEC0 at 0x7b2a32aec0
+
+
+[+] Hooking func_sub_54CF0C at 0x7b2a32af0c
+
+
+[!] All hooks installed. Waiting for calls...
+[+] Hooking func_sub_54598C at 0x7b2a32398c
+
+
+[+] Hooking func_sub_545B90 at 0x7b2a323b90
+
+
+[+] Hooking func_sub_548E98 at 0x7b2a326e98
+
+
+[+] Hooking func_sub_549124 at 0x7b2a327124
+
+
+[+] Hooking func_sub_54CA94 at 0x7b2a32aa94
+
+
+[+] Hooking func_sub_54CB88 at 0x7b2a32ab88
+
+
+[+] Hooking func_sub_54CCEC at 0x7b2a32acec
+
+
+[+] Hooking func_sub_54CEC0 at 0x7b2a32aec0
+
+
+[+] Hooking func_sub_54CF0C at 0x7b2a32af0c
+
+
+[!] All hooks installed. Waiting for calls...
+[+] =========== func_sub_54598C is called ===========
+[+] =========== func_sub_54CCEC is called ===========
+[+] =========== func_sub_54CF0C is called ===========
+Call Stack:
+0x7b2a50e384 libapp.so!0x730384
+0x7b2a50e0c8 libapp.so!0x7300c8
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c57b8 libapp.so!0x3e77b8
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CF0C is ended ===========
+[+] =========== func_sub_54CF0C is called ===========
+Call Stack:
+0x7b2a50e384 libapp.so!0x730384
+0x7b2a50e0c8 libapp.so!0x7300c8
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c57b8 libapp.so!0x3e77b8
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CF0C is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c57b8 libapp.so!0x3e77b8
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5838 libapp.so!0x3e7838
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5918 libapp.so!0x3e7918
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5918 libapp.so!0x3e7918
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5918 libapp.so!0x3e7918
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5918 libapp.so!0x3e7918
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5918 libapp.so!0x3e7918
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5918 libapp.so!0x3e7918
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+Call Stack:
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a315480 libapp.so!0x537480
+0x7b2a315480 libapp.so!0x537480
+[-] =========== func_sub_54CCEC is ended ===========
+[+] =========== func_sub_54CA94 is called ===========
+Call Stack:
+0x7b2a323a98 libapp.so!0x545a98
+0x7b2a315480 libapp.so!0x537480
+0x7b2a315480 libapp.so!0x537480
+[-] =========== func_sub_54CA94 is ended ===========
+[+] =========== func_sub_54CB88 is called ===========
+Call Stack:
+0x7b2a323aa4 libapp.so!0x545aa4
+0x7b2a315480 libapp.so!0x537480
+0x7b2a315480 libapp.so!0x537480
+[-] =========== func_sub_54CB88 is ended ===========
+Call Stack:
+0x7b2a315480 libapp.so!0x537480
+0x7b2a5e7ae0 libapp.so!0x809ae0
+0x7b2a103100 libapp.so!0x325100
+0x7b2a102f7c libapp.so!0x324f7c
+0x7b2a10117c libapp.so!0x32317c
+0x7b2a101a98 libapp.so!0x323a98
+0x7b2a5e7f7c libapp.so!0x809f7c
+0x7b2a100358 libapp.so!0x322358
+0x7b2a5e7ae0 libapp.so!0x809ae0
+0x7b2a103100 libapp.so!0x325100
+0x7b2a102f7c libapp.so!0x324f7c
+0x7b2a10117c libapp.so!0x32317c
+0x7b2a101a98 libapp.so!0x323a98
+0x7b2a14d01c libapp.so!0x36f01c
+0x7b2a100c30 libapp.so!0x322c30
+0x7b2a100b18 libapp.so!0x322b18
+[-] =========== func_sub_54598C is ended ===========
+[+] =========== encryptBytes_537588 is called ===========
+arg[0] is at 0x7a010a3209, arg[1] is at 0x7a010a3224, arg[0] is at 0x7a010a31f4, arg[0] is at 0x4,  arg[0] is at 0x0, 
+args[0] is              0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+7a010a3209  52 07 00 00 00 00 00 20 32 0a 01 7a 00 00 00 00  R...... 2..z....
+7a010a3219  00 00 00 08 00 00 00 31 32 33 34 00 00 00 00 00  .......1234.....
+7a010a3229  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010a3239  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010a3249  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010a3259  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010a3269  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010a3279  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010a3289  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010a3299  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010a32a9  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010a32b9  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010a32c9  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010a32d9  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010a32e9  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010a32f9  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+args[1] is              0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+7a010a3224  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010a3234  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010a3244  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010a3254  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010a3264  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010a3274  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010a3284  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010a3294  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010a32a4  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010a32b4  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010a32c4  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010a32d4  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010a32e4  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010a32f4  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010a3304  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010a3314  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[-] =========== encryptBytes_537588 is ended ===========
+0x7a010d7c09
+retval is              0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+7a010d7c09  81 d0 00 00 00 00 00 e9 7a 0d 01 81 80 00 00 81  ........z.......
+7a010d7c19  80 00 00 81 80 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010d7c29  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010d7c39  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010d7c49  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010d7c59  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010d7c69  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010d7c79  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010d7c89  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010d7c99  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010d7ca9  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010d7cb9  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010d7cc9  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010d7cd9  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010d7ce9  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010d7cf9  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[+] =========== func_sub_54598C is called ===========
+[+] =========== func_sub_54CCEC is called ===========
+[+] =========== func_sub_54CF0C is called ===========
+Call Stack:
+0x7b2a50e384 libapp.so!0x730384
+0x7b2a50e0c8 libapp.so!0x7300c8
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c57b8 libapp.so!0x3e77b8
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CF0C is ended ===========
+[+] =========== func_sub_54CF0C is called ===========
+Call Stack:
+0x7b2a50e384 libapp.so!0x730384
+0x7b2a50e0c8 libapp.so!0x7300c8
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c57b8 libapp.so!0x3e77b8
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CF0C is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c57b8 libapp.so!0x3e77b8
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5838 libapp.so!0x3e7838
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5918 libapp.so!0x3e7918
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5918 libapp.so!0x3e7918
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5918 libapp.so!0x3e7918
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5918 libapp.so!0x3e7918
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5918 libapp.so!0x3e7918
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5918 libapp.so!0x3e7918
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+Call Stack:
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a315480 libapp.so!0x537480
+0x7b2a315480 libapp.so!0x537480
+[-] =========== func_sub_54CCEC is ended ===========
+[+] =========== func_sub_54CA94 is called ===========
+Call Stack:
+0x7b2a323a98 libapp.so!0x545a98
+0x7b2a315480 libapp.so!0x537480
+0x7b2a315480 libapp.so!0x537480
+[-] =========== func_sub_54CA94 is ended ===========
+[+] =========== func_sub_54CB88 is called ===========
+Call Stack:
+0x7b2a323aa4 libapp.so!0x545aa4
+0x7b2a315480 libapp.so!0x537480
+0x7b2a315480 libapp.so!0x537480
+[-] =========== func_sub_54CB88 is ended ===========
+Call Stack:
+0x7b2a315480 libapp.so!0x537480
+0x7b2a5e7ae0 libapp.so!0x809ae0
+0x7b2a5e8c10 libapp.so!0x80ac10
+0x7b2a100c30 libapp.so!0x322c30
+0x7b2a100b18 libapp.so!0x322b18
+0x7b2a100adc libapp.so!0x322adc
+0x7b2a0f1d30 libapp.so!0x313d30
+0x7b2fbce6e8 libflutter.so!0x7776e8
+0x7b2fd0a43c libflutter.so!0x8b343c
+0x7b2fb3217c libflutter.so!0x6db17c
+0x7b2f7f5f34 libflutter.so!0x39ef34
+0x7b2f7f9aa8 libflutter.so!0x3a2aa8
+0x7e2d1e8068 libutils.so!_ZN7android6Looper9pollInnerEi+0x398
+0x7e2d1e7c6c libutils.so!_ZN7android6Looper8pollOnceEiPiS1_PPv+0x74
+0x7b9065dd40 libandroid.so!ALooper_pollOnce+0x68
+0x7b2f7f9bb8 libflutter.so!0x3a2bb8
+[-] =========== func_sub_54598C is ended ===========
+[+] =========== encryptBytes_537588 is called ===========
+arg[0] is at 0x7a010caa49, arg[1] is at 0x7a010caa68, arg[0] is at 0x7a010caa38, arg[0] is at 0x8,  arg[0] is at 0x0, 
+args[0] is              0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+7a010caa49  52 07 00 00 00 00 00 60 aa 0c 01 7a 00 00 00 00  R......`...z....
+7a010caa59  00 00 00 10 00 00 00 78 69 61 6f 66 65 6e 67 00  .......xiaofeng.
+7a010caa69  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010caa79  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010caa89  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010caa99  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010caaa9  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010caab9  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010caac9  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010caad9  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010caae9  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010caaf9  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010cab09  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010cab19  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010cab29  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010cab39  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+args[1] is              0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+7a010caa68  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010caa78  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010caa88  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010caa98  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010caaa8  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010caab8  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010caac8  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010caad8  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010caae8  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010caaf8  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010cab08  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010cab18  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010cab28  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010cab38  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010cab48  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010cab58  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[-] =========== encryptBytes_537588 is ended ===========
+0x7a010fd389
+retval is              0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+7a010fd389  81 d0 00 00 00 00 00 69 d2 0f 01 81 80 00 00 81  .......i........
+7a010fd399  80 00 00 81 80 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010fd3a9  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010fd3b9  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010fd3c9  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010fd3d9  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010fd3e9  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010fd3f9  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010fd409  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010fd419  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010fd429  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010fd439  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010fd449  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010fd459  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010fd469  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+7a010fd479  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[+] Hooking func_sub_54598C at 0x7b2a32398c
+
+
+[+] Hooking func_sub_545B90 at 0x7b2a323b90
+
+
+[+] Hooking func_sub_548E98 at 0x7b2a326e98
+
+
+[+] Hooking func_sub_549124 at 0x7b2a327124
+
+
+[+] Hooking func_sub_54CA94 at 0x7b2a32aa94
+
+
+[+] Hooking func_sub_54CB88 at 0x7b2a32ab88
+
+
+[+] Hooking func_sub_54CCEC at 0x7b2a32acec
+
+
+[+] Hooking func_sub_54CEC0 at 0x7b2a32aec0
+
+
+[+] Hooking func_sub_54CF0C at 0x7b2a32af0c
+
+
+[!] All hooks installed. Waiting for calls...
+[+] Hooking func_sub_54598C at 0x7b2a32398c
+
+
+[+] Hooking func_sub_545B90 at 0x7b2a323b90
+
+
+[+] Hooking func_sub_548E98 at 0x7b2a326e98
+
+
+[+] Hooking func_sub_549124 at 0x7b2a327124
+
+
+[+] Hooking func_sub_54CA94 at 0x7b2a32aa94
+
+
+[+] Hooking func_sub_54CB88 at 0x7b2a32ab88
+
+
+[+] Hooking func_sub_54CCEC at 0x7b2a32acec
+
+
+[+] Hooking func_sub_54CEC0 at 0x7b2a32aec0
+
+
+[+] Hooking func_sub_54CF0C at 0x7b2a32af0c
+
+
+[!] All hooks installed. Waiting for calls...
+[+] =========== func_sub_54598C is called ===========
+[+] =========== func_sub_54CCEC is called ===========
+[+] =========== func_sub_54CF0C is called ===========
+Call Stack:
+0x7b2a50e384 libapp.so!0x730384
+0x7b2a50e0c8 libapp.so!0x7300c8
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c57b8 libapp.so!0x3e77b8
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CF0C is ended ===========
+[+] =========== func_sub_54CF0C is called ===========
+Call Stack:
+0x7b2a50e384 libapp.so!0x730384
+0x7b2a50e0c8 libapp.so!0x7300c8
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c57b8 libapp.so!0x3e77b8
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CF0C is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c57b8 libapp.so!0x3e77b8
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5838 libapp.so!0x3e7838
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5918 libapp.so!0x3e7918
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5918 libapp.so!0x3e7918
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5918 libapp.so!0x3e7918
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5918 libapp.so!0x3e7918
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5918 libapp.so!0x3e7918
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+[+] =========== func_sub_54CEC0 is called ===========
+Call Stack:
+0x7b2a50e110 libapp.so!0x730110
+0x7b2a50dd2c libapp.so!0x72fd2c
+0x7b2a1c5918 libapp.so!0x3e7918
+0x7b2a32ad7c libapp.so!0x54cd7c
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a323a8c libapp.so!0x545a8c
+[-] =========== func_sub_54CEC0 is ended ===========
+Call Stack:
+0x7b2a323a8c libapp.so!0x545a8c
+0x7b2a315480 libapp.so!0x537480
+0x7b2a315480 libapp.so!0x537480
+[-] =========== func_sub_54CCEC is ended ===========
+[+] =========== func_sub_54CA94 is called ===========
+Call Stack:
+0x7b2a323a98 libapp.so!0x545a98
+0x7b2a315480 libapp.so!0x537480
+0x7b2a315480 libapp.so!0x537480
+[-] =========== func_sub_54CA94 is ended ===========
+[+] =========== func_sub_54CB88 is called ===========
+Call Stack:
+0x7b2a323aa4 libapp.so!0x545aa4
+0x7b2a315480 libapp.so!0x537480
+0x7b2a315480 libapp.so!0x537480
+[-] =========== func_sub_54CB88 is ended ===========
+Call Stack:
+0x7b2a315480 libapp.so!0x537480
+0x7b2a5e7ae0 libapp.so!0x809ae0
+0x7b2a5e8c10 libapp.so!0x80ac10
+0x7b2a100c30 libapp.so!0x322c30
+0x7b2a100b18 libapp.so!0x322b18
+0x7b2a100adc libapp.so!0x322adc
+0x7b2a0f1d30 libapp.so!0x313d30
+0x7b2fbce6e8 libflutter.so!0x7776e8
+0x7b2fd0a43c libflutter.so!0x8b343c
+0x7b2fb3217c libflutter.so!0x6db17c
+0x7b2f7f5f34 libflutter.so!0x39ef34
+0x7b2f7f9aa8 libflutter.so!0x3a2aa8
+0x7e2d1e8068 libutils.so!_ZN7android6Looper9pollInnerEi+0x398
+0x7e2d1e7c6c libutils.so!_ZN7android6Looper8pollOnceEiPiS1_PPv+0x74
+0x7b9065dd40 libandroid.so!ALooper_pollOnce+0x68
+0x7b2f7f9bb8 libflutter.so!0x3a2bb8
