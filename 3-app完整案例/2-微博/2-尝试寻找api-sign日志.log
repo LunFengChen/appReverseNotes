@@ -1,0 +1,1031 @@
+
+[+] dlopen onEnter ==> /system/framework/oat/arm64/android.test.mock.odex
+[-] dlopen onLeave ==> /system/framework/oat/arm64/android.test.mock.odex
+
+[+] dlopen onEnter ==> /system/framework/oat/arm64/android.test.runner.odex
+[-] dlopen onLeave ==> /system/framework/oat/arm64/android.test.runner.odex
+
+[+] dlopen onEnter ==> /system/framework/oat/arm64/org.apache.http.legacy.odex
+[-] dlopen onLeave ==> /system/framework/oat/arm64/org.apache.http.legacy.odex
+
+[+] dlopen onEnter ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/oat/arm64/base.odex
+[-] dlopen onLeave ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/oat/arm64/base.odex
+
+[+] dlopen onEnter ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64/libmmkv.so
+[-] dlopen onLeave ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64/libmmkv.so
+
+[+] dlopen onEnter ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64/libslib.so
+[-] dlopen onLeave ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64/libslib.so
+
+[+] dlopen onEnter ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64/libaqts.so
+[-] dlopen onLeave ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64/libaqts.so
+
+[+] dlopen onEnter ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64/libc++_shared.so
+[-] dlopen onLeave ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64/libc++_shared.so
+
+[+] dlopen onEnter ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64/libprotobuf.so
+[-] dlopen onLeave ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64/libprotobuf.so
+
+[+] dlopen onEnter ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64/libwlog.so
+[-] dlopen onLeave ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64/libwlog.so
+
+[+] dlopen onEnter ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64/libhardquicken.so
+[-] dlopen onLeave ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64/libhardquicken.so
+
+[+] dlopen onEnter ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64/libhttpdns.so
+[-] dlopen onLeave ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64/libhttpdns.so
+
+[+] dlopen onEnter ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64/libweibosdkcore.so
+[-] dlopen onLeave ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64/libweibosdkcore.so
+
+[+] dlopen onEnter ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64/libwind.so
+[-] dlopen onLeave ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64/libwind.so
+
+[+] dlopen onEnter ==> /vendor/lib64/hw/gralloc.msm8998.so
+[-] dlopen onLeave ==> /vendor/lib64/hw/gralloc.msm8998.so
+
+[+] dlopen onEnter ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64/libplayerextend.so
+[-] dlopen onLeave ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64/libplayerextend.so
+
+[+] dlopen onEnter ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64/libffmpeg.so
+[-] dlopen onLeave ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64/libffmpeg.so
+
+[+] dlopen onEnter ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64/libijksdl.so
+
+[+] dlopen onEnter ==> /vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl-2.1.so
+[-] dlopen onLeave ==> /vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl-2.1.so
+[-] dlopen onLeave ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64/libijksdl.so
+
+[+] dlopen onEnter ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64/libijkplayer.so
+
+[+] dlopen onEnter ==> /vendor/lib64/hw/gralloc.msm8998.so
+[-] dlopen onLeave ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64/libijkplayer.so
+[-] dlopen onLeave ==> /vendor/lib64/hw/gralloc.msm8998.so
+
+[+] dlopen onEnter ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64/libcronet.114.0.5735.246.so
+[-] dlopen onLeave ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64/libcronet.114.0.5735.246.so
+
+[+] dlopen onEnter ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64/libMCPlayer.so
+[-] dlopen onLeave ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64/libMCPlayer.so
+LinkedHashMap key: app_sign value: A078C30F0A58E63D06CA5FC7C42195F6A4940215D4BCD23D940B7EA03E86379D
+java.lang.Throwable
+	at java.util.HashMap.put(Native Method)
+	at org.json.JSONObject.put(JSONObject.java:273)
+	at com.weibo.ssosdk.PhoneInfoUtils.a(SourceFile:1559)
+	at com.weibo.ssosdk.PhoneInfoUtils.retrieve(SourceFile:188)
+	at com.sina.weibo.utils.bx.r(DeviceInfo.java:1134)
+	at com.sina.weibo.account.c.b$1.run(DixCenter.java:70)
+	at com.sina.weibo.cg.h.run(PriorityRunnable.java:58)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+
+[+] dlopen onEnter ==> /data/app/~~vIjyJTJqHMqHnUOWNljinQ==/com.google.android.webview-OIoyUQHnCGul0U1BJIOghg==/oat/arm64/base.odex
+[-] dlopen onLeave ==> /data/app/~~vIjyJTJqHMqHnUOWNljinQ==/com.google.android.webview-OIoyUQHnCGul0U1BJIOghg==/oat/arm64/base.odex
+
+[+] dlopen onEnter ==> libmonochrome_64.so
+[-] dlopen onLeave ==> libmonochrome_64.so
+
+[+] dlopen onEnter ==> /data/app/~~Mkd3NxrE_PuMCwBt1Zat7A==/com.google.android.trichromelibrary_715108933-uqKctg6JrQIg6wgsAygQVA==/base.apk!/lib/arm64-v8a/libmonochrome_64.so
+[-] dlopen onLeave ==> /data/app/~~Mkd3NxrE_PuMCwBt1Zat7A==/com.google.android.trichromelibrary_715108933-uqKctg6JrQIg6wgsAygQVA==/base.apk!/lib/arm64-v8a/libmonochrome_64.so
+
+[+] dlopen onEnter ==> /system/lib64/libwebviewchromium_plat_support.so
+[-] dlopen onLeave ==> /system/lib64/libwebviewchromium_plat_support.so
+
+[+] dlopen onEnter ==> libstats_jni.so
+[-] dlopen onLeave ==> libstats_jni.so
+
+[+] dlopen onEnter ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64/libadcheck.so
+[-] dlopen onLeave ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64/libadcheck.so
+
+[+] dlopen onEnter ==> /data/user/0/com.sina.weibo/app_bundles/mvf4aiuq0e/bundle/res/v8/arm64-v8a/libwb_v8.so
+[-] dlopen onLeave ==> /data/user/0/com.sina.weibo/app_bundles/mvf4aiuq0e/bundle/res/v8/arm64-v8a/libwb_v8.so
+
+[+] dlopen onEnter ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64/libjsbridgev8.so
+[-] dlopen onLeave ==> /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64/libjsbridgev8.so
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","wbConfidentialInfo","wbGetWeiboUserSync","[]"]
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","systemInfo","getSystemInfo","[{\"success\":\"1\"}]"]
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","broadcast","addBroadcastObserver","[{\"key\":\"action.notification_close\",\"localbroadcast\":true,\"callback\":\"2\",\"success\":\"3\"}]"]
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","systemInfo","getSystemInfoSync","[]"]
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","wbSystemInfo","getWeiboSystemInfoSync","[]"]
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","wbstream","request_$return_value_$async","[Ljava.lang.Object;@a3d0ce2"]
+WBXNewWBStreamModule.request is called: wBXNewStreamRequestAsyncOption.data={app_key=10002, app_sign=25c411, appversion=15.3.2, from=10F3295010, lang=zh, page_id=101010075181375042292561, platform=android, theme=dark}
+LinkedHashMap key: app_sign value: 25c411
+java.lang.Throwable
+	at java.util.HashMap.put(Native Method)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parseObject(DefaultJSONParser.java:451)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1385)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:97)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:88)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:147)
+	at com.sina.weibo.wboxsdk.ui.module.stream.WBXNewAbsStreamModule.checkAndTransformData(WBXNewAbsStreamModule.java:703)
+	at com.sina.weibo.wboxsdk.ui.module.stream.WBXNewAbsStreamModule.requestInternal(WBXNewAbsStreamModule.java:473)
+	at com.sina.weibo.wboxsdk.ui.module.stream.WBXNewAbsStreamModule.request(WBXNewAbsStreamModule.java:375)
+	at com.sina.weibo.wbox.module.wbstream.WBXNewWBStreamModule.request(WBXNewWBStreamModule.java:72)
+	at com.sina.weibo.wbox.module.wbstream.WBXNewWBStreamModule.request(Native Method)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.sina.weibo.wboxsdk.bridge.g.a(MethodInvoker.java:48)
+	at com.sina.weibo.wboxsdk.bridge.i.a(NativeInvokeHelper.java:82)
+	at com.sina.weibo.wboxsdk.bridge.i.a(NativeInvokeHelper.java:63)
+	at com.sina.weibo.wboxsdk.bridge.s.a(WBXModuleManager.java:120)
+	at com.sina.weibo.wboxsdk.bridge.s.a(WBXModuleManager.java:100)
+	at com.sina.weibo.wboxsdk.bridge.l.a(WBXBridgeManager.java:389)
+	at com.sina.weibo.wboxsdk.bridge.WBXScriptBridgeAdapter.callNativeModule(WBXScriptBridgeAdapter.java:93)
+	at com.sina.weibo.wboxsdk.bridge.script.WBXCommonJSBridgeInterface$CallNativeFunction.callNativeModule(WBXCommonJSBridgeInterface.java:134)
+	at com.sina.weibo.wboxsdk.bridge.script.WBXCommonJSBridgeInterface$CallNativeFunction.callNativeModule(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSEngineV8.callJS(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSV8Context.callJs(WBJSV8Context.java:55)
+	at com.sina.weibo.wboxsdk.bridge.n.execJsFunction(WBXBridgeV8.java:131)
+	at com.sina.weibo.wboxsdk.bridge.o.execJsFunction(WBXBridgeWrapper.java:133)
+	at com.sina.weibo.wboxsdk.bridge.q.b(WBXJSContextImpl.java:933)
+	at com.sina.weibo.wboxsdk.bridge.q.g(WBXJSContextImpl.java:911)
+	at com.sina.weibo.wboxsdk.bridge.q.handleMessage(WBXJSContextImpl.java:480)
+	at com.sina.weibo.wboxsdk.common.f$a.handleMessage(WBXThread.java:74)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+
+LinkedHashMap key: app_sign value: []
+java.lang.Throwable
+	at java.util.HashMap.put(Native Method)
+	at com.sina.weibo.wboxsdk.b.m.a(WBXHttpParams.java:129)
+	at com.sina.weibo.wboxsdk.b.m.a(WBXHttpParams.java:72)
+	at com.sina.weibo.wboxsdk.b.b.a(WBXAbsHttpRequest.java:159)
+	at com.sina.weibo.wboxsdk.ui.module.stream.WBXNewAbsStreamModule.setGetData(WBXNewAbsStreamModule.java:448)
+	at com.sina.weibo.wboxsdk.ui.module.stream.WBXNewAbsStreamModule.requestInternal(WBXNewAbsStreamModule.java:484)
+	at com.sina.weibo.wboxsdk.ui.module.stream.WBXNewAbsStreamModule.request(WBXNewAbsStreamModule.java:375)
+	at com.sina.weibo.wbox.module.wbstream.WBXNewWBStreamModule.request(WBXNewWBStreamModule.java:72)
+	at com.sina.weibo.wbox.module.wbstream.WBXNewWBStreamModule.request(Native Method)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.sina.weibo.wboxsdk.bridge.g.a(MethodInvoker.java:48)
+	at com.sina.weibo.wboxsdk.bridge.i.a(NativeInvokeHelper.java:82)
+	at com.sina.weibo.wboxsdk.bridge.i.a(NativeInvokeHelper.java:63)
+	at com.sina.weibo.wboxsdk.bridge.s.a(WBXModuleManager.java:120)
+	at com.sina.weibo.wboxsdk.bridge.s.a(WBXModuleManager.java:100)
+	at com.sina.weibo.wboxsdk.bridge.l.a(WBXBridgeManager.java:389)
+	at com.sina.weibo.wboxsdk.bridge.WBXScriptBridgeAdapter.callNativeModule(WBXScriptBridgeAdapter.java:93)
+	at com.sina.weibo.wboxsdk.bridge.script.WBXCommonJSBridgeInterface$CallNativeFunction.callNativeModule(WBXCommonJSBridgeInterface.java:134)
+	at com.sina.weibo.wboxsdk.bridge.script.WBXCommonJSBridgeInterface$CallNativeFunction.callNativeModule(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSEngineV8.callJS(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSV8Context.callJs(WBJSV8Context.java:55)
+	at com.sina.weibo.wboxsdk.bridge.n.execJsFunction(WBXBridgeV8.java:131)
+	at com.sina.weibo.wboxsdk.bridge.o.execJsFunction(WBXBridgeWrapper.java:133)
+	at com.sina.weibo.wboxsdk.bridge.q.b(WBXJSContextImpl.java:933)
+	at com.sina.weibo.wboxsdk.bridge.q.g(WBXJSContextImpl.java:911)
+	at com.sina.weibo.wboxsdk.bridge.q.handleMessage(WBXJSContextImpl.java:480)
+	at com.sina.weibo.wboxsdk.common.f$a.handleMessage(WBXThread.java:74)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+
+java.lang.Throwable
+	at com.sina.weibo.wbox.module.wbstream.WBXNewWBStreamModule.request(Native Method)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.sina.weibo.wboxsdk.bridge.g.a(MethodInvoker.java:48)
+	at com.sina.weibo.wboxsdk.bridge.i.a(NativeInvokeHelper.java:82)
+	at com.sina.weibo.wboxsdk.bridge.i.a(NativeInvokeHelper.java:63)
+	at com.sina.weibo.wboxsdk.bridge.s.a(WBXModuleManager.java:120)
+	at com.sina.weibo.wboxsdk.bridge.s.a(WBXModuleManager.java:100)
+	at com.sina.weibo.wboxsdk.bridge.l.a(WBXBridgeManager.java:389)
+	at com.sina.weibo.wboxsdk.bridge.WBXScriptBridgeAdapter.callNativeModule(WBXScriptBridgeAdapter.java:93)
+	at com.sina.weibo.wboxsdk.bridge.script.WBXCommonJSBridgeInterface$CallNativeFunction.callNativeModule(WBXCommonJSBridgeInterface.java:134)
+	at com.sina.weibo.wboxsdk.bridge.script.WBXCommonJSBridgeInterface$CallNativeFunction.callNativeModule(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSEngineV8.callJS(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSV8Context.callJs(WBJSV8Context.java:55)
+	at com.sina.weibo.wboxsdk.bridge.n.execJsFunction(WBXBridgeV8.java:131)
+	at com.sina.weibo.wboxsdk.bridge.o.execJsFunction(WBXBridgeWrapper.java:133)
+	at com.sina.weibo.wboxsdk.bridge.q.b(WBXJSContextImpl.java:933)
+	at com.sina.weibo.wboxsdk.bridge.q.g(WBXJSContextImpl.java:911)
+	at com.sina.weibo.wboxsdk.bridge.q.handleMessage(WBXJSContextImpl.java:480)
+	at com.sina.weibo.wboxsdk.common.f$a.handleMessage(WBXThread.java:74)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+
+WBXNewWBStreamModule.request result=com.sina.weibo.wboxsdk.ui.module.WBXMethodResult@e2ceb3e
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","wbAnalysis","wbLogActCode","[{\"code\":4891,\"params\":{\"luicode\":\"10000253\",\"uicode\":\"10001115\",\"ext\":\"gid:5181375042292561\",\"uid\":\"6824589037\"}}]"]
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","navigationBar","setNavigationBarTitle","[{\"title\":\"回答问题\"}]"]
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","systemInfo","getSystemInfo","[{\"success\":\"6\"}]"]
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","systemInfo","getSystemInfo","[{\"success\":\"7\"}]"]
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","dom","pageScrollTo","[{\"selector\":\"#a1751163656693\",\"page\":\"1751163657\"}]"]
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","dom","pageScrollTo","[{\"selector\":\"#a1751163656693\",\"page\":\"1751163657\"}]"]
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","wbAnalysis","wbLogActCode","[{\"code\":4892,\"params\":{\"luicode\":10000253,\"uicode\":10001115,\"ext\":\"gid:5181375042292561\",\"uid\":\"6824589037\"}}]"]
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","wbSystemInfo","getWeiboSystemInfoSync","[]"]
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","wbstream","request_$return_value_$async","[Ljava.lang.Object;@97a3930"]
+WBXNewWBStreamModule.request is called: wBXNewStreamRequestAsyncOption.data={app_key=10002, app_sign=a895fa, appversion=15.3.2, data={"questions_arr":[{"question_1":"1122","answer":"1111"}]}, from=10F3295010, item_id=btn_ansquestions, lang=zh, page_id=101010075181375042292561, platform=android, theme=dark}
+LinkedHashMap key: app_sign value: a895fa
+java.lang.Throwable
+	at java.util.HashMap.put(Native Method)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parseObject(DefaultJSONParser.java:451)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1385)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:97)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:88)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:147)
+	at com.sina.weibo.wboxsdk.ui.module.stream.WBXNewAbsStreamModule.checkAndTransformData(WBXNewAbsStreamModule.java:703)
+	at com.sina.weibo.wboxsdk.ui.module.stream.WBXNewAbsStreamModule.requestInternal(WBXNewAbsStreamModule.java:473)
+	at com.sina.weibo.wboxsdk.ui.module.stream.WBXNewAbsStreamModule.request(WBXNewAbsStreamModule.java:375)
+	at com.sina.weibo.wbox.module.wbstream.WBXNewWBStreamModule.request(WBXNewWBStreamModule.java:72)
+	at com.sina.weibo.wbox.module.wbstream.WBXNewWBStreamModule.request(Native Method)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.sina.weibo.wboxsdk.bridge.g.a(MethodInvoker.java:48)
+	at com.sina.weibo.wboxsdk.bridge.i.a(NativeInvokeHelper.java:82)
+	at com.sina.weibo.wboxsdk.bridge.i.a(NativeInvokeHelper.java:63)
+	at com.sina.weibo.wboxsdk.bridge.s.a(WBXModuleManager.java:120)
+	at com.sina.weibo.wboxsdk.bridge.s.a(WBXModuleManager.java:100)
+	at com.sina.weibo.wboxsdk.bridge.l.a(WBXBridgeManager.java:389)
+	at com.sina.weibo.wboxsdk.bridge.WBXScriptBridgeAdapter.callNativeModule(WBXScriptBridgeAdapter.java:93)
+	at com.sina.weibo.wboxsdk.bridge.script.WBXCommonJSBridgeInterface$CallNativeFunction.callNativeModule(WBXCommonJSBridgeInterface.java:134)
+	at com.sina.weibo.wboxsdk.bridge.script.WBXCommonJSBridgeInterface$CallNativeFunction.callNativeModule(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSEngineV8.callJS(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSV8Context.callJs(WBJSV8Context.java:55)
+	at com.sina.weibo.wboxsdk.bridge.n.execJsFunction(WBXBridgeV8.java:131)
+	at com.sina.weibo.wboxsdk.bridge.o.execJsFunction(WBXBridgeWrapper.java:133)
+	at com.sina.weibo.wboxsdk.bridge.q.b(WBXJSContextImpl.java:933)
+	at com.sina.weibo.wboxsdk.bridge.q.g(WBXJSContextImpl.java:911)
+	at com.sina.weibo.wboxsdk.bridge.q.handleMessage(WBXJSContextImpl.java:480)
+	at com.sina.weibo.wboxsdk.common.f$a.handleMessage(WBXThread.java:74)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+
+LinkedHashMap key: app_sign value: [a895fa]
+java.lang.Throwable
+	at java.util.HashMap.put(Native Method)
+	at com.sina.weibo.wboxsdk.b.m.a(WBXHttpParams.java:201)
+	at com.sina.weibo.wboxsdk.b.c.a(WBXBodyRequest.java:433)
+	at com.sina.weibo.wboxsdk.b.c.a(WBXBodyRequest.java:423)
+	at com.sina.weibo.wboxsdk.b.c.a(WBXBodyRequest.java:410)
+	at com.sina.weibo.wboxsdk.ui.module.stream.WBXNewAbsStreamModule.requestInternal(WBXNewAbsStreamModule.java:494)
+	at com.sina.weibo.wboxsdk.ui.module.stream.WBXNewAbsStreamModule.request(WBXNewAbsStreamModule.java:375)
+	at com.sina.weibo.wbox.module.wbstream.WBXNewWBStreamModule.request(WBXNewWBStreamModule.java:72)
+	at com.sina.weibo.wbox.module.wbstream.WBXNewWBStreamModule.request(Native Method)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.sina.weibo.wboxsdk.bridge.g.a(MethodInvoker.java:48)
+	at com.sina.weibo.wboxsdk.bridge.i.a(NativeInvokeHelper.java:82)
+	at com.sina.weibo.wboxsdk.bridge.i.a(NativeInvokeHelper.java:63)
+	at com.sina.weibo.wboxsdk.bridge.s.a(WBXModuleManager.java:120)
+	at com.sina.weibo.wboxsdk.bridge.s.a(WBXModuleManager.java:100)
+	at com.sina.weibo.wboxsdk.bridge.l.a(WBXBridgeManager.java:389)
+	at com.sina.weibo.wboxsdk.bridge.WBXScriptBridgeAdapter.callNativeModule(WBXScriptBridgeAdapter.java:93)
+	at com.sina.weibo.wboxsdk.bridge.script.WBXCommonJSBridgeInterface$CallNativeFunction.callNativeModule(WBXCommonJSBridgeInterface.java:134)
+	at com.sina.weibo.wboxsdk.bridge.script.WBXCommonJSBridgeInterface$CallNativeFunction.callNativeModule(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSEngineV8.callJS(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSV8Context.callJs(WBJSV8Context.java:55)
+	at com.sina.weibo.wboxsdk.bridge.n.execJsFunction(WBXBridgeV8.java:131)
+	at com.sina.weibo.wboxsdk.bridge.o.execJsFunction(WBXBridgeWrapper.java:133)
+	at com.sina.weibo.wboxsdk.bridge.q.b(WBXJSContextImpl.java:933)
+	at com.sina.weibo.wboxsdk.bridge.q.g(WBXJSContextImpl.java:911)
+	at com.sina.weibo.wboxsdk.bridge.q.handleMessage(WBXJSContextImpl.java:480)
+	at com.sina.weibo.wboxsdk.common.f$a.handleMessage(WBXThread.java:74)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+
+java.lang.Throwable
+	at com.sina.weibo.wbox.module.wbstream.WBXNewWBStreamModule.request(Native Method)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.sina.weibo.wboxsdk.bridge.g.a(MethodInvoker.java:48)
+	at com.sina.weibo.wboxsdk.bridge.i.a(NativeInvokeHelper.java:82)
+	at com.sina.weibo.wboxsdk.bridge.i.a(NativeInvokeHelper.java:63)
+	at com.sina.weibo.wboxsdk.bridge.s.a(WBXModuleManager.java:120)
+	at com.sina.weibo.wboxsdk.bridge.s.a(WBXModuleManager.java:100)
+	at com.sina.weibo.wboxsdk.bridge.l.a(WBXBridgeManager.java:389)
+	at com.sina.weibo.wboxsdk.bridge.WBXScriptBridgeAdapter.callNativeModule(WBXScriptBridgeAdapter.java:93)
+	at com.sina.weibo.wboxsdk.bridge.script.WBXCommonJSBridgeInterface$CallNativeFunction.callNativeModule(WBXCommonJSBridgeInterface.java:134)
+	at com.sina.weibo.wboxsdk.bridge.script.WBXCommonJSBridgeInterface$CallNativeFunction.callNativeModule(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSEngineV8.callJS(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSV8Context.callJs(WBJSV8Context.java:55)
+	at com.sina.weibo.wboxsdk.bridge.n.execJsFunction(WBXBridgeV8.java:131)
+	at com.sina.weibo.wboxsdk.bridge.o.execJsFunction(WBXBridgeWrapper.java:133)
+	at com.sina.weibo.wboxsdk.bridge.q.b(WBXJSContextImpl.java:933)
+	at com.sina.weibo.wboxsdk.bridge.q.g(WBXJSContextImpl.java:911)
+	at com.sina.weibo.wboxsdk.bridge.q.handleMessage(WBXJSContextImpl.java:480)
+	at com.sina.weibo.wboxsdk.common.f$a.handleMessage(WBXThread.java:74)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+
+WBXNewWBStreamModule.request result=com.sina.weibo.wboxsdk.ui.module.WBXMethodResult@187d0c7
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","toast","showToast","[{\"title\":\"所有问题回答错误\",\"icon\":\"warn\"}]"]
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","dom","pageScrollTo","[{\"selector\":\"#a1751163656693\",\"page\":\"1751163657\"}]"]
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","dom","pageScrollTo","[{\"selector\":\"#a1751163656693\",\"page\":\"1751163657\"}]"]
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","wbAnalysis","wbLogActCode","[{\"code\":4892,\"params\":{\"luicode\":10000253,\"uicode\":10001115,\"ext\":\"gid:5181375042292561\",\"uid\":\"6824589037\"}}]"]
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","wbSystemInfo","getWeiboSystemInfoSync","[]"]
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","wbstream","request_$return_value_$async","[Ljava.lang.Object;@4cda115"]
+WBXNewWBStreamModule.request is called: wBXNewStreamRequestAsyncOption.data={app_key=10002, app_sign=8bc99c, appversion=15.3.2, data={"questions_arr":[{"question_1":"1122","answer":"11111"}]}, from=10F3295010, item_id=btn_ansquestions, lang=zh, page_id=101010075181375042292561, platform=android, theme=dark}
+LinkedHashMap key: app_sign value: 8bc99c
+java.lang.Throwable
+	at java.util.HashMap.put(Native Method)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parseObject(DefaultJSONParser.java:451)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1385)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:97)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:88)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:147)
+	at com.sina.weibo.wboxsdk.ui.module.stream.WBXNewAbsStreamModule.checkAndTransformData(WBXNewAbsStreamModule.java:703)
+	at com.sina.weibo.wboxsdk.ui.module.stream.WBXNewAbsStreamModule.requestInternal(WBXNewAbsStreamModule.java:473)
+	at com.sina.weibo.wboxsdk.ui.module.stream.WBXNewAbsStreamModule.request(WBXNewAbsStreamModule.java:375)
+	at com.sina.weibo.wbox.module.wbstream.WBXNewWBStreamModule.request(WBXNewWBStreamModule.java:72)
+	at com.sina.weibo.wbox.module.wbstream.WBXNewWBStreamModule.request(Native Method)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.sina.weibo.wboxsdk.bridge.g.a(MethodInvoker.java:48)
+	at com.sina.weibo.wboxsdk.bridge.i.a(NativeInvokeHelper.java:82)
+	at com.sina.weibo.wboxsdk.bridge.i.a(NativeInvokeHelper.java:63)
+	at com.sina.weibo.wboxsdk.bridge.s.a(WBXModuleManager.java:120)
+	at com.sina.weibo.wboxsdk.bridge.s.a(WBXModuleManager.java:100)
+	at com.sina.weibo.wboxsdk.bridge.l.a(WBXBridgeManager.java:389)
+	at com.sina.weibo.wboxsdk.bridge.WBXScriptBridgeAdapter.callNativeModule(WBXScriptBridgeAdapter.java:93)
+	at com.sina.weibo.wboxsdk.bridge.script.WBXCommonJSBridgeInterface$CallNativeFunction.callNativeModule(WBXCommonJSBridgeInterface.java:134)
+	at com.sina.weibo.wboxsdk.bridge.script.WBXCommonJSBridgeInterface$CallNativeFunction.callNativeModule(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSEngineV8.callJS(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSV8Context.callJs(WBJSV8Context.java:55)
+	at com.sina.weibo.wboxsdk.bridge.n.execJsFunction(WBXBridgeV8.java:131)
+	at com.sina.weibo.wboxsdk.bridge.o.execJsFunction(WBXBridgeWrapper.java:133)
+	at com.sina.weibo.wboxsdk.bridge.q.b(WBXJSContextImpl.java:933)
+	at com.sina.weibo.wboxsdk.bridge.q.g(WBXJSContextImpl.java:911)
+	at com.sina.weibo.wboxsdk.bridge.q.handleMessage(WBXJSContextImpl.java:480)
+	at com.sina.weibo.wboxsdk.common.f$a.handleMessage(WBXThread.java:74)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+
+LinkedHashMap key: app_sign value: [8bc99c]
+java.lang.Throwable
+	at java.util.HashMap.put(Native Method)
+	at com.sina.weibo.wboxsdk.b.m.a(WBXHttpParams.java:201)
+	at com.sina.weibo.wboxsdk.b.c.a(WBXBodyRequest.java:433)
+	at com.sina.weibo.wboxsdk.b.c.a(WBXBodyRequest.java:423)
+	at com.sina.weibo.wboxsdk.b.c.a(WBXBodyRequest.java:410)
+	at com.sina.weibo.wboxsdk.ui.module.stream.WBXNewAbsStreamModule.requestInternal(WBXNewAbsStreamModule.java:494)
+	at com.sina.weibo.wboxsdk.ui.module.stream.WBXNewAbsStreamModule.request(WBXNewAbsStreamModule.java:375)
+	at com.sina.weibo.wbox.module.wbstream.WBXNewWBStreamModule.request(WBXNewWBStreamModule.java:72)
+	at com.sina.weibo.wbox.module.wbstream.WBXNewWBStreamModule.request(Native Method)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.sina.weibo.wboxsdk.bridge.g.a(MethodInvoker.java:48)
+	at com.sina.weibo.wboxsdk.bridge.i.a(NativeInvokeHelper.java:82)
+	at com.sina.weibo.wboxsdk.bridge.i.a(NativeInvokeHelper.java:63)
+	at com.sina.weibo.wboxsdk.bridge.s.a(WBXModuleManager.java:120)
+	at com.sina.weibo.wboxsdk.bridge.s.a(WBXModuleManager.java:100)
+	at com.sina.weibo.wboxsdk.bridge.l.a(WBXBridgeManager.java:389)
+	at com.sina.weibo.wboxsdk.bridge.WBXScriptBridgeAdapter.callNativeModule(WBXScriptBridgeAdapter.java:93)
+	at com.sina.weibo.wboxsdk.bridge.script.WBXCommonJSBridgeInterface$CallNativeFunction.callNativeModule(WBXCommonJSBridgeInterface.java:134)
+	at com.sina.weibo.wboxsdk.bridge.script.WBXCommonJSBridgeInterface$CallNativeFunction.callNativeModule(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSEngineV8.callJS(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSV8Context.callJs(WBJSV8Context.java:55)
+	at com.sina.weibo.wboxsdk.bridge.n.execJsFunction(WBXBridgeV8.java:131)
+	at com.sina.weibo.wboxsdk.bridge.o.execJsFunction(WBXBridgeWrapper.java:133)
+	at com.sina.weibo.wboxsdk.bridge.q.b(WBXJSContextImpl.java:933)
+	at com.sina.weibo.wboxsdk.bridge.q.g(WBXJSContextImpl.java:911)
+	at com.sina.weibo.wboxsdk.bridge.q.handleMessage(WBXJSContextImpl.java:480)
+	at com.sina.weibo.wboxsdk.common.f$a.handleMessage(WBXThread.java:74)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+
+java.lang.Throwable
+	at com.sina.weibo.wbox.module.wbstream.WBXNewWBStreamModule.request(Native Method)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.sina.weibo.wboxsdk.bridge.g.a(MethodInvoker.java:48)
+	at com.sina.weibo.wboxsdk.bridge.i.a(NativeInvokeHelper.java:82)
+	at com.sina.weibo.wboxsdk.bridge.i.a(NativeInvokeHelper.java:63)
+	at com.sina.weibo.wboxsdk.bridge.s.a(WBXModuleManager.java:120)
+	at com.sina.weibo.wboxsdk.bridge.s.a(WBXModuleManager.java:100)
+	at com.sina.weibo.wboxsdk.bridge.l.a(WBXBridgeManager.java:389)
+	at com.sina.weibo.wboxsdk.bridge.WBXScriptBridgeAdapter.callNativeModule(WBXScriptBridgeAdapter.java:93)
+	at com.sina.weibo.wboxsdk.bridge.script.WBXCommonJSBridgeInterface$CallNativeFunction.callNativeModule(WBXCommonJSBridgeInterface.java:134)
+	at com.sina.weibo.wboxsdk.bridge.script.WBXCommonJSBridgeInterface$CallNativeFunction.callNativeModule(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSEngineV8.callJS(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSV8Context.callJs(WBJSV8Context.java:55)
+	at com.sina.weibo.wboxsdk.bridge.n.execJsFunction(WBXBridgeV8.java:131)
+	at com.sina.weibo.wboxsdk.bridge.o.execJsFunction(WBXBridgeWrapper.java:133)
+	at com.sina.weibo.wboxsdk.bridge.q.b(WBXJSContextImpl.java:933)
+	at com.sina.weibo.wboxsdk.bridge.q.g(WBXJSContextImpl.java:911)
+	at com.sina.weibo.wboxsdk.bridge.q.handleMessage(WBXJSContextImpl.java:480)
+	at com.sina.weibo.wboxsdk.common.f$a.handleMessage(WBXThread.java:74)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+
+WBXNewWBStreamModule.request result=com.sina.weibo.wboxsdk.ui.module.WBXMethodResult@385a901
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","toast","showToast","[{\"title\":\"所有问题回答错误\",\"icon\":\"warn\"}]"]
+Error: expected a pointer
+    at value (frida/runtime/core.js:384)
+    at local_app_sign (C:\codes\reverse\weibo\1-put.js:67)
+    at <eval> (C:\codes\reverse\weibo\1-put.js:71)
+Error: expected a pointer
+    at value (frida/runtime/core.js:384)
+    at local_app_sign (C:\codes\reverse\weibo\1-put.js:67)
+    at <eval> (C:\codes\reverse\weibo\1-put.js:71)
+WBJSEngineV8.callJS is called: j=504186338256, strArr=callJS, objArr=WBXJSObject(2:459e8ef4-14a0-4351-8ee5-46ece239005a),WBXJSObject(3:[{"args":["1751163657","62","focus",{"_proto_":"FocusEvent","bubbles":false,"cancelable":false,"composed":true,"currentTarget":"62","detail":0,"eventPhase":2,"isTrusted":true,"target":"62","timeStamp":852381,"type":"focus"},{},{"capture":false,"passive":false}],"method":"fireEvent"}])
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:39.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:40.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=callJS, objArr=WBXJSObject(2:459e8ef4-14a0-4351-8ee5-46ece239005a),WBXJSObject(3:[{"args":["1751163657","62","keyboardheightchange",{"_proto_":"CustomEvent","bubbles":false,"cancelable":false,"composed":false,"currentTarget":"_body","detail":{"height":564},"eventPhase":2,"isTrusted":false,"target":"_body","timeStamp":852528.8999999911,"type":"keyboardheightchange"},{},{"capture":false,"passive":false}],"method":"fireEvent"}])
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:41.0)
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","dom","pageScrollTo","[{\"selector\":\"#a1751163656693\",\"page\":\"1751163657\"}]"]
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:42.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=callJS, objArr=WBXJSObject(2:459e8ef4-14a0-4351-8ee5-46ece239005a),WBXJSObject(3:[{"args":["1751163657","62","keyboardheightchange",{"_proto_":"CustomEvent","bubbles":false,"cancelable":false,"composed":false,"currentTarget":"_body","detail":{"height":282},"eventPhase":2,"isTrusted":false,"target":"_body","timeStamp":852556.599999994,"type":"keyboardheightchange"},{},{"capture":false,"passive":false}],"method":"fireEvent"}])
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:43.0)
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","dom","pageScrollTo","[{\"selector\":\"#a1751163656693\",\"page\":\"1751163657\"}]"]
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:44.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=callJS, objArr=WBXJSObject(2:459e8ef4-14a0-4351-8ee5-46ece239005a),WBXJSObject(3:[{"args":["1751163657","62","blur",{"_proto_":"FocusEvent","bubbles":false,"cancelable":false,"composed":true,"currentTarget":"62","detail":0,"eventPhase":2,"isTrusted":true,"target":"62","timeStamp":867127.599999994,"type":"blur"},{},{"capture":false,"passive":false}],"method":"fireEvent"}])
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:45.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:46.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=callJS, objArr=WBXJSObject(2:459e8ef4-14a0-4351-8ee5-46ece239005a),WBXJSObject(3:[{"args":["1751163657","62","keyboardheightchange",{"_proto_":"CustomEvent","bubbles":false,"cancelable":false,"composed":false,"currentTarget":"_body","detail":{"height":0},"eventPhase":2,"isTrusted":false,"target":"_body","timeStamp":867178.3999999911,"type":"keyboardheightchange"},{},{"capture":false,"passive":false}],"method":"fireEvent"}])
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:47.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:48.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=callJS, objArr=WBXJSObject(2:459e8ef4-14a0-4351-8ee5-46ece239005a),WBXJSObject(3:[{"args":["1751163657","88","click",{"_proto_":"MouseEvent","altKey":false,"bubbles":true,"button":0,"buttons":0,"cancelable":true,"clientX":168,"clientY":216,"composed":true,"ctrlKey":false,"currentTarget":"88","detail":1,"eventPhase":2,"isTrusted":true,"metaKey":false,"movementX":0,"movementY":0,"offsetX":154,"offsetY":40,"pageX":168,"pageY":216,"relatedTarget":"","screenX":168,"screenY":288,"shiftKey":false,"target":"88","timeStamp":870491.599999994,"type":"click","x":168,"y":216},{},{"capture":false,"passive":false}],"method":"fireEvent"}])
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","wbAnalysis","wbLogActCode","[{\"code\":4892,\"params\":{\"luicode\":10000253,\"uicode\":10001115,\"ext\":\"gid:5181375042292561\",\"uid\":\"6824589037\"}}]"]
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","wbSystemInfo","getWeiboSystemInfoSync","[]"]
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","wbstream","request_$return_value_$async","[Ljava.lang.Object;@4ea9095"]
+WBXNewWBStreamModule.request is called: wBXNewStreamRequestAsyncOption.data={app_key=10002, app_sign=8bc99c, appversion=15.3.2, data={"questions_arr":[{"question_1":"1122","answer":"11111"}]}, from=10F3295010, item_id=btn_ansquestions, lang=zh, page_id=101010075181375042292561, platform=android, theme=dark}
+LinkedHashMap key: app_sign value: 8bc99c
+java.lang.Throwable
+	at java.util.HashMap.put(Native Method)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parseObject(DefaultJSONParser.java:451)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1385)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:97)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:88)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:147)
+	at com.sina.weibo.wboxsdk.ui.module.stream.WBXNewAbsStreamModule.checkAndTransformData(WBXNewAbsStreamModule.java:703)
+	at com.sina.weibo.wboxsdk.ui.module.stream.WBXNewAbsStreamModule.requestInternal(WBXNewAbsStreamModule.java:473)
+	at com.sina.weibo.wboxsdk.ui.module.stream.WBXNewAbsStreamModule.request(WBXNewAbsStreamModule.java:375)
+	at com.sina.weibo.wbox.module.wbstream.WBXNewWBStreamModule.request(WBXNewWBStreamModule.java:72)
+	at com.sina.weibo.wbox.module.wbstream.WBXNewWBStreamModule.request(Native Method)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.sina.weibo.wboxsdk.bridge.g.a(MethodInvoker.java:48)
+	at com.sina.weibo.wboxsdk.bridge.i.a(NativeInvokeHelper.java:82)
+	at com.sina.weibo.wboxsdk.bridge.i.a(NativeInvokeHelper.java:63)
+	at com.sina.weibo.wboxsdk.bridge.s.a(WBXModuleManager.java:120)
+	at com.sina.weibo.wboxsdk.bridge.s.a(WBXModuleManager.java:100)
+	at com.sina.weibo.wboxsdk.bridge.l.a(WBXBridgeManager.java:389)
+	at com.sina.weibo.wboxsdk.bridge.WBXScriptBridgeAdapter.callNativeModule(WBXScriptBridgeAdapter.java:93)
+	at com.sina.weibo.wboxsdk.bridge.script.WBXCommonJSBridgeInterface$CallNativeFunction.callNativeModule(WBXCommonJSBridgeInterface.java:134)
+	at com.sina.weibo.wboxsdk.bridge.script.WBXCommonJSBridgeInterface$CallNativeFunction.callNativeModule(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSEngineV8.callJS(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSEngineV8.callJS(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSV8Context.callJs(WBJSV8Context.java:55)
+	at com.sina.weibo.wboxsdk.bridge.n.execJsFunction(WBXBridgeV8.java:131)
+	at com.sina.weibo.wboxsdk.bridge.o.execJsFunction(WBXBridgeWrapper.java:133)
+	at com.sina.weibo.wboxsdk.bridge.q.b(WBXJSContextImpl.java:933)
+	at com.sina.weibo.wboxsdk.bridge.q.g(WBXJSContextImpl.java:911)
+	at com.sina.weibo.wboxsdk.bridge.q.handleMessage(WBXJSContextImpl.java:480)
+	at com.sina.weibo.wboxsdk.common.f$a.handleMessage(WBXThread.java:74)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+
+LinkedHashMap key: app_sign value: [8bc99c]
+java.lang.Throwable
+	at java.util.HashMap.put(Native Method)
+	at com.sina.weibo.wboxsdk.b.m.a(WBXHttpParams.java:201)
+	at com.sina.weibo.wboxsdk.b.c.a(WBXBodyRequest.java:433)
+	at com.sina.weibo.wboxsdk.b.c.a(WBXBodyRequest.java:423)
+	at com.sina.weibo.wboxsdk.b.c.a(WBXBodyRequest.java:410)
+	at com.sina.weibo.wboxsdk.ui.module.stream.WBXNewAbsStreamModule.requestInternal(WBXNewAbsStreamModule.java:494)
+	at com.sina.weibo.wboxsdk.ui.module.stream.WBXNewAbsStreamModule.request(WBXNewAbsStreamModule.java:375)
+	at com.sina.weibo.wbox.module.wbstream.WBXNewWBStreamModule.request(WBXNewWBStreamModule.java:72)
+	at com.sina.weibo.wbox.module.wbstream.WBXNewWBStreamModule.request(Native Method)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.sina.weibo.wboxsdk.bridge.g.a(MethodInvoker.java:48)
+	at com.sina.weibo.wboxsdk.bridge.i.a(NativeInvokeHelper.java:82)
+	at com.sina.weibo.wboxsdk.bridge.i.a(NativeInvokeHelper.java:63)
+	at com.sina.weibo.wboxsdk.bridge.s.a(WBXModuleManager.java:120)
+	at com.sina.weibo.wboxsdk.bridge.s.a(WBXModuleManager.java:100)
+	at com.sina.weibo.wboxsdk.bridge.l.a(WBXBridgeManager.java:389)
+	at com.sina.weibo.wboxsdk.bridge.WBXScriptBridgeAdapter.callNativeModule(WBXScriptBridgeAdapter.java:93)
+	at com.sina.weibo.wboxsdk.bridge.script.WBXCommonJSBridgeInterface$CallNativeFunction.callNativeModule(WBXCommonJSBridgeInterface.java:134)
+	at com.sina.weibo.wboxsdk.bridge.script.WBXCommonJSBridgeInterface$CallNativeFunction.callNativeModule(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSEngineV8.callJS(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSEngineV8.callJS(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSV8Context.callJs(WBJSV8Context.java:55)
+	at com.sina.weibo.wboxsdk.bridge.n.execJsFunction(WBXBridgeV8.java:131)
+	at com.sina.weibo.wboxsdk.bridge.o.execJsFunction(WBXBridgeWrapper.java:133)
+	at com.sina.weibo.wboxsdk.bridge.q.b(WBXJSContextImpl.java:933)
+	at com.sina.weibo.wboxsdk.bridge.q.g(WBXJSContextImpl.java:911)
+	at com.sina.weibo.wboxsdk.bridge.q.handleMessage(WBXJSContextImpl.java:480)
+	at com.sina.weibo.wboxsdk.common.f$a.handleMessage(WBXThread.java:74)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+
+WBXNewWBStreamModule.request result=com.sina.weibo.wboxsdk.ui.module.WBXMethodResult@6edf276
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:49.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:50.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=callJS, objArr=WBXJSObject(2:459e8ef4-14a0-4351-8ee5-46ece239005a),WBXJSObject(5:[{args=[12, {data={"api_error":"","code":1,"data":[],"error":"所有问题回答错误","error_code":10004}, header={date=Sun, 29 Jun 2025 02:35:25 GMT, server=SHANHAI-SERVER, proc_node=qbird-web-6b855c6564-gm2kr, vary=Accept-Encoding, lb=111.13.225.75, x-log-uid=6824589037, ssl_node=msre-10-185-66-89.yf.intra.weibo.cn, x-powered-by=PHP/7.2.1, content-type=text/html; charset=UTF-8}, statusCode=200}, false, null], method=callback}])
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","toast","showToast","[{\"title\":\"所有问题回答错误\",\"icon\":\"warn\"}]"]
+WBJSEngineV8.callJS result=null
+Error: java.lang.ClassNotFoundException: Didn't find class "com.sina.weibo.wboxsdk.ui.module.stream.WBXNewStreamRequestAsyncOption" on path: DexPathList[[zip file "/data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/base.apk"],nativeLibraryDirectories=[/data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64, /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64]]
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/env.js:124)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/class-factory.js:502)
+    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:945)
+    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:950)
+    at _make (frida/node_modules/frida-java-bridge/lib/class-factory.js:165)
+    at use (frida/node_modules/frida-java-bridge/lib/class-factory.js:62)
+    at use (frida/node_modules/frida-java-bridge/index.js:258)
+    at <anonymous> (C:\codes\reverse\weibo\1-put.js:68)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/vm.js:12)
+    at perform (frida/node_modules/frida-java-bridge/index.js:205)
+    at local_app_sign (C:\codes\reverse\weibo\1-put.js:92)
+    at <eval> (C:\codes\reverse\weibo\1-put.js:96)
+Error: java.lang.ClassNotFoundException: Didn't find class "com.sina.weibo.wboxsdk.ui.module.stream.WBXNewStreamRequestAsyncOption" on path: DexPathList[[zip file "/data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/base.apk"],nativeLibraryDirectories=[/data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64, /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64]]
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/env.js:124)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/class-factory.js:502)
+    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:945)
+    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:950)
+    at _make (frida/node_modules/frida-java-bridge/lib/class-factory.js:165)
+    at use (frida/node_modules/frida-java-bridge/lib/class-factory.js:62)
+    at use (frida/node_modules/frida-java-bridge/index.js:258)
+    at <anonymous> (C:\codes\reverse\weibo\1-put.js:68)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/vm.js:12)
+    at perform (frida/node_modules/frida-java-bridge/index.js:205)
+    at local_app_sign (C:\codes\reverse\weibo\1-put.js:92)
+    at <eval> (C:\codes\reverse\weibo\1-put.js:96)
+Error: java.lang.ClassNotFoundException: Didn't find class "com.sina.weibo.wboxsdk.ui.module.stream.options" on path: DexPathList[[zip file "/data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/base.apk"],nativeLibraryDirectories=[/data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64, /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64]]
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/env.js:124)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/class-factory.js:502)
+    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:945)
+    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:950)
+    at _make (frida/node_modules/frida-java-bridge/lib/class-factory.js:165)
+    at use (frida/node_modules/frida-java-bridge/lib/class-factory.js:62)
+    at use (frida/node_modules/frida-java-bridge/index.js:258)
+    at <anonymous> (C:\codes\reverse\weibo\1-put.js:69)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/vm.js:12)
+    at perform (frida/node_modules/frida-java-bridge/index.js:205)
+    at local_app_sign (C:\codes\reverse\weibo\1-put.js:71)
+    at <eval> (C:\codes\reverse\weibo\1-put.js:75)
+Error: java.lang.ClassNotFoundException: Didn't find class "com.sina.weibo.wboxsdk.ui.module.stream.options" on path: DexPathList[[zip file "/data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/base.apk"],nativeLibraryDirectories=[/data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/lib/arm64, /data/app/~~Sv_cmTAjp46NMm-3e1OVLQ==/com.sina.weibo-Amw82C7KE1WiAhKMo25b1w==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64]]
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/env.js:124)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/class-factory.js:502)
+    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:945)
+    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:950)
+    at _make (frida/node_modules/frida-java-bridge/lib/class-factory.js:165)
+    at use (frida/node_modules/frida-java-bridge/lib/class-factory.js:62)
+    at use (frida/node_modules/frida-java-bridge/index.js:258)
+    at <anonymous> (C:\codes\reverse\weibo\1-put.js:69)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/vm.js:12)
+    at perform (frida/node_modules/frida-java-bridge/index.js:205)
+    at local_app_sign (C:\codes\reverse\weibo\1-put.js:71)
+    at <eval> (C:\codes\reverse\weibo\1-put.js:75)
+Error: could not parse 'C:\codes\reverse\weibo\1-put.js' line 1: unexpected token in expression: '}'
+    at <anonymous> (/frida/repl-2.js:1)
+Error: could not parse 'C:\codes\reverse\weibo\1-put.js' line 1: unexpected token in expression: '}'
+    at <anonymous> (/frida/repl-2.js:1)
+TypeError: cannot set property 'implementation' of undefined
+    at <anonymous> (C:\codes\reverse\weibo\1-put.js:73)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/vm.js:12)
+    at perform (frida/node_modules/frida-java-bridge/index.js:205)
+    at local_app_sign (C:\codes\reverse\weibo\1-put.js:74)
+    at <eval> (C:\codes\reverse\weibo\1-put.js:78)
+TypeError: cannot set property 'implementation' of undefined
+    at <anonymous> (C:\codes\reverse\weibo\1-put.js:73)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/vm.js:12)
+    at perform (frida/node_modules/frida-java-bridge/index.js:205)
+    at local_app_sign (C:\codes\reverse\weibo\1-put.js:74)
+    at <eval> (C:\codes\reverse\weibo\1-put.js:78)
+WBJSEngineV8.callJS is called: j=504186338256, strArr=callJS, objArr=WBXJSObject(2:459e8ef4-14a0-4351-8ee5-46ece239005a),WBXJSObject(3:[{"args":["1751163657","62","focus",{"_proto_":"FocusEvent","bubbles":false,"cancelable":false,"composed":true,"currentTarget":"62","detail":0,"eventPhase":2,"isTrusted":true,"target":"62","timeStamp":1152770.599999994,"type":"focus"},{},{"capture":false,"passive":false}],"method":"fireEvent"}])
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:51.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:52.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=callJS, objArr=WBXJSObject(2:459e8ef4-14a0-4351-8ee5-46ece239005a),WBXJSObject(3:[{"args":["1751163657","62","keyboardheightchange",{"_proto_":"CustomEvent","bubbles":false,"cancelable":false,"composed":false,"currentTarget":"_body","detail":{"height":282},"eventPhase":2,"isTrusted":false,"target":"_body","timeStamp":1152914,"type":"keyboardheightchange"},{},{"capture":false,"passive":false}],"method":"fireEvent"}])
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:53.0)
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","dom","pageScrollTo","[{\"selector\":\"#a1751163656693\",\"page\":\"1751163657\"}]"]
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:54.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=callJS, objArr=WBXJSObject(2:459e8ef4-14a0-4351-8ee5-46ece239005a),WBXJSObject(3:[{"args":["1751163657","62","input",{"_proto_":"InputEvent","bubbles":false,"cancelable":false,"composed":false,"currentTarget":"62","detail":{"cursor":4,"value":"1111"},"eventPhase":2,"isTrusted":false,"target":"62","timeStamp":1156847.299999997,"type":"input"},{"$value":"1111"},{"capture":false,"passive":false}],"method":"fireEvent"}])
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:55.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:56.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=callJS, objArr=WBXJSObject(2:459e8ef4-14a0-4351-8ee5-46ece239005a),WBXJSObject(3:[{"args":["1751163657","62","blur",{"_proto_":"FocusEvent","bubbles":false,"cancelable":false,"composed":true,"currentTarget":"62","detail":0,"eventPhase":2,"isTrusted":true,"target":"62","timeStamp":1160913.699999988,"type":"blur"},{},{"capture":false,"passive":false}],"method":"fireEvent"}])
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:57.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:58.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=callJS, objArr=WBXJSObject(2:459e8ef4-14a0-4351-8ee5-46ece239005a),WBXJSObject(3:[{"args":["1751163657","88","click",{"_proto_":"MouseEvent","altKey":false,"bubbles":true,"button":0,"buttons":0,"cancelable":true,"clientX":188,"clientY":194,"composed":true,"ctrlKey":false,"currentTarget":"88","detail":1,"eventPhase":3,"isTrusted":true,"metaKey":false,"movementX":0,"movementY":0,"offsetX":0,"offsetY":10,"pageX":188,"pageY":194,"relatedTarget":"","screenX":188,"screenY":266,"shiftKey":false,"target":"92","timeStamp":1160901.599999994,"type":"click","x":188,"y":194},{},{"capture":false,"passive":false}],"method":"fireEvent"}])
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","wbAnalysis","wbLogActCode","[{\"code\":4892,\"params\":{\"luicode\":10000253,\"uicode\":10001115,\"ext\":\"gid:5181375042292561\",\"uid\":\"6824589037\"}}]"]
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","wbSystemInfo","getWeiboSystemInfoSync","[]"]
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","wbstream","request_$return_value_$async","[Ljava.lang.Object;@4999c7"]
+WBXNewWBStreamModule.request is called: wBXNewStreamRequestAsyncOption.data={app_key=10002, app_sign=a895fa, appversion=15.3.2, data={"questions_arr":[{"question_1":"1122","answer":"1111"}]}, from=10F3295010, item_id=btn_ansquestions, lang=zh, page_id=101010075181375042292561, platform=android, theme=dark}
+LinkedHashMap key: app_sign value: a895fa
+java.lang.Throwable
+	at java.util.HashMap.put(Native Method)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parseObject(DefaultJSONParser.java:451)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1385)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:97)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:88)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:147)
+	at com.sina.weibo.wboxsdk.ui.module.stream.WBXNewAbsStreamModule.checkAndTransformData(WBXNewAbsStreamModule.java:703)
+	at com.sina.weibo.wboxsdk.ui.module.stream.WBXNewAbsStreamModule.requestInternal(WBXNewAbsStreamModule.java:473)
+	at com.sina.weibo.wboxsdk.ui.module.stream.WBXNewAbsStreamModule.request(WBXNewAbsStreamModule.java:375)
+	at com.sina.weibo.wbox.module.wbstream.WBXNewWBStreamModule.request(WBXNewWBStreamModule.java:72)
+	at com.sina.weibo.wbox.module.wbstream.WBXNewWBStreamModule.request(Native Method)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.sina.weibo.wboxsdk.bridge.g.a(MethodInvoker.java:48)
+	at com.sina.weibo.wboxsdk.bridge.i.a(NativeInvokeHelper.java:82)
+	at com.sina.weibo.wboxsdk.bridge.i.a(NativeInvokeHelper.java:63)
+	at com.sina.weibo.wboxsdk.bridge.s.a(WBXModuleManager.java:120)
+	at com.sina.weibo.wboxsdk.bridge.s.a(WBXModuleManager.java:100)
+	at com.sina.weibo.wboxsdk.bridge.l.a(WBXBridgeManager.java:389)
+	at com.sina.weibo.wboxsdk.bridge.WBXScriptBridgeAdapter.callNativeModule(WBXScriptBridgeAdapter.java:93)
+	at com.sina.weibo.wboxsdk.bridge.script.WBXCommonJSBridgeInterface$CallNativeFunction.callNativeModule(WBXCommonJSBridgeInterface.java:134)
+	at com.sina.weibo.wboxsdk.bridge.script.WBXCommonJSBridgeInterface$CallNativeFunction.callNativeModule(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSEngineV8.callJS(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSEngineV8.callJS(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSV8Context.callJs(WBJSV8Context.java:55)
+	at com.sina.weibo.wboxsdk.bridge.n.execJsFunction(WBXBridgeV8.java:131)
+	at com.sina.weibo.wboxsdk.bridge.o.execJsFunction(WBXBridgeWrapper.java:133)
+	at com.sina.weibo.wboxsdk.bridge.q.b(WBXJSContextImpl.java:933)
+	at com.sina.weibo.wboxsdk.bridge.q.g(WBXJSContextImpl.java:911)
+	at com.sina.weibo.wboxsdk.bridge.q.handleMessage(WBXJSContextImpl.java:480)
+	at com.sina.weibo.wboxsdk.common.f$a.handleMessage(WBXThread.java:74)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+
+LinkedHashMap key: app_sign value: [a895fa]
+java.lang.Throwable
+	at java.util.HashMap.put(Native Method)
+	at com.sina.weibo.wboxsdk.b.m.a(WBXHttpParams.java:201)
+	at com.sina.weibo.wboxsdk.b.c.a(WBXBodyRequest.java:433)
+	at com.sina.weibo.wboxsdk.b.c.a(WBXBodyRequest.java:423)
+	at com.sina.weibo.wboxsdk.b.c.a(WBXBodyRequest.java:410)
+	at com.sina.weibo.wboxsdk.ui.module.stream.WBXNewAbsStreamModule.requestInternal(WBXNewAbsStreamModule.java:494)
+	at com.sina.weibo.wboxsdk.ui.module.stream.WBXNewAbsStreamModule.request(WBXNewAbsStreamModule.java:375)
+	at com.sina.weibo.wbox.module.wbstream.WBXNewWBStreamModule.request(WBXNewWBStreamModule.java:72)
+	at com.sina.weibo.wbox.module.wbstream.WBXNewWBStreamModule.request(Native Method)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.sina.weibo.wboxsdk.bridge.g.a(MethodInvoker.java:48)
+	at com.sina.weibo.wboxsdk.bridge.i.a(NativeInvokeHelper.java:82)
+	at com.sina.weibo.wboxsdk.bridge.i.a(NativeInvokeHelper.java:63)
+	at com.sina.weibo.wboxsdk.bridge.s.a(WBXModuleManager.java:120)
+	at com.sina.weibo.wboxsdk.bridge.s.a(WBXModuleManager.java:100)
+	at com.sina.weibo.wboxsdk.bridge.l.a(WBXBridgeManager.java:389)
+	at com.sina.weibo.wboxsdk.bridge.WBXScriptBridgeAdapter.callNativeModule(WBXScriptBridgeAdapter.java:93)
+	at com.sina.weibo.wboxsdk.bridge.script.WBXCommonJSBridgeInterface$CallNativeFunction.callNativeModule(WBXCommonJSBridgeInterface.java:134)
+	at com.sina.weibo.wboxsdk.bridge.script.WBXCommonJSBridgeInterface$CallNativeFunction.callNativeModule(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSEngineV8.callJS(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSEngineV8.callJS(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSV8Context.callJs(WBJSV8Context.java:55)
+	at com.sina.weibo.wboxsdk.bridge.n.execJsFunction(WBXBridgeV8.java:131)
+	at com.sina.weibo.wboxsdk.bridge.o.execJsFunction(WBXBridgeWrapper.java:133)
+	at com.sina.weibo.wboxsdk.bridge.q.b(WBXJSContextImpl.java:933)
+	at com.sina.weibo.wboxsdk.bridge.q.g(WBXJSContextImpl.java:911)
+	at com.sina.weibo.wboxsdk.bridge.q.handleMessage(WBXJSContextImpl.java:480)
+	at com.sina.weibo.wboxsdk.common.f$a.handleMessage(WBXThread.java:74)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+
+WBXNewWBStreamModule.request result=com.sina.weibo.wboxsdk.ui.module.WBXMethodResult@2be8de
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:59.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=callJS, objArr=WBXJSObject(2:459e8ef4-14a0-4351-8ee5-46ece239005a),WBXJSObject(3:[{"args":["1751163657","62","keyboardheightchange",{"_proto_":"CustomEvent","bubbles":false,"cancelable":false,"composed":false,"currentTarget":"_body","detail":{"height":0},"eventPhase":2,"isTrusted":false,"target":"_body","timeStamp":1160981,"type":"keyboardheightchange"},{},{"capture":false,"passive":false}],"method":"fireEvent"}])
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:60.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:61.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:62.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=callJS, objArr=WBXJSObject(2:459e8ef4-14a0-4351-8ee5-46ece239005a),WBXJSObject(5:[{args=[14, {data={"api_error":"","code":1,"data":[],"error":"所有问题回答错误","error_code":10004}, header={date=Sun, 29 Jun 2025 02:40:35 GMT, server=SHANHAI-SERVER, proc_node=qbird-web-6b855c6564-jhttg, vary=Accept-Encoding, lb=111.13.134.131, x-log-uid=6824589037, ssl_node=mapi-10-54-7-21.hj4.intra.weibo.cn, x-powered-by=PHP/7.2.1, content-type=text/html; charset=UTF-8}, statusCode=200}, false, null], method=callback}])
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","toast","showToast","[{\"title\":\"所有问题回答错误\",\"icon\":\"warn\"}]"]
+WBJSEngineV8.callJS result=null
+TypeError: cannot set property 'implementation' of undefined
+    at <anonymous> (C:\codes\reverse\weibo\1-put.js:73)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/vm.js:12)
+    at perform (frida/node_modules/frida-java-bridge/index.js:205)
+    at local_app_sign (C:\codes\reverse\weibo\1-put.js:74)
+    at <eval> (C:\codes\reverse\weibo\1-put.js:78)
+TypeError: cannot set property 'implementation' of undefined
+    at <anonymous> (C:\codes\reverse\weibo\1-put.js:73)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/vm.js:12)
+    at perform (frida/node_modules/frida-java-bridge/index.js:205)
+    at local_app_sign (C:\codes\reverse\weibo\1-put.js:74)
+    at <eval> (C:\codes\reverse\weibo\1-put.js:78)
+TypeError: not an object
+    at defineProperty (native)
+    at <anonymous> (C:\codes\reverse\weibo\1-put.js:83)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/vm.js:12)
+    at perform (frida/node_modules/frida-java-bridge/index.js:205)
+    at local_app_sign (C:\codes\reverse\weibo\1-put.js:84)
+    at <eval> (C:\codes\reverse\weibo\1-put.js:88)
+TypeError: not an object
+    at defineProperty (native)
+    at <anonymous> (C:\codes\reverse\weibo\1-put.js:83)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/vm.js:12)
+    at perform (frida/node_modules/frida-java-bridge/index.js:205)
+    at local_app_sign (C:\codes\reverse\weibo\1-put.js:84)
+    at <eval> (C:\codes\reverse\weibo\1-put.js:88)
+TypeError: not an object
+    at defineProperty (native)
+    at <anonymous> (C:\codes\reverse\weibo\1-put.js:83)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/vm.js:12)
+    at perform (frida/node_modules/frida-java-bridge/index.js:205)
+    at local_app_sign (C:\codes\reverse\weibo\1-put.js:84)
+    at <eval> (C:\codes\reverse\weibo\1-put.js:88)
+TypeError: not an object
+    at defineProperty (native)
+    at <anonymous> (C:\codes\reverse\weibo\1-put.js:83)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/vm.js:12)
+    at perform (frida/node_modules/frida-java-bridge/index.js:205)
+    at local_app_sign (C:\codes\reverse\weibo\1-put.js:84)
+    at <eval> (C:\codes\reverse\weibo\1-put.js:88)
+WBJSEngineV8.callJS is called: j=504186338256, strArr=callJS, objArr=WBXJSObject(2:459e8ef4-14a0-4351-8ee5-46ece239005a),WBXJSObject(3:[{"args":["1751163657","62","focus",{"_proto_":"FocusEvent","bubbles":false,"cancelable":false,"composed":true,"currentTarget":"62","detail":0,"eventPhase":2,"isTrusted":true,"target":"62","timeStamp":1320880,"type":"focus"},{},{"capture":false,"passive":false}],"method":"fireEvent"}])
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:63.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:64.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=callJS, objArr=WBXJSObject(2:459e8ef4-14a0-4351-8ee5-46ece239005a),WBXJSObject(3:[{"args":["1751163657","62","keyboardheightchange",{"_proto_":"CustomEvent","bubbles":false,"cancelable":false,"composed":false,"currentTarget":"_body","detail":{"height":282},"eventPhase":2,"isTrusted":false,"target":"_body","timeStamp":1321025.699999988,"type":"keyboardheightchange"},{},{"capture":false,"passive":false}],"method":"fireEvent"}])
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:65.0)
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","dom","pageScrollTo","[{\"selector\":\"#a1751163656693\",\"page\":\"1751163657\"}]"]
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:66.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=callJS, objArr=WBXJSObject(2:459e8ef4-14a0-4351-8ee5-46ece239005a),WBXJSObject(3:[{"args":["1751163657","62","blur",{"_proto_":"FocusEvent","bubbles":false,"cancelable":false,"composed":true,"currentTarget":"62","detail":0,"eventPhase":2,"isTrusted":true,"target":"62","timeStamp":1324347.299999997,"type":"blur"},{},{"capture":false,"passive":false}],"method":"fireEvent"}])
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:67.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:68.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=callJS, objArr=WBXJSObject(2:459e8ef4-14a0-4351-8ee5-46ece239005a),WBXJSObject(3:[{"args":["1751163657","62","keyboardheightchange",{"_proto_":"CustomEvent","bubbles":false,"cancelable":false,"composed":false,"currentTarget":"_body","detail":{"height":0},"eventPhase":2,"isTrusted":false,"target":"_body","timeStamp":1324427.5,"type":"keyboardheightchange"},{},{"capture":false,"passive":false}],"method":"fireEvent"}])
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:69.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:70.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=callJS, objArr=WBXJSObject(2:459e8ef4-14a0-4351-8ee5-46ece239005a),WBXJSObject(3:[{"args":["1751163657","62","focus",{"_proto_":"FocusEvent","bubbles":false,"cancelable":false,"composed":true,"currentTarget":"62","detail":0,"eventPhase":2,"isTrusted":true,"target":"62","timeStamp":1325126.699999988,"type":"focus"},{},{"capture":false,"passive":false}],"method":"fireEvent"}])
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:71.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:72.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=callJS, objArr=WBXJSObject(2:459e8ef4-14a0-4351-8ee5-46ece239005a),WBXJSObject(3:[{"args":["1751163657","62","input",{"_proto_":"InputEvent","bubbles":false,"cancelable":false,"composed":false,"currentTarget":"62","detail":{"cursor":5,"value":"11111"},"eventPhase":2,"isTrusted":false,"target":"62","timeStamp":1325242.599999994,"type":"input"},{"$value":"11111"},{"capture":false,"passive":false}],"method":"fireEvent"}])
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:73.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:74.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=callJS, objArr=WBXJSObject(2:459e8ef4-14a0-4351-8ee5-46ece239005a),WBXJSObject(3:[{"args":["1751163657","62","keyboardheightchange",{"_proto_":"CustomEvent","bubbles":false,"cancelable":false,"composed":false,"currentTarget":"_body","detail":{"height":564},"eventPhase":2,"isTrusted":false,"target":"_body","timeStamp":1325264.5,"type":"keyboardheightchange"},{},{"capture":false,"passive":false}],"method":"fireEvent"}])
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:75.0)
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","dom","pageScrollTo","[{\"selector\":\"#a1751163656693\",\"page\":\"1751163657\"}]"]
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:76.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=callJS, objArr=WBXJSObject(2:459e8ef4-14a0-4351-8ee5-46ece239005a),WBXJSObject(3:[{"args":["1751163657","62","keyboardheightchange",{"_proto_":"CustomEvent","bubbles":false,"cancelable":false,"composed":false,"currentTarget":"_body","detail":{"height":282},"eventPhase":2,"isTrusted":false,"target":"_body","timeStamp":1325290.199999988,"type":"keyboardheightchange"},{},{"capture":false,"passive":false}],"method":"fireEvent"}])
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:77.0)
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","dom","pageScrollTo","[{\"selector\":\"#a1751163656693\",\"page\":\"1751163657\"}]"]
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:78.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=callJS, objArr=WBXJSObject(2:459e8ef4-14a0-4351-8ee5-46ece239005a),WBXJSObject(3:[{"args":["1751163657","62","blur",{"_proto_":"FocusEvent","bubbles":false,"cancelable":false,"composed":true,"currentTarget":"62","detail":0,"eventPhase":2,"isTrusted":true,"target":"62","timeStamp":1327792.299999997,"type":"blur"},{},{"capture":false,"passive":false}],"method":"fireEvent"}])
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:79.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:80.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=callJS, objArr=WBXJSObject(2:459e8ef4-14a0-4351-8ee5-46ece239005a),WBXJSObject(3:[{"args":["1751163657","88","click",{"_proto_":"MouseEvent","altKey":false,"bubbles":true,"button":0,"buttons":0,"cancelable":true,"clientX":208,"clientY":186,"composed":true,"ctrlKey":false,"currentTarget":"88","detail":1,"eventPhase":3,"isTrusted":true,"metaKey":false,"movementX":0,"movementY":0,"offsetX":20,"offsetY":2,"pageX":208,"pageY":186,"relatedTarget":"","screenX":208,"screenY":258,"shiftKey":false,"target":"92","timeStamp":1327786.599999994,"type":"click","x":208,"y":186},{},{"capture":false,"passive":false}],"method":"fireEvent"}])
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","wbAnalysis","wbLogActCode","[{\"code\":4892,\"params\":{\"luicode\":10000253,\"uicode\":10001115,\"ext\":\"gid:5181375042292561\",\"uid\":\"6824589037\"}}]"]
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","wbSystemInfo","getWeiboSystemInfoSync","[]"]
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","wbstream","request_$return_value_$async","[Ljava.lang.Object;@e59fe3c"]
+WBXNewWBStreamModule.request is called: wBXNewStreamRequestAsyncOption.data={app_key=10002, app_sign=8bc99c, appversion=15.3.2, data={"questions_arr":[{"question_1":"1122","answer":"11111"}]}, from=10F3295010, item_id=btn_ansquestions, lang=zh, page_id=101010075181375042292561, platform=android, theme=dark}
+LinkedHashMap key: app_sign value: 8bc99c
+java.lang.Throwable
+	at java.util.HashMap.put(Native Method)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parseObject(DefaultJSONParser.java:451)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1385)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:97)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:88)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:147)
+	at com.sina.weibo.wboxsdk.ui.module.stream.WBXNewAbsStreamModule.checkAndTransformData(WBXNewAbsStreamModule.java:703)
+	at com.sina.weibo.wboxsdk.ui.module.stream.WBXNewAbsStreamModule.requestInternal(WBXNewAbsStreamModule.java:473)
+	at com.sina.weibo.wboxsdk.ui.module.stream.WBXNewAbsStreamModule.request(WBXNewAbsStreamModule.java:375)
+	at com.sina.weibo.wbox.module.wbstream.WBXNewWBStreamModule.request(WBXNewWBStreamModule.java:72)
+	at com.sina.weibo.wbox.module.wbstream.WBXNewWBStreamModule.request(Native Method)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.sina.weibo.wboxsdk.bridge.g.a(MethodInvoker.java:48)
+	at com.sina.weibo.wboxsdk.bridge.i.a(NativeInvokeHelper.java:82)
+	at com.sina.weibo.wboxsdk.bridge.i.a(NativeInvokeHelper.java:63)
+	at com.sina.weibo.wboxsdk.bridge.s.a(WBXModuleManager.java:120)
+	at com.sina.weibo.wboxsdk.bridge.s.a(WBXModuleManager.java:100)
+	at com.sina.weibo.wboxsdk.bridge.l.a(WBXBridgeManager.java:389)
+	at com.sina.weibo.wboxsdk.bridge.WBXScriptBridgeAdapter.callNativeModule(WBXScriptBridgeAdapter.java:93)
+	at com.sina.weibo.wboxsdk.bridge.script.WBXCommonJSBridgeInterface$CallNativeFunction.callNativeModule(WBXCommonJSBridgeInterface.java:134)
+	at com.sina.weibo.wboxsdk.bridge.script.WBXCommonJSBridgeInterface$CallNativeFunction.callNativeModule(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSEngineV8.callJS(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSEngineV8.callJS(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSV8Context.callJs(WBJSV8Context.java:55)
+	at com.sina.weibo.wboxsdk.bridge.n.execJsFunction(WBXBridgeV8.java:131)
+	at com.sina.weibo.wboxsdk.bridge.o.execJsFunction(WBXBridgeWrapper.java:133)
+	at com.sina.weibo.wboxsdk.bridge.q.b(WBXJSContextImpl.java:933)
+	at com.sina.weibo.wboxsdk.bridge.q.g(WBXJSContextImpl.java:911)
+	at com.sina.weibo.wboxsdk.bridge.q.handleMessage(WBXJSContextImpl.java:480)
+	at com.sina.weibo.wboxsdk.common.f$a.handleMessage(WBXThread.java:74)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+
+LinkedHashMap key: app_sign value: [8bc99c]
+java.lang.Throwable
+	at java.util.HashMap.put(Native Method)
+	at com.sina.weibo.wboxsdk.b.m.a(WBXHttpParams.java:201)
+	at com.sina.weibo.wboxsdk.b.c.a(WBXBodyRequest.java:433)
+	at com.sina.weibo.wboxsdk.b.c.a(WBXBodyRequest.java:423)
+	at com.sina.weibo.wboxsdk.b.c.a(WBXBodyRequest.java:410)
+	at com.sina.weibo.wboxsdk.ui.module.stream.WBXNewAbsStreamModule.requestInternal(WBXNewAbsStreamModule.java:494)
+	at com.sina.weibo.wboxsdk.ui.module.stream.WBXNewAbsStreamModule.request(WBXNewAbsStreamModule.java:375)
+	at com.sina.weibo.wbox.module.wbstream.WBXNewWBStreamModule.request(WBXNewWBStreamModule.java:72)
+	at com.sina.weibo.wbox.module.wbstream.WBXNewWBStreamModule.request(Native Method)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.sina.weibo.wboxsdk.bridge.g.a(MethodInvoker.java:48)
+	at com.sina.weibo.wboxsdk.bridge.i.a(NativeInvokeHelper.java:82)
+	at com.sina.weibo.wboxsdk.bridge.i.a(NativeInvokeHelper.java:63)
+	at com.sina.weibo.wboxsdk.bridge.s.a(WBXModuleManager.java:120)
+	at com.sina.weibo.wboxsdk.bridge.s.a(WBXModuleManager.java:100)
+	at com.sina.weibo.wboxsdk.bridge.l.a(WBXBridgeManager.java:389)
+	at com.sina.weibo.wboxsdk.bridge.WBXScriptBridgeAdapter.callNativeModule(WBXScriptBridgeAdapter.java:93)
+	at com.sina.weibo.wboxsdk.bridge.script.WBXCommonJSBridgeInterface$CallNativeFunction.callNativeModule(WBXCommonJSBridgeInterface.java:134)
+	at com.sina.weibo.wboxsdk.bridge.script.WBXCommonJSBridgeInterface$CallNativeFunction.callNativeModule(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSEngineV8.callJS(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSEngineV8.callJS(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSV8Context.callJs(WBJSV8Context.java:55)
+	at com.sina.weibo.wboxsdk.bridge.n.execJsFunction(WBXBridgeV8.java:131)
+	at com.sina.weibo.wboxsdk.bridge.o.execJsFunction(WBXBridgeWrapper.java:133)
+	at com.sina.weibo.wboxsdk.bridge.q.b(WBXJSContextImpl.java:933)
+	at com.sina.weibo.wboxsdk.bridge.q.g(WBXJSContextImpl.java:911)
+	at com.sina.weibo.wboxsdk.bridge.q.handleMessage(WBXJSContextImpl.java:480)
+	at com.sina.weibo.wboxsdk.common.f$a.handleMessage(WBXThread.java:74)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+
+WBXNewWBStreamModule.request result=com.sina.weibo.wboxsdk.ui.module.WBXMethodResult@590b41
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:81.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=callJS, objArr=WBXJSObject(2:459e8ef4-14a0-4351-8ee5-46ece239005a),WBXJSObject(3:[{"args":["1751163657","62","keyboardheightchange",{"_proto_":"CustomEvent","bubbles":false,"cancelable":false,"composed":false,"currentTarget":"_body","detail":{"height":0},"eventPhase":2,"isTrusted":false,"target":"_body","timeStamp":1327853.799999997,"type":"keyboardheightchange"},{},{"capture":false,"passive":false}],"method":"fireEvent"}])
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:82.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:83.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:84.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=callJS, objArr=WBXJSObject(2:459e8ef4-14a0-4351-8ee5-46ece239005a),WBXJSObject(5:[{args=[16, {data={"api_error":"","code":1,"data":[],"error":"所有问题回答错误","error_code":10004}, header={date=Sun, 29 Jun 2025 02:43:22 GMT, server=SHANHAI-SERVER, proc_node=qbird-web-8f7dbdccf-xk7dn, vary=Accept-Encoding, lb=111.13.134.131, x-log-uid=6824589037, ssl_node=mapi-10-54-7-21.hj4.intra.weibo.cn, x-powered-by=PHP/7.2.1, content-type=text/html; charset=UTF-8}, statusCode=200}, false, null], method=callback}])
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","toast","showToast","[{\"title\":\"所有问题回答错误\",\"icon\":\"warn\"}]"]
+WBJSEngineV8.callJS result=null
+TypeError: not an object
+    at defineProperty (native)
+    at <anonymous> (C:\codes\reverse\weibo\1-put.js:83)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/vm.js:12)
+    at perform (frida/node_modules/frida-java-bridge/index.js:205)
+    at local_app_sign (C:\codes\reverse\weibo\1-put.js:84)
+    at <eval> (C:\codes\reverse\weibo\1-put.js:88)
+TypeError: not an object
+    at defineProperty (native)
+    at <anonymous> (C:\codes\reverse\weibo\1-put.js:83)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/vm.js:12)
+    at perform (frida/node_modules/frida-java-bridge/index.js:205)
+    at local_app_sign (C:\codes\reverse\weibo\1-put.js:84)
+    at <eval> (C:\codes\reverse\weibo\1-put.js:88)
+WBJSEngineV8.callJS is called: j=504186338256, strArr=callJS, objArr=WBXJSObject(2:459e8ef4-14a0-4351-8ee5-46ece239005a),WBXJSObject(3:[{"args":["1751163657","62","focus",{"_proto_":"FocusEvent","bubbles":false,"cancelable":false,"composed":true,"currentTarget":"62","detail":0,"eventPhase":2,"isTrusted":true,"target":"62","timeStamp":1431567,"type":"focus"},{},{"capture":false,"passive":false}],"method":"fireEvent"}])
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:85.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:86.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=callJS, objArr=WBXJSObject(2:459e8ef4-14a0-4351-8ee5-46ece239005a),WBXJSObject(3:[{"args":["1751163657","62","keyboardheightchange",{"_proto_":"CustomEvent","bubbles":false,"cancelable":false,"composed":false,"currentTarget":"_body","detail":{"height":282},"eventPhase":2,"isTrusted":false,"target":"_body","timeStamp":1431697.799999997,"type":"keyboardheightchange"},{},{"capture":false,"passive":false}],"method":"fireEvent"}])
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:87.0)
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","dom","pageScrollTo","[{\"selector\":\"#a1751163656693\",\"page\":\"1751163657\"}]"]
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:88.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=callJS, objArr=WBXJSObject(2:459e8ef4-14a0-4351-8ee5-46ece239005a),WBXJSObject(3:[{"args":["1751163657","62","blur",{"_proto_":"FocusEvent","bubbles":false,"cancelable":false,"composed":true,"currentTarget":"62","detail":0,"eventPhase":2,"isTrusted":true,"target":"62","timeStamp":1435673.899999991,"type":"blur"},{},{"capture":false,"passive":false}],"method":"fireEvent"}])
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:89.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:90.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=callJS, objArr=WBXJSObject(2:459e8ef4-14a0-4351-8ee5-46ece239005a),WBXJSObject(3:[{"args":["1751163657","62","keyboardheightchange",{"_proto_":"CustomEvent","bubbles":false,"cancelable":false,"composed":false,"currentTarget":"_body","detail":{"height":0},"eventPhase":2,"isTrusted":false,"target":"_body","timeStamp":1435748.699999988,"type":"keyboardheightchange"},{},{"capture":false,"passive":false}],"method":"fireEvent"}])
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:91.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:92.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=callJS, objArr=WBXJSObject(2:459e8ef4-14a0-4351-8ee5-46ece239005a),WBXJSObject(3:[{"args":["1751163657","88","click",{"_proto_":"MouseEvent","altKey":false,"bubbles":true,"button":0,"buttons":0,"cancelable":true,"clientX":183,"clientY":202,"composed":true,"ctrlKey":false,"currentTarget":"88","detail":1,"eventPhase":2,"isTrusted":true,"metaKey":false,"movementX":0,"movementY":0,"offsetX":169,"offsetY":26,"pageX":184,"pageY":202,"relatedTarget":"","screenX":183,"screenY":274,"shiftKey":false,"target":"88","timeStamp":1437894.599999994,"type":"click","x":183,"y":202},{},{"capture":false,"passive":false}],"method":"fireEvent"}])
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","wbAnalysis","wbLogActCode","[{\"code\":4892,\"params\":{\"luicode\":10000253,\"uicode\":10001115,\"ext\":\"gid:5181375042292561\",\"uid\":\"6824589037\"}}]"]
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","wbSystemInfo","getWeiboSystemInfoSync","[]"]
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","wbstream","request_$return_value_$async","[Ljava.lang.Object;@7f51b07"]
+WBXNewWBStreamModule.request is called: wBXNewStreamRequestAsyncOption.data={app_key=10002, app_sign=8bc99c, appversion=15.3.2, data={"questions_arr":[{"question_1":"1122","answer":"11111"}]}, from=10F3295010, item_id=btn_ansquestions, lang=zh, page_id=101010075181375042292561, platform=android, theme=dark}
+LinkedHashMap key: app_sign value: 8bc99c
+java.lang.Throwable
+	at java.util.HashMap.put(Native Method)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parseObject(DefaultJSONParser.java:451)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1385)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:97)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:88)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:147)
+	at com.sina.weibo.wboxsdk.ui.module.stream.WBXNewAbsStreamModule.checkAndTransformData(WBXNewAbsStreamModule.java:703)
+	at com.sina.weibo.wboxsdk.ui.module.stream.WBXNewAbsStreamModule.requestInternal(WBXNewAbsStreamModule.java:473)
+	at com.sina.weibo.wboxsdk.ui.module.stream.WBXNewAbsStreamModule.request(WBXNewAbsStreamModule.java:375)
+	at com.sina.weibo.wbox.module.wbstream.WBXNewWBStreamModule.request(WBXNewWBStreamModule.java:72)
+	at com.sina.weibo.wbox.module.wbstream.WBXNewWBStreamModule.request(Native Method)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.sina.weibo.wboxsdk.bridge.g.a(MethodInvoker.java:48)
+	at com.sina.weibo.wboxsdk.bridge.i.a(NativeInvokeHelper.java:82)
+	at com.sina.weibo.wboxsdk.bridge.i.a(NativeInvokeHelper.java:63)
+	at com.sina.weibo.wboxsdk.bridge.s.a(WBXModuleManager.java:120)
+	at com.sina.weibo.wboxsdk.bridge.s.a(WBXModuleManager.java:100)
+	at com.sina.weibo.wboxsdk.bridge.l.a(WBXBridgeManager.java:389)
+	at com.sina.weibo.wboxsdk.bridge.WBXScriptBridgeAdapter.callNativeModule(WBXScriptBridgeAdapter.java:93)
+	at com.sina.weibo.wboxsdk.bridge.script.WBXCommonJSBridgeInterface$CallNativeFunction.callNativeModule(WBXCommonJSBridgeInterface.java:134)
+	at com.sina.weibo.wboxsdk.bridge.script.WBXCommonJSBridgeInterface$CallNativeFunction.callNativeModule(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSEngineV8.callJS(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSEngineV8.callJS(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSV8Context.callJs(WBJSV8Context.java:55)
+	at com.sina.weibo.wboxsdk.bridge.n.execJsFunction(WBXBridgeV8.java:131)
+	at com.sina.weibo.wboxsdk.bridge.o.execJsFunction(WBXBridgeWrapper.java:133)
+	at com.sina.weibo.wboxsdk.bridge.q.b(WBXJSContextImpl.java:933)
+	at com.sina.weibo.wboxsdk.bridge.q.g(WBXJSContextImpl.java:911)
+	at com.sina.weibo.wboxsdk.bridge.q.handleMessage(WBXJSContextImpl.java:480)
+	at com.sina.weibo.wboxsdk.common.f$a.handleMessage(WBXThread.java:74)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+
+LinkedHashMap key: app_sign value: [8bc99c]
+java.lang.Throwable
+	at java.util.HashMap.put(Native Method)
+	at com.sina.weibo.wboxsdk.b.m.a(WBXHttpParams.java:201)
+	at com.sina.weibo.wboxsdk.b.c.a(WBXBodyRequest.java:433)
+	at com.sina.weibo.wboxsdk.b.c.a(WBXBodyRequest.java:423)
+	at com.sina.weibo.wboxsdk.b.c.a(WBXBodyRequest.java:410)
+	at com.sina.weibo.wboxsdk.ui.module.stream.WBXNewAbsStreamModule.requestInternal(WBXNewAbsStreamModule.java:494)
+	at com.sina.weibo.wboxsdk.ui.module.stream.WBXNewAbsStreamModule.request(WBXNewAbsStreamModule.java:375)
+	at com.sina.weibo.wbox.module.wbstream.WBXNewWBStreamModule.request(WBXNewWBStreamModule.java:72)
+	at com.sina.weibo.wbox.module.wbstream.WBXNewWBStreamModule.request(Native Method)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.sina.weibo.wboxsdk.bridge.g.a(MethodInvoker.java:48)
+	at com.sina.weibo.wboxsdk.bridge.i.a(NativeInvokeHelper.java:82)
+	at com.sina.weibo.wboxsdk.bridge.i.a(NativeInvokeHelper.java:63)
+	at com.sina.weibo.wboxsdk.bridge.s.a(WBXModuleManager.java:120)
+	at com.sina.weibo.wboxsdk.bridge.s.a(WBXModuleManager.java:100)
+	at com.sina.weibo.wboxsdk.bridge.l.a(WBXBridgeManager.java:389)
+	at com.sina.weibo.wboxsdk.bridge.WBXScriptBridgeAdapter.callNativeModule(WBXScriptBridgeAdapter.java:93)
+	at com.sina.weibo.wboxsdk.bridge.script.WBXCommonJSBridgeInterface$CallNativeFunction.callNativeModule(WBXCommonJSBridgeInterface.java:134)
+	at com.sina.weibo.wboxsdk.bridge.script.WBXCommonJSBridgeInterface$CallNativeFunction.callNativeModule(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSEngineV8.callJS(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSEngineV8.callJS(Native Method)
+	at com.sina.weibo.wbxjsv8.WBJSV8Context.callJs(WBJSV8Context.java:55)
+	at com.sina.weibo.wboxsdk.bridge.n.execJsFunction(WBXBridgeV8.java:131)
+	at com.sina.weibo.wboxsdk.bridge.o.execJsFunction(WBXBridgeWrapper.java:133)
+	at com.sina.weibo.wboxsdk.bridge.q.b(WBXJSContextImpl.java:933)
+	at com.sina.weibo.wboxsdk.bridge.q.g(WBXJSContextImpl.java:911)
+	at com.sina.weibo.wboxsdk.bridge.q.handleMessage(WBXJSContextImpl.java:480)
+	at com.sina.weibo.wboxsdk.common.f$a.handleMessage(WBXThread.java:74)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+
+WBXNewWBStreamModule.request result=com.sina.weibo.wboxsdk.ui.module.WBXMethodResult@f12ffa0
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:93.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=timerCallBack, objArr=WBXJSObject(1:94.0)
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=callJS, objArr=WBXJSObject(2:459e8ef4-14a0-4351-8ee5-46ece239005a),WBXJSObject(5:[{args=[18, {data={"api_error":"","code":1,"data":[],"error":"所有问题回答错误","error_code":10004}, header={date=Sun, 29 Jun 2025 02:44:52 GMT, server=SHANHAI-SERVER, proc_node=qbird-web-8f7dbdccf-xk7dn, vary=Accept-Encoding, lb=111.13.225.75, x-log-uid=6824589037, ssl_node=msre-10-185-10-111.yf.intra.weibo.cn, x-powered-by=PHP/7.2.1, content-type=text/html; charset=UTF-8}, statusCode=200}, false, null], method=callback}])
+[JS→Native] Args (Parsed): ["459e8ef4-14a0-4351-8ee5-46ece239005a","toast","showToast","[{\"title\":\"所有问题回答错误\",\"icon\":\"warn\"}]"]
+WBJSEngineV8.callJS result=null
+WBJSEngineV8.callJS is called: j=504186338256, strArr=callJS, objArr=WBXJSObject(2:459e8ef4-14a0-4351-8ee5-46ece239005a),WBXJSObject(3:[{"args":["1751163657","#","onHide",null,null,{"params":[]}],"method":"fireEvent"}])
+
+[WBJSEngineV8] 执行JS文件: app.js
+[WBJSEngineV8] 脚本内容 (前100字符): with(createApp("2a81dcd9-04f9-48cf-92e2-5422e65fd897",'',{"WBXEnvironment":{"bundleVersionCode":"119...
