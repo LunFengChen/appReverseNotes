@@ -1,0 +1,4 @@
+python r0capture.py -H 127.0.0.1:14725 Gadget -v -p yizhifu.pcap
+
+
+frida -U -f com.chinatelecom.bestpayclient -l 

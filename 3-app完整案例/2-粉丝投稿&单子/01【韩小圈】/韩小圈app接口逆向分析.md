@@ -124,7 +124,7 @@ frida调试的话比较简单，使用的是libmsaoaidsec.so，我们hook掉启�
   
 ```bash
   {"emu":0,"ou":0,"it":1749037905860,"iit":1749037905860,"bs":0,"uid":"0oeyKZhXex11dPXZBuCf","pc":0,"tm":0,"d8m":"0,0,0,0,0,0,0,0","md":"Pixel 2 XL","maker":"Google","osv":"11","br":100,"rpc":0,"scc":9,"plc":0,"toc":10,"tsc":9,"ts":1749519402820,"pa":1,"nw":2,"px":"0","isp":"","ai":"ccffc2520864efdb","oa":"","dpc":0,"dsc":0,"qpc":0,"apad":0,"pk":"com.babycloud.hanju"}
-  ```
+```
 
 发现变化不大，主要是时间戳，我们发现了一个uid，我们清空手机信息再次抓包
 
@@ -370,7 +370,9 @@ adb shell pm clear com.junge.algorithmAide
 
 
 
-我们先来第一种
+我们这里只给出第一种，第二种留给你自行搞定；
+
+> 2025.7.17 这个app现在可以脱壳，所以可以协议弄了；
 
 1. rpc调用
 

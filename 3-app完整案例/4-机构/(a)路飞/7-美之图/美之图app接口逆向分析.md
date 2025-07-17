@@ -50,7 +50,7 @@ app反编译后代码少的可怜，所以需要脱壳
 
 效果图
 
-![1749027196729](assets/1749086865555.png\)
+![1749027196729](C:\Users\mcr\AppData\Roaming\Typora\typora-user-images\1749027196729.png)
 
 打包一下，丢进jadx
 
