@@ -21,9 +21,9 @@ qq交流群：686725227；如果你确实参照这些资料做不出来，需要
 
 # 目录
 
-这里按照案例来源进行分类了，可按需自取；
+这里按照案例来源进行分类了，可`Ctrl+F`按需自取；
 
-1. 自己分析
+1. 自己分析 & 粉丝投稿
 
    - [x] 哔哩哔哩 v8.48.0
 
@@ -42,10 +42,14 @@ qq交流群：686725227；如果你确实参照这些资料做不出来，需要
    - [x] 喜马拉雅 v6.6.99.3
 
      > b站有系列视频，包含 登录接口，其中部分参数采用 unidbg 还原
-   
+
    - [x] 快猫 v1.1.7
 
      > 涩涩app，只有笔记，算法助手pro可自吐通杀；
+
+   - [x] 第一毛片 v
+
+     > 瑟瑟app，有讲解视频；github只放了笔记，其他资料丢进星球了；
 
    - [ ] 升学e网通 v11.2.1
 
@@ -57,7 +61,7 @@ qq交流群：686725227；如果你确实参照这些资料做不出来，需要
 
    - [ ] boss直聘
 
-     > 在研究纯算
+     > unidbg很简单，在研究纯算
 
    - [ ] 马蜂窝旅游
 
@@ -66,15 +70,35 @@ qq交流群：686725227；如果你确实参照这些资料做不出来，需要
    - [ ] 扇贝单词（还在研究）
 
    - [ ] 抖音 v11.5.0 & v34.9.0（还在研究）
-   
+
+     >  23.9版本的 `X-SS-STUB` 有[文章](https://codeooo.blog.csdn.net/article/details/131793354)
+     >
+     > 设备注册，有[文章](https://codeooo.blog.csdn.net/article/details/131917188)
+
    - [ ] 小红书 v6.73.0 & v8.90.0 （还在研究）
-   
-   - [ ] 快手
 
+   - [ ] 快手 v13.5.10
 
+     > - sig3：hmacsha256+白盒aes+crc32；有[文章](https://codeooo.blog.csdn.net/article/details/148789587)
 
+   - [ ] 航班管家 v8.8.2
 
-2. 粉丝投稿&单子
+     > 有[文章](https://codeooo.blog.csdn.net/article/details/149331038)
+
+   - [ ] 速痕 v3.1.1
+
+     > 3.1.0 有[文章](https://codeooo.blog.csdn.net/article/details/148900949)
+
+   - [ ] 芒果
+
+     > 有文章，不过csdn收费，遂自己研究；
+
+   - [ ] 一点资讯
+
+     > 有[文章](https://codeooo.blog.csdn.net/article/details/130943569)
+
+   - [ ] 搜狗微信
+
 
    - [x] 韩小圈 v6.5.3
 
@@ -122,21 +146,112 @@ qq交流群：686725227；如果你确实参照这些资料做不出来，需要
      >
      > 1.7.0的版本用算法助手pro可自吐通杀；
      >
-     > - [ ] 粉丝向我投稿的是1.5.7.9，正在研究中... 
-     
+     > - [ ] 1.5.7.9，正在研究中... 
+
    - [ ] 好大夫在线
 
      > 还在研究中
 
-   
+   - [ ] 电影天堂 v3.0.0.1
+
+   - [ ] tt语音
+
+   - [ ] 央视新闻
+
+     > app闪退
+
+   - [x] 新华社 v10.2.4
+
+     > 签名sm3，密码md5，算法助手全能吐出来，没啥值得说的；
+
+   - [ ] 央视频
+
+   - [ ] shein
+
+   - [ ] 五菱 v8.2.12
+
+     > unidbg补环境有坑，请求体sd是白盒aes，响应体sd有gzip压缩；看雪有文章
+
+   - [ ] 搜狗微信
+
+   - [ ] 中国青年报
+
+     > 设备参数注册，Authorization&X-Request-Id，[文章](https://codeooo.blog.csdn.net/article/details/124725980)；
+
+
+   - [ ] 筑藏
+
+     > uniapp，[b站视频](https://www.bilibili.com/video/BV1MP411N7D7/)
+
+   - [ ] 不知道是啥app
+
+     > h5的app，[b站视频](https://www.bilibili.com/video/BV1wD4y1M7KD)
+
+   - [ ] 十八数藏
+
+     > 好像是h5，[b站视频](https://www.bilibili.com/video/BV1wD4y1M7KD)
+
+   - [ ] 波罗世界
+
+     > h5?，[b站视频](https://www.bilibili.com/video/BV1wD4y1M7KD)
+
+   - [ ] HOTDOG
+
+     > https://www.bilibili.com/video/BV1dT411879i/
+
+   - [ ] 星海大陆
+
+     > uniapp，https://www.bilibili.com/video/BV1v24y1P7PW/
+
+   - [ ] 衍界数藏
+
+     > https://www.bilibili.com/video/BV17c41137Jo/
+
+   - [ ] 众赢协会
+
+     > https://www.bilibili.com/video/BV1Lz4y1v7DY/
+
+   - [ ] 抖音 v26.7.0
+
+     > 主要是抓包分享 https://www.bilibili.com/video/BV1ph4y1U7CJ/
+
+   - [ ] 潮玩宇宙
+
+     > https://www.bilibili.com/video/BV1by4y1P72n/
+
+   - [ ] 91视频
+
+     > https://www.bilibili.com/video/BV17k4y1U7uV/
+
+   - [ ] 盛世甄选
+
+     > https://www.bilibili.com/video/BV1Qt421t7Zz/
+
+   - [ ] 小空间
+
+     > uniapp, 发布的[b站视频](https://www.bilibili.com/video/BV1A1421U7z1/)
+
+   - [ ] 北京汽车
+
+     > https://www.bilibili.com/video/BV1rx4y1h7Ka/
+
+   - [ ] frida检测
+
+     > 梆梆加固：https://www.bilibili.com/video/BV1CMRbYaE1N/
+
+     
+
+     
 
    
 
-3. 他人付费课程
+   
 
-   这里的app我就不列举的太详细了，可以自行选择购买对应付费课程学习；
+3. 他人付费课程 
 
    (a) 带带弟弟学爬虫
+
+   > 评价：主要是付费星球的课程，价格199，案例众多，包含多端，仅app的就有几十个，且视频完整，199很值；
 
    - 咕咕语音 v4.8.0  
 
@@ -164,19 +279,23 @@ qq交流群：686725227；如果你确实参照这些资料做不出来，需要
 
      
 
-   (b) 龙哥
+   (b) [念初77](https://space.bilibili.com/701939513) 
+
+   
+
+   (c) 龙哥
 
    - 
 
      
 
-   (c) 小佳
+   (d) 小佳
 
    - 
 
    
 
-   (d) 杨如画
+   (e) 杨如画
 
    - 
 
