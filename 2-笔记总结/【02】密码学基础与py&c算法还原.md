@@ -909,12 +909,12 @@ print(hmac_value)
    from Crypto.Util.Padding import pad, unpad
    
    
-   def aes_encrypt(plain_text: bytes, aes_key: bytes, aes_iv: bytes) -> bytes:
-       return AES.new(aes_key, AES.MODE_CBC, aes_iv).encrypt(pad(plain_text, AES.block_size))
+   def aes_encrypt(plain_bytes: bytes, aes_key: bytes, aes_iv: bytes) -> bytes:
+       return AES.new(aes_key, AES.MODE_CBC, aes_iv).encrypt(pad(plain_bytes, AES.block_size))
    
    
-   def aes_decrypt(cipher_text: bytes, aes_key: bytes, aes_iv: bytes) -> bytes:
-       return unpad(AES.new(aes_key, AES.MODE_CBC, aes_iv).decrypt(cipher_text), AES.block_size)
+   def aes_decrypt(cipher_bytes: bytes, aes_key: bytes, aes_iv: bytes) -> bytes:
+       return unpad(AES.new(aes_key, AES.MODE_CBC, aes_iv).decrypt(cipher_bytes), AES.block_size)
    
    ```
 
@@ -927,16 +927,28 @@ print(hmac_value)
 - gmssl
 
   ```python
-  from gmssl.sm4 import CryptSM4, SM4_ENCRYPT
+  from gmssl.sm4 import CryptSM4, SM4_ENCRYPT, SM4_DECRYPT
   
   
   def sm4_ecb_encrypt(plaintext: bytes, key: bytes) -> bytes:
       crypt_sm4 = CryptSM4()
       crypt_sm4.set_key(key, SM4_ENCRYPT)
-  
       return crypt_sm4.crypt_ecb(plaintext)
+  
+  
+  @staticmethod
+  def sm4_cbc_encrypt(plain_bytes: bytes, key_bytes: bytes, iv_bytes: bytes) -> bytes:
+      crypt_sm4 = CryptSM4()
+      crypt_sm4.set_key(key_bytes, SM4_ENCRYPT)
+      return crypt_sm4.crypt_cbc(iv_bytes, plain_bytes)
+  
+  @staticmethod
+  def sm4_cbc_decrypt(cipher_bytes: bytes, key_bytes: bytes, iv_bytes: bytes) -> bytes:
+      crypt_sm4 = CryptSM4()
+      crypt_sm4.set_key(key_bytes, SM4_DECRYPT)
+      return crypt_sm4.crypt_cbc(iv_bytes, cipher_bytes)
   ```
-
+  
   
 
 
@@ -1043,8 +1055,8 @@ print(hmac_value)
    cipherd_b64 = "gYMBWpwHYvLmMYshV/p/9u1vUhmyZS"
    private_key_b64 = "MIIEvwIBADANBgkqhkiG9w0BAQ"
    # 解密: 拿到密文bytes，私钥b64 -> 得到明文bytes
-   cipherd_bytes = base64.b64decode(cipherd_b64)
-   res_bytes = rsa_ecb_decrypt(cipher_bytes,key_b64)
+   cipher_bytes = base64.b64decode(cipherd_b64)
+   res_bytes = rsa_ecb_decrypt(cipher_bytes,private_key_b64)
    # 用字符串打印
    res_str = res_bytes.decode("utf8")
    print(res_str)
